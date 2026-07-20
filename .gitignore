@@ -1,0 +1,20 @@
+# Environment
+.venv/
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+
+# OCR / uploads (optional—if you store test docs locally)
+uploads/
+*.pdf

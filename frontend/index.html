@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clearchart — plain-language medical translator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-mark">
+      <span class="mark-glyph">⟶</span>
+      <span class="mark-word">Clearchart</span>
+    </div>
+    <p class="masthead-tag">Clinical language in. Plain language out. Every number checked.</p>
+  </header>
+
+  <main class="workspace">
+    <!-- INPUT PANEL -->
+    <section class="panel panel-in" aria-label="Document input">
+      <h2 class="panel-label">01 — Source document</h2>
+
+      <div class="input-tabs" role="tablist">
+        <button class="tab-btn active" data-tab="paste" role="tab">Paste text</button>
+        <button class="tab-btn" data-tab="upload" role="tab">Upload photo</button>
+      </div>
+
+      <div class="tab-panel" id="tab-paste">
+        <textarea id="documentText" placeholder="Paste a discharge summary, lab result, or radiology report here…"></textarea>
+      </div>
+
+      <div class="tab-panel hidden" id="tab-upload">
+        <label class="upload-drop" for="fileInput">
+          <span class="upload-icon">＋</span>
+          <span>Take a photo or choose a file</span>
+          <input type="file" id="fileInput" accept="image/*" capture="environment" hidden />
+        </label>
+        <p id="fileName" class="file-name"></p>
+      </div>
+
+      <div class="reading-level">
+        <span class="reading-level-label">Explain at</span>
+        <div class="dial" role="radiogroup" aria-label="Reading level">
+          <button class="dial-opt" data-level="5th">5th grade</button>
+          <button class="dial-opt active" data-level="8th">8th grade</button>
+          <button class="dial-opt" data-level="adult">Adult</button>
+        </div>
+      </div>
+
+      <button id="translateBtn" class="primary-btn">Translate document →</button>
+      <p class="disclaimer">Educational tool only — not medical advice. Use synthetic or de-identified documents.</p>
+    </section>
+
+    <!-- OUTPUT PANEL -->
+    <section class="panel panel-out" aria-label="Translated explanation">
+      <h2 class="panel-label">02 — Plain-language explanation</h2>
+
+      <div id="emptyState" class="empty-state">
+        <p>Your explanation will appear here, with abnormal values flagged and every claim checked against the source.</p>
+      </div>
+
+      <div id="loadingState" class="loading-state hidden">
+        <div class="pulse"></div>
+        <p>Reading, flagging, translating, checking…</p>
+      </div>
+
+      <div id="resultState" class="result-state hidden">
+        <div class="metric-row" id="metricRow"></div>
+
+        <div class="output-tabs" role="tablist">
+          <button class="otab-btn active" data-otab="explanation">Explanation</button>
+          <button class="otab-btn" data-otab="labs">Lab flags</button>
+          <button class="otab-btn" data-otab="check">Faithfulness</button>
+        </div>
+
+        <div class="otab-panel" id="otab-explanation"></div>
+        <div class="otab-panel hidden" id="otab-labs"></div>
+        <div class="otab-panel hidden" id="otab-check"></div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+
+
+</body>
+</html>

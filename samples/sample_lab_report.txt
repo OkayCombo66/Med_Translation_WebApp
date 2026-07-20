@@ -1,0 +1,32 @@
+PATIENT: [SYNTHETIC TEST PATIENT]
+DOB: 01/01/1970 (Age 55)
+COLLECTED: 07/10/2026
+
+COMPREHENSIVE METABOLIC PANEL
+
+Glucose        112 mg/dL     (70-99)
+Sodium         138 mmol/L    (135-145)
+Potassium      5.8 mmol/L    (3.5-5.0)
+Chloride       101 mmol/L    (96-106)
+BUN            22 mg/dL      (7-20)
+Creatinine     1.1 mg/dL     (0.6-1.3)
+Calcium        9.4 mg/dL     (8.5-10.5)
+
+LIPID PANEL
+
+Total Cholesterol   238 mg/dL   (0-200)
+LDL                  158 mg/dL   (0-100)
+HDL                  38 mg/dL    (40-60)
+Triglycerides        190 mg/dL   (0-150)
+
+CBC
+
+Hemoglobin      12.1 g/dL    (13.5-17.5)
+WBC             7.2 x10^3/uL (4.5-11.0)
+Platelets       260 x10^3/uL (150-450)
+
+PHYSICIAN NOTES:
+Patient presents for routine follow-up of hypertension and reports mild fatigue.
+Continue lisinopril 10mg daily. Recommend dietary counseling given elevated lipid
+panel and repeat potassium check in 2 weeks given mild hyperkalemia, likely related
+to ACE inhibitor therapy. Follow up in 1 month.
