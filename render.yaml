@@ -1,0 +1,36 @@
+# Render Blueprint for the public demo: Dashboard → New → Blueprint → pick this repo.
+# Field reference: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: clearchart              # becomes part of the URL: https://clearchart.onrender.com (if free)
+    runtime: docker               # builds the Dockerfile in the repo root
+    plan: free                    # 0.1 CPU / 512 MB; sleeps after 15 idle minutes (~1 min to wake)
+    region: oregon
+    branch: main
+    autoDeployTrigger: commit     # redeploy on every push to main
+    healthCheckPath: /api/health  # answers without calling Claude
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false               # Render asks you to paste it when you create the Blueprint
+      - key: PORT
+        value: "8000"             # matches the Dockerfile
+      # Render sits behind Cloudflare, which puts the visitor's real IP in this
+      # header. Without it every visitor would share one rate-limit allowance.
+      - key: CLIENT_IP_HEADER
+        value: CF-Connecting-IP
+      - key: RATE_LIMIT_PER_HOUR
+        value: "30"
+      - key: MAX_CONCURRENT_JOBS
+        value: "3"                # small instance: a few documents at a time
+      # Claude reads phone photos far better than Tesseract, and it's faster
+      # than Tesseract on a 0.1 CPU instance (about $0.003 per photo).
+      - key: OCR_ENGINE
+        value: claude
+    buildFilter:
+      ignoredPaths:               # docs/test-only commits don't trigger a redeploy
+        - "**/*.md"
+        - docs/**
+        - eval/**
+        - tests/**
+# Don't add FORWARDED_ALLOW_IPS: with '*' uvicorn trusts the leftmost
+# X-Forwarded-For entry, which visitors can fake.

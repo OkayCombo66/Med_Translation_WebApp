@@ -30,6 +30,22 @@
   <!-- Screen-reader announcements (status updates that are not visible as text) -->
   <p id="srStatus" class="visually-hidden" role="status" aria-live="polite"></p>
 
+  <!-- Public-demo privacy notice: app.js shows it until "I understand" is clicked (remembered in
+       localStorage). It starts hidden so returning visitors don't see it flash; without JavaScript
+       nothing can be sent anyway. -->
+  <div id="demoNotice" class="demo-notice" role="region" aria-label="Privacy notice" hidden>
+    <div class="demo-notice-text">
+      <h2 class="demo-notice-title">This is a demo — please don't use real medical records</h2>
+      <p>Use the examples or a synthetic / de-identified document. Text you translate is sent to
+        Anthropic's Claude API to write the explanation, and medicine names in it are looked up on
+        the U.S. National Library of Medicine's public MedlinePlus and RxNorm services. Uploaded
+        photos and scans are sent to Claude as soon as they're read. This app doesn't save your
+        document.</p>
+      <p class="demo-notice-fine">Educational tool only — not medical advice.</p>
+    </div>
+    <button id="demoNoticeBtn" class="demo-notice-btn" type="button">I understand</button>
+  </div>
+
   <main class="workspace">
     <!-- INPUT PANEL -->
     <section class="panel panel-in" aria-labelledby="inLabel">
@@ -61,17 +77,25 @@
 
       <!-- Upload tab -->
       <div class="tab-panel" id="tab-upload" role="tabpanel" aria-labelledby="tab-upload-btn" hidden>
+        <!-- Repeats the demo notice's key line where people pick a file (read with both file inputs) -->
+        <p id="uploadWarning" class="upload-warning">
+          <strong>Don't upload real medical records.</strong> Use a synthetic or de-identified document.
+          Photos and scanned PDFs are sent to Anthropic's Claude API to read the text.
+        </p>
+
         <label class="upload-drop" id="dropZone">
           <span class="upload-icon" aria-hidden="true">＋</span>
           <span class="upload-title">Drop a photo or PDF here, or choose a file</span>
           <span class="upload-hint">JPG, PNG, WebP, GIF or PDF</span>
-          <input type="file" id="fileInput" class="visually-hidden" accept="image/*,application/pdf" />
+          <input type="file" id="fileInput" class="visually-hidden" accept="image/*,application/pdf"
+                 aria-describedby="uploadWarning" />
         </label>
 
         <!-- On phones this opens the camera directly; hidden on mouse-driven screens -->
         <label class="secondary-btn camera-btn">
           Take a photo
-          <input type="file" id="cameraInput" class="visually-hidden" accept="image/*" capture="environment" />
+          <input type="file" id="cameraInput" class="visually-hidden" accept="image/*" capture="environment"
+                 aria-describedby="uploadWarning" />
         </label>
 
         <p id="ocrEngineNote" class="field-note" hidden>
@@ -117,7 +141,9 @@
         </div>
       </fieldset>
 
-      <button id="translateBtn" class="primary-btn" type="button">Translate document →</button>
+      <button id="translateBtn" class="primary-btn" type="button" aria-describedby="rateLimitNote">Translate document →</button>
+      <!-- Filled from GET /api/health rate_limit_per_hour; stays hidden when absent or 0 (no limit) -->
+      <p id="rateLimitNote" class="rate-note" hidden></p>
       <p id="inputError" class="input-error" role="alert" hidden></p>
       <p class="disclaimer">Educational tool only — not medical advice. Use synthetic or de-identified documents.</p>
     </section>

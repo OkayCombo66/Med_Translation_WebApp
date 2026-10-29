@@ -1240,7 +1240,7 @@ def lookup_drug(name: str, timeout: float = DRUG_TIMEOUT_S,
                 _DRUG_CACHE[key] = ref
         return ref
     except Exception:  # defensive: retrieval must never break a translation
-        log.exception("lookup_drug failed for %r", name)
+        log.exception("lookup_drug failed")  # no name: it comes from the user's document
         return None
 
 
@@ -1965,7 +1965,7 @@ def learn_more_for_concepts(concepts: list[dict], exclude_urls: set[str], max_it
         try:
             ref = _resolve_concept_offline(term, kind, covered_topics, exclude)
         except Exception:
-            log.exception("learn_more resolution failed for %r", term)
+            log.exception("learn_more resolution failed")
             continue
         if isinstance(ref, Reference):
             resolved[i] = ref
@@ -1989,7 +1989,7 @@ def learn_more_for_concepts(concepts: list[dict], exclude_urls: set[str], max_it
                 try:
                     fallback = _fuzzy_concept(term, covered_topics)
                 except Exception:
-                    log.exception("learn_more fallback failed for %r", term)
+                    log.exception("learn_more fallback failed")
                     fallback = None
                 resolved[i] = fallback if isinstance(fallback, Reference) else None
         finally:

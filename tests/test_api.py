@@ -238,6 +238,21 @@ def test_rate_limiter_forgets_idle_clients(monkeypatch):
     main._recent_requests.clear()
 
 
+def test_client_ip_header_from_the_hosting_proxy(monkeypatch):
+    from types import SimpleNamespace
+
+    request = SimpleNamespace(client=SimpleNamespace(host="10.0.0.1"), headers={"CF-Connecting-IP": "203.0.113.7"})
+    assert main._client_key(request) == "10.0.0.1"  # header ignored unless configured
+    monkeypatch.setattr(main, "CLIENT_IP_HEADER", "CF-Connecting-IP")
+    assert main._client_key(request) == "203.0.113.7"
+    no_header = SimpleNamespace(client=SimpleNamespace(host="10.0.0.1"), headers={})
+    assert main._client_key(no_header) == "10.0.0.1"  # falls back to the connection
+
+
+def test_health_reports_the_rate_limit(client):
+    assert "rate_limit_per_hour" in client.get("/api/health").json()
+
+
 def test_readability_treats_headers_and_bullets_as_sentences():
     formatted = "## Lab results\n\n- Potassium: high\n- Sugar: a bit high\n- Salt: normal"
     prose = "Lab results. Potassium: high. Sugar: a bit high. Salt: normal."
@@ -276,3 +291,18 @@ def _make_text_pdf(text: str) -> bytes:
         out += f"{off:010d} 00000 n \n".encode()
     out += f"trailer\n<< /Size {len(objects) + 1} /Root 1 0 R >>\nstartxref\n{xref}\n%%EOF".encode()
     return bytes(out)
+
+
+def test_busy_rejection_does_not_use_up_the_allowance(client, monkeypatch):
+    import threading
+
+    monkeypatch.setattr(main, "RATE_LIMIT_PER_HOUR", 1)
+    main._recent_requests.clear()
+    monkeypatch.setattr(main, "_job_slots", threading.BoundedSemaphore(1))
+    main._job_slots.acquire()
+    try:
+        assert client.post("/api/translate", data={"document_text": SAMPLE}).status_code == 503
+    finally:
+        main._job_slots.release()
+    assert client.post("/api/translate", data={"document_text": SAMPLE}).status_code == 200
+    main._recent_requests.clear()
