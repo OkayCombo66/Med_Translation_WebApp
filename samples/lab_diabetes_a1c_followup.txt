@@ -1,0 +1,38 @@
+SYNTHETIC REFERENCE LABORATORY
+DIABETES MONITORING PANEL
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000185
+DOB: 11/30/1967   AGE: 58   SEX: M
+PROVIDER: Dr. A. Example, MD
+COLLECTED: 07/21/2026   RECEIVED: 07/21/2026   REPORTED: 07/22/2026
+
+                                 CURRENT      PREVIOUS
+TEST                             07/21/2026   04/16/2026   UNITS            REFERENCE
+Hemoglobin A1c                   7.8 H        8.6 H        %                (4.0-5.6)
+Estimated Average Glucose        177          200          mg/dL
+Glucose, Fasting                 146 H        171 H        mg/dL            (70-99)
+Creatinine, Serum                0.98         1.01         mg/dL            (0.70-1.30)
+eGFR (CKD-EPI 2021)              89           86           mL/min/1.73m2    (>=60)
+Urine Albumin                    21           26           mg/L
+Urine Creatinine                 118          112          mg/dL
+Urine Albumin/Creatinine Ratio   18           23           mg/g             (<30)
+
+HEMOGLOBIN A1c INTERPRETATION:
+  <5.7%      Normal
+  5.7-6.4%   Prediabetes
+  >=6.5%     Diabetes
+  <7.0%      Treatment goal for most adults with diabetes
+
+URINE ALBUMIN/CREATININE RATIO:
+  <30 mg/g normal | 30-300 mg/g moderately increased | >300 mg/g severely increased
+
+PROVIDER NOTE:
+Type 2 diabetes follow-up. A1c improved from 8.6% to 7.8% since metformin was
+increased to 1000 mg twice daily in April, but remains above the goal of <7.0%.
+Fasting glucose also improved (171 to 146 mg/dL). Kidney function (eGFR 89) and
+urine albumin (ratio 18 mg/g) are normal.
+Plan: continue metformin 1000 mg by mouth twice daily with meals. Add
+empagliflozin 10 mg by mouth once daily in the morning. Repeat A1c in 3 months
+(October 2026). Annual dilated eye exam is due.
+Dr. A. Example, MD

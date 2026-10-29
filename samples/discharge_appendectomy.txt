@@ -1,0 +1,58 @@
+SYNTHETIC GENERAL HOSPITAL - GENERAL SURGERY
+DISCHARGE SUMMARY AND INSTRUCTIONS
+
+PATIENT: [SYNTHETIC TEST PATIENT]      MRN: TEST-000256
+DOB: 12/11/1998 (27 yrs)               SEX: M
+ADMITTED: 06/05/2026   SURGERY: 06/05/2026   DISCHARGED: 06/06/2026
+SURGEON: Dr. B. Sample, MD
+
+DIAGNOSIS: Acute appendicitis, non-perforated
+PROCEDURE: Laparoscopic appendectomy (3 small incisions: belly button, lower
+left abdomen, and just above the pubic bone)
+ANESTHESIA: General          ESTIMATED BLOOD LOSS: Minimal (<10 mL)
+
+HOSPITAL COURSE:
+Presented to the ED with 18 hours of pain that started around the belly button
+and moved to the right lower abdomen, with nausea and poor appetite. T 38.1 C,
+WBC 14.2 x10^3/uL. CT abdomen/pelvis with IV contrast: dilated appendix (11 mm)
+with surrounding inflammation, no abscess or free air. Received one dose of IV
+ceftriaxone 2 g and metronidazole 500 mg before surgery. Uncomplicated surgery
+the same day; no further antibiotics needed. At discharge: eating a regular
+diet, walking, urinating normally, pain controlled with oral medicines.
+Pathology report pending.
+
+WOUND CARE:
+- Incisions are closed with dissolvable stitches under the skin and skin glue.
+  Do not pick at the glue; it will peel off on its own in 7-14 days.
+- You may shower starting 06/06/2026. Let soapy water run over the incisions
+  and pat dry. No tub baths, hot tubs, or swimming for 2 weeks.
+- Mild bruising and shoulder pain (from the gas used during surgery) are normal
+  for a few days.
+
+ACTIVITY:
+- Walk several times a day.
+- Do not lift more than 10 lb (4.5 kg) or do strenuous exercise for 2 weeks
+  (until 06/20/2026).
+- No driving while taking oxycodone.
+- You may return to desk work in 3-5 days as comfortable.
+
+DISCHARGE MEDICATIONS:
+1. Acetaminophen 500 mg tablets - take 2 tablets (1,000 mg) by mouth every 8
+   hours for 3 days, then as needed. Maximum 3,000 mg in 24 hours.
+2. Ibuprofen 200 mg tablets - take 3 tablets (600 mg) by mouth every 6 hours as
+   needed, with food. Maximum 2,400 mg in 24 hours.
+3. Oxycodone 5 mg tablet - 1 tablet by mouth every 6 hours ONLY if needed for
+   severe pain not relieved by #1 and #2. Quantity 6 tablets, no refills.
+4. Docusate sodium 100 mg by mouth twice daily while taking oxycodone.
+
+CALL THE SURGERY CLINIC OR RETURN TO THE ED FOR:
+- Fever higher than 101.0 F (38.3 C) or shaking chills
+- Increasing redness, warmth, swelling, or pus draining from an incision
+- Belly pain that is getting worse instead of better, or a hard, swollen belly
+- Vomiting or being unable to keep down liquids
+- No bowel movement or gas for more than 3 days
+- Calf pain or swelling, or sudden shortness of breath
+
+FOLLOW-UP:
+General Surgery Clinic, Dr. B. Sample, MD - 06/19/2026 at 1:30 PM
+(wound check and pathology review). Clinic phone: (555) 010-0142

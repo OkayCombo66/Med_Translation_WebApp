@@ -1,0 +1,52 @@
+SYNTHETIC GENERAL HOSPITAL
+DIAGNOSTIC IMAGING REPORT
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000317
+DOB: 03/03/1981 (45 y)   SEX: M
+EXAM: CT ABDOMEN AND PELVIS WITHOUT IV CONTRAST (RENAL STONE PROTOCOL)
+DATE OF SERVICE: 05/22/2026 03:18
+ORDERING: Dr. G. Example, MD (Emergency Department)
+RADIOLOGIST: Dr. H. Sample, MD
+
+INDICATION: Sudden left flank pain radiating to the groin for 6 hours. Blood in
+urine on urinalysis.
+
+TECHNIQUE: Low-dose helical CT from the lung bases through the pubic symphysis
+without IV or oral contrast. Coronal and sagittal reformats reviewed.
+CTDIvol 6.2 mGy; DLP 312 mGy-cm.
+
+COMPARISON: None.
+
+FINDINGS:
+KIDNEYS, URETERS, BLADDER:
+  Left: 4 mm (4 x 3 mm) calculus in the distal left ureter, approximately 1.5 cm
+  above the left ureterovesical junction (UVJ), attenuation 880 HU. Mild left
+  hydroureteronephrosis above the stone (renal pelvis 14 mm AP) with mild
+  perinephric fat stranding. Left kidney 11.8 cm.
+  Right: 2 mm nonobstructing calculus in the lower pole. No hydronephrosis.
+  Right kidney 11.5 cm.
+  Bladder: Partially distended. No bladder stones.
+LIVER: Normal size and attenuation. No focal lesion on this noncontrast exam.
+GALLBLADDER AND BILE DUCTS: Unremarkable. No ductal dilation.
+PANCREAS: Unremarkable.
+SPLEEN: Normal size (10.2 cm).
+ADRENAL GLANDS: Well-circumscribed 1.8 x 1.4 cm left adrenal nodule with
+  attenuation of 6 HU. Right adrenal gland normal.
+BOWEL: Normal appendix. No bowel obstruction. Scattered sigmoid colon
+  diverticula without surrounding inflammation.
+LYMPH NODES: No enlarged lymph nodes.
+PERITONEUM: No free air or free fluid.
+LUNG BASES: Clear.
+BONES: No aggressive bone lesion. Mild degenerative changes of the lower lumbar spine.
+
+IMPRESSION:
+1. 4 mm obstructing calculus in the distal left ureter, 1.5 cm above the UVJ,
+   with mild left hydroureteronephrosis and perinephric stranding.
+2. 2 mm nonobstructing right lower pole kidney stone.
+3. Incidental 1.8 cm left adrenal nodule measuring 6 HU (less than 10 HU),
+   consistent with a benign lipid-rich adenoma. No imaging follow-up needed;
+   outpatient evaluation for hormone overproduction may be considered.
+4. Sigmoid diverticulosis without diverticulitis.
+
+Electronically signed: Dr. H. Sample, MD   05/22/2026 03:51

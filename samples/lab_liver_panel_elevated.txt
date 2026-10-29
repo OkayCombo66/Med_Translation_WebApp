@@ -1,0 +1,36 @@
+SYNTHETIC GENERAL HOSPITAL LABORATORY SERVICES
+------------------------------------------------------------------
+PATIENT: [SYNTHETIC TEST PATIENT]          MRN: TEST-000192
+DOB: 02/14/1979 (47 yrs)                   SEX: M
+COLLECTED: 08/03/2026 10:25                FASTING: No
+ORDERED BY: Dr. B. Sample, MD              STATUS: FINAL
+------------------------------------------------------------------
+
+HEPATIC FUNCTION PANEL
+
+Component                  Value   Flag    Ref Interval     Units
+ALT (SGPT)                 142     HIGH    7 - 56           U/L
+AST (SGOT)                 98      HIGH    10 - 40          U/L
+Alkaline Phosphatase       104             44 - 147         U/L
+Bilirubin, Total           0.9             0.1 - 1.2        mg/dL
+Bilirubin, Direct          0.2             0.0 - 0.3        mg/dL
+Albumin                    4.2             3.5 - 5.0        g/dL
+Total Protein              7.3             6.0 - 8.3        g/dL
+
+ADD-ON TEST
+GGT                        88      HIGH    8 - 61           U/L
+
+LAB NOTE: Hepatocellular pattern (ALT and AST elevated; alkaline phosphatase
+and bilirubin normal). AST/ALT ratio 0.7.
+
+PROVIDER COMMENT:
+ALT was 61 U/L on 03/02/2026 and has more than doubled. Albumin and bilirubin
+are normal, so liver function is preserved. BMI 33. Patient reports 2-3
+alcoholic drinks per week and no new medications or supplements.
+Differential includes metabolic dysfunction-associated steatotic liver disease
+(fatty liver), alcohol, medication effect, and viral hepatitis.
+Ordered: hepatitis B surface antigen, hepatitis C antibody, and right upper
+quadrant ultrasound. Avoid alcohol and keep acetaminophen under 2,000 mg per
+day until re-evaluated. Repeat hepatic function panel in 6 weeks (mid-September
+2026).
+Dr. B. Sample, MD

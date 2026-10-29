@@ -1,0 +1,39 @@
+SYNTHETIC GENERAL HOSPITAL - DEPARTMENT OF RADIOLOGY
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000209
+DOB: 10/02/1962   AGE: 63   SEX: F
+EXAM: XR CHEST 2 VIEWS (PA AND LATERAL)
+EXAM DATE: 01/17/2026 18:42
+ACCESSION: TEST-RAD-55031
+ORDERING PROVIDER: Dr. G. Example, MD (Emergency Medicine)
+INTERPRETING RADIOLOGIST: Dr. H. Sample, MD
+
+CLINICAL INDICATION: Fever, productive cough, right-sided pleuritic chest pain,
+hypoxia (SpO2 89% on room air).
+
+COMPARISON: None available.
+
+TECHNIQUE: Frontal (PA) and lateral radiographs of the chest.
+
+FINDINGS:
+Lungs: Dense airspace consolidation in the right lower lobe with air
+bronchograms. On the lateral view the opacity projects over the lower thoracic
+spine, consistent with the posterior basal segment. The right hemidiaphragm is
+partially obscured while the right heart border remains sharp, localizing the
+process to the lower lobe rather than the middle lobe. The left lung is clear.
+Pleura: No pleural effusion. No pneumothorax.
+Heart and mediastinum: Normal heart size. Normal mediastinal contours. Mild
+calcification of the aortic arch.
+Bones and soft tissues: Mild degenerative changes of the thoracic spine. No
+acute bony abnormality.
+Lines and tubes: None.
+
+IMPRESSION:
+1. Right lower lobe consolidation, consistent with pneumonia in the appropriate
+   clinical setting.
+2. No pleural effusion or pneumothorax.
+3. Recommend follow-up chest radiograph in 6-8 weeks after treatment to confirm
+   resolution, given patient age and smoking history.
+
+Electronically signed: Dr. H. Sample, MD   01/17/2026 19:15

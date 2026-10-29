@@ -1,0 +1,61 @@
+SYNTHETIC GENERAL HOSPITAL - DISCHARGE SUMMARY (INTERNAL MEDICINE)
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000291
+DOB: 01/25/2002 (24 years)   SEX: F   WEIGHT: 62 kg
+ADMITTED: 08/11/2026 02:35   DISCHARGED: 08/13/2026 14:10
+ATTENDING: Dr. B. Sample, MD     ENDOCRINE CONSULT: Dr. E. Demo, MD
+
+DIAGNOSES: 1. Diabetic ketoacidosis (DKA), moderate - resolved. 2. Type 1 diabetes
+mellitus (diagnosed at age 11). 3. Viral gastroenteritis (trigger). 4. Acute
+kidney injury from dehydration - resolved.
+
+ADMISSION LABS (08/11/2026 02:50)     Result     Reference
+  Glucose                              486 H      70-99 mg/dL
+  Sodium                               131 L      136-145 mmol/L
+  Potassium                            5.6 H      3.5-5.1 mmol/L
+  Chloride                             95 L       98-107 mmol/L
+  Bicarbonate (CO2)                    10 L       22-29 mmol/L
+  Anion gap                            26 H       7-16 mmol/L
+  Venous pH                            7.14 L     7.32-7.43
+  Beta-hydroxybutyrate                 6.8 H      <0.4 mmol/L
+  BUN                                  26 H       7-20 mg/dL
+  Creatinine                           1.32 H     0.57-1.00 mg/dL
+  Hemoglobin A1c                       9.4 H      4.0-5.6 %
+
+HOSPITAL COURSE:
+Two days of vomiting and diarrhea; patient skipped her insulin glargine because
+she was not eating. Arrived with abdominal pain, deep rapid breathing, and HR
+118. Treated per DKA protocol: IV fluids (3 L normal saline, then fluids with
+dextrose once glucose was below 250 mg/dL), IV insulin infusion at 0.1
+units/kg/hr, and IV potassium once potassium fell below 5.0 (lowest 3.4 mmol/L
+on 08/11). DKA resolved on 08/12 at 06:00 (anion gap 11, bicarbonate 19). Given
+insulin glargine 20 units 2 hours before the insulin drip was stopped. Eating
+normally since 08/12.
+
+DISCHARGE LABS (08/13/2026): Glucose 164 mg/dL, Sodium 139, Potassium 4.1,
+Chloride 106, Bicarbonate 23 mmol/L, Anion gap 10, Creatinine 0.84 mg/dL.
+
+DISCHARGE INSULIN REGIMEN:
+1. Insulin glargine (long-acting): 22 units under the skin once daily at 9:00 PM
+   (INCREASED from 20 units). Never skip this dose, even when sick or not eating.
+2. Insulin lispro (rapid-acting): inject 0-15 minutes before each meal.
+   - Meal dose: 1 unit for every 10 grams of carbohydrate
+   - Correction: add 1 unit for every 40 mg/dL above 150 mg/dL
+   - Example: glucose 230 mg/dL, lunch with 60 g carbs = 6 + 2 = 8 units
+3. Glucagon nasal powder 3 mg: 1 spray in nostril for severe low blood sugar.
+4. Ondansetron 4 mg dissolving tablet every 8 hours as needed for nausea (#6).
+
+SICK-DAY RULES:
+- Never stop glargine. Check blood glucose every 2-4 hours while sick.
+- Check blood ketones every 4 hours if glucose is over 250 mg/dL or if vomiting.
+- Drink at least 8 oz (240 mL) of fluid every hour. If glucose is under 200 and
+  you cannot eat, use fluids with sugar (juice, regular sports drink).
+- Ketones 0.6-1.4 mmol/L: take a correction dose and recheck in 2 hours.
+- Ketones 1.5-2.9 mmol/L: call the diabetes team right away.
+- Ketones 3.0 mmol/L or higher, vomiting for more than 4 hours, belly pain, fast
+  breathing, or confusion: go to the emergency department.
+
+FOLLOW-UP:
+- Diabetes educator (carb counting, sick-day plan): 08/18/2026 at 10:00 AM
+- Endocrinology, Dr. E. Demo, MD: 08/20/2026 at 3:00 PM

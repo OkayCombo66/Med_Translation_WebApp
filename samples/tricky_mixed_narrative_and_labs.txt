@@ -1,0 +1,55 @@
+EXAMPLE FAMILY MEDICINE CLINIC
+OFFICE VISIT NOTE
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000402
+DOB: 02/02/1969 (57 y.o.)   SEX: F
+DATE OF SERVICE: 09/30/2026
+PROVIDER: Dr. C. Placeholder, DO
+
+CHIEF COMPLAINT: Blood pressure follow-up; leg cramps for 3 weeks.
+
+HISTORY OF PRESENT ILLNESS:
+57-year-old woman with hypertension for about 6 years. At her 07/08/2026 visit
+her BP was 156/96, so hydrochlorothiazide 25 mg once daily was started. She
+takes it every morning. For the past 3 weeks she has had calf cramps at night
+and feels more tired. Home BP readings average about 145/90. She also takes
+ibuprofen 400 mg two to three times a week for knee pain. No chest pain,
+palpitations, headache, or vision changes.
+Labs were drawn this morning. Her potassium was 3.1 today, down from 3.6 in
+July before the diuretic was started, and her magnesium is also low at 1.6.
+Her fasting glucose was 104, slightly above normal; it was 98 in July.
+
+VITALS: BP 148/92 (repeat 146/90 after 5 minutes seated), HR 88, Temp 98.2 F,
+RR 14, SpO2 98% on room air, Height 165 cm, Weight 82.5 kg (BMI 30.3)
+
+LABS (drawn 09/30/2026 08:10)
+Test          Result    Ref Range         Prior (07/08/2026)
+Sodium        137       135-145 mmol/L    140
+Potassium     3.1 L     3.5-5.0 mmol/L    3.6
+Chloride      96        96-106 mmol/L     102
+CO2           31 H      22-29 mmol/L      26
+Creatinine    0.94      0.60-1.10 mg/dL   0.88
+Glucose       104 H     70-99 mg/dL       98
+Magnesium     1.6 L     1.7-2.2 mg/dL     not done
+
+CURRENT MEDICATIONS: hydrochlorothiazide 25 mg daily; atorvastatin 20 mg at
+bedtime; ibuprofen 400 mg as needed.
+
+ASSESSMENT AND PLAN:
+1. Hypertension, not at goal (goal under 130/80). Reduce hydrochlorothiazide
+   to 12.5 mg once daily and add losartan 50 mg once daily, which should also
+   help raise her potassium.
+2. Low potassium and low magnesium from the diuretic, likely causing the leg
+   cramps. Start potassium chloride ER 20 mEq by mouth once daily for 14 days
+   and magnesium oxide 400 mg by mouth once daily. Encourage potassium-rich
+   foods (bananas, beans, potatoes).
+3. Mildly elevated fasting glucose (104). Add hemoglobin A1c to next labs.
+4. Knee pain: stop ibuprofen, since it can raise BP and affect the kidneys with
+   losartan. Use acetaminophen 650 mg up to three times daily as needed instead.
+
+FOLLOW-UP: Repeat BMP, magnesium, and A1c on 10/14/2026. Return visit
+11/04/2026 with home BP log. Call sooner for muscle weakness, palpitations, or
+BP above 180/110.
+
+Electronically signed: Dr. C. Placeholder, DO   09/30/2026 16:05

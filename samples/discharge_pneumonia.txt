@@ -1,0 +1,57 @@
+DISCHARGE SUMMARY
+Synthetic General Hospital - Department of Medicine
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000209
+DOB: 10/02/1962 (63-year-old female)
+Admitted: 01/17/2026    Discharged: 01/20/2026    Length of stay: 3 days
+Attending: Dr. C. Placeholder, DO
+Primary care: Dr. A. Example, MD
+
+DIAGNOSES
+Principal: Community-acquired pneumonia, right lower lobe
+Secondary: Acute hypoxemic respiratory failure (resolved); hypertension;
+former smoker (25 pack-years, quit 7 years ago)
+
+PRESENTATION
+4 days of productive cough, fever, chills, and right-sided chest pain with deep
+breaths. ED vitals: T 38.9 C (102.0 F), HR 108, RR 24, BP 132/78, SpO2 89% on
+room air, 94% on 2 L/min nasal cannula.
+Labs: WBC 15.8 x10^3/uL (ref 4.0-11.0), neutrophils 84%, procalcitonin
+1.2 ng/mL (ref <0.5), BUN 18 mg/dL, lactate 1.4 mmol/L. CURB-65 score 0;
+admitted because of low oxygen.
+Chest X-ray 01/17/2026: right lower lobe consolidation, no pleural effusion.
+Blood cultures x2: no growth to date (final result pending). Urine Legionella
+and pneumococcal antigens negative. Influenza, COVID-19, and RSV tests negative.
+
+HOSPITAL COURSE
+Treated with ceftriaxone 1 g IV every 24 hours (01/17-01/19) and azithromycin
+500 mg on 01/17, then 250 mg daily. Fever resolved on 01/18. Weaned to room air
+on 01/19. Switched to oral amoxicillin-clavulanate on the morning of 01/20 to
+complete a 5-day total course of antibiotics.
+
+DISCHARGE VITALS: T 36.9 C, HR 84, RR 16, BP 128/76, SpO2 95% on room air (walking)
+
+DISCHARGE MEDICATIONS
+1. Amoxicillin-clavulanate 875 mg/125 mg - 1 tablet by mouth twice daily with
+   food. Next dose this evening. LAST DOSE: evening of 01/21/2026.
+2. Azithromycin 250 mg - 1 tablet by mouth once daily. LAST DOSE: 01/21/2026.
+3. Benzonatate 100 mg - 1 capsule by mouth three times daily as needed for cough.
+4. Acetaminophen 650 mg by mouth every 6 hours as needed for fever or chest pain
+   (do not exceed 3,000 mg per day).
+5. Amlodipine 5 mg by mouth once daily (home medication, unchanged).
+
+INSTRUCTIONS
+- Finish all antibiotics even if you feel better.
+- Cough and tiredness may last 2-6 weeks. Use the incentive spirometer 10 times
+  every hour while awake.
+- Return to the ED or call if: fever over 38.3 C (101 F), worsening shortness of
+  breath, chest pain, confusion, unable to keep fluids down, or home oxygen
+  reading below 92%.
+
+FOLLOW-UP
+- Primary care, Dr. A. Example, MD: 01/27/2026 at 9:00 AM (discuss pneumococcal vaccine)
+- Repeat chest X-ray: week of 03/09/2026 to confirm the consolidation has cleared
+- You will be called if final blood culture results change your treatment.
+
+Electronically signed: Dr. C. Placeholder, DO   01/20/2026 11:52

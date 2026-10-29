@@ -18,7 +18,3 @@ __pycache__/
 # OCR / uploads (optional—if you store test docs locally)
 uploads/
 *.pdf
-
-
-# Text
-README.mdREADME.md

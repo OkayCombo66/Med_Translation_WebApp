@@ -1,0 +1,31 @@
+ SYNTHETIC REFERENCE LAB0RATORY  -  FAX TRANSM1SSION    03/02/2026 14:22   P. 1
+ ________________________________________________________________________
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN :  TEST-000388        DOB: 10/10/1960    Age:65Y   Sex: M
+Co11ected: 03/02/2026  07:55     Rec'd: 03/02/2026 09:10    Fasting: N
+0rdering Phys: Dr. A. Example, MD
+
+     BAS1C METABOLIC PANEL
+
+ TEST              RESULT       UNITS          REF RANGE
+ Gluc0se            132H        mg/dL          70–99
+ BUN              18          mg/dL      7–20
+ Creat1nine         1.02         mg/dl         0.70–1.30
+ Sod ium     141            mmol/l        136–145
+ Potass1um          5.9H        mmol/l         3.5–5.1
+SYNTHETIC REFERENCE LAB0RATORY      Pg 1 of 2      Rpt# TEST-R-30417     03/02/2026
+ Ch|oride       104         mmol/L         98–107
+ C02             24           mmol/L     22–29
+ Ca1cium           9.6          mg/dL          8.6–10.3
+ An1on Gap      13           mmol/l         7–16
+ eGFR (CKD-EPI)     82          mL/min/1.73m2    >=6O
+
+ COMMENT:  SPEC1MEN M0DERATELY HEMOLYZED.  P0TASSIUM MAY BE FALSELY
+ ELEVATED.  REC0MMEND REDRAW F0R P0TASSIUM.
+
+ Handwritten note (scanned):  "Pt called 3/2 - repeat K+ tmrw AM, no
+ diet change for now.  -A.E."
+
+ ________________________________________________________________________
+ ** END 0F REPORT **        Page 2 of 2        CONFIDENTIAL      Printed 03/02/2026 14:2l
