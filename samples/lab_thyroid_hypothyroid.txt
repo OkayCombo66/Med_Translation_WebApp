@@ -1,0 +1,39 @@
+SYNTHETIC GENERAL HOSPITAL - CLINICAL LABORATORY
+ENDOCRINE / THYROID STUDIES
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000168
+DOB: 09/03/1983 (42 y)   SEX: Female
+ORDERING PHYSICIAN: Dr. C. Placeholder, DO
+COLLECTED: 05/06/2026 09:10
+RESULTED: 05/06/2026 16:28
+STATUS: FINAL
+
+TSH (Thyroid Stimulating Hormone)
+  Result: 11.8 mIU/L        HIGH
+  Reference range: 0.45 - 4.50 mIU/L
+
+Free T4 (Free Thyroxine)
+  Result: 0.62 ng/dL        LOW
+  Reference range: 0.82 - 1.77 ng/dL
+
+Free T3 (Free Triiodothyronine)
+  Result: 2.4 pg/mL
+  Reference range: 2.0 - 4.4 pg/mL
+
+Thyroid Peroxidase (TPO) Antibodies
+  Result: 286 IU/mL         HIGH
+  Reference range: <35 IU/mL
+
+PRIOR RESULTS
+  01/21/2026   TSH 7.4 mIU/L (H)   Free T4 0.86 ng/dL
+
+INTERPRETATION / PLAN:
+TSH has risen from 7.4 to 11.8 mIU/L and free T4 is now low, consistent with
+primary hypothyroidism. Positive TPO antibodies suggest autoimmune thyroiditis
+(Hashimoto's). Patient reports fatigue, cold intolerance, dry skin, and
+constipation. Weight 68 kg.
+Start levothyroxine 75 mcg by mouth once daily on an empty stomach, 30-60
+minutes before breakfast. Take at least 4 hours apart from calcium or iron
+supplements. Repeat TSH and free T4 in 6 weeks (around 06/17/2026).
+Dr. C. Placeholder, DO

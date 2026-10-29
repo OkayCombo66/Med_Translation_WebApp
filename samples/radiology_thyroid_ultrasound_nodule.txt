@@ -1,0 +1,57 @@
+SYNTHETIC GENERAL HOSPITAL - ULTRASOUND DEPARTMENT
+THYROID ULTRASOUND REPORT
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000365
+DOB: 07/07/1979 (46 yrs)    SEX: F
+EXAM: US THYROID AND SOFT TISSUES OF THE NECK
+DATE: 04/08/2026
+ORDERED BY: Dr. A. Example, MD
+READ BY: Dr. H. Sample, MD
+
+INDICATION: Fullness in the right lower neck found on physical exam. TSH normal
+(1.9 mIU/L on 03/25/2026).
+
+TECHNIQUE: Grayscale and color Doppler ultrasound of the thyroid gland and
+cervical lymph nodes.
+
+COMPARISON: None.
+
+THYROID GLAND (length x AP x transverse):
+  Right lobe:  5.2 x 1.8 x 1.9 cm
+  Left lobe:   4.7 x 1.5 x 1.6 cm
+  Isthmus:     0.3 cm AP
+  Parenchyma:  Homogeneous echotexture, normal vascularity.
+
+NODULES:
+  Nodule 1 - Right lobe, mid to lower pole
+    Size: 1.7 x 1.1 x 1.3 cm (length x AP x transverse)
+    Composition:     Solid ......................... 2 points
+    Echogenicity:    Hypoechoic .................... 2 points
+    Shape:           Wider-than-tall ............... 0 points
+    Margin:          Smooth ........................ 0 points
+    Echogenic foci:  None .......................... 0 points
+    TOTAL: 4 points = ACR TI-RADS TR4 (moderately suspicious)
+
+  Nodule 2 - Left lobe, upper pole
+    Size: 0.5 x 0.4 x 0.4 cm
+    Spongiform composition (0 points) = ACR TI-RADS TR1 (benign)
+
+LYMPH NODES: No suspicious cervical lymph nodes. Normal-appearing level II and
+III nodes bilaterally with preserved fatty hila.
+
+IMPRESSION:
+1. 1.7 cm solid hypoechoic nodule in the right thyroid lobe, ACR TI-RADS TR4
+   (moderately suspicious). Meets size threshold for fine-needle aspiration.
+2. 0.5 cm spongiform nodule in the left lobe, TI-RADS TR1 (benign). No
+   follow-up needed.
+3. No suspicious lymph nodes.
+
+RECOMMENDATION: Ultrasound-guided fine-needle aspiration (FNA) biopsy of
+Nodule 1 (right lobe).
+
+ACR TI-RADS SIZE GUIDE: TR1-TR2: no FNA | TR3: FNA if >=2.5 cm, follow if
+>=1.5 cm | TR4: FNA if >=1.5 cm, follow if >=1.0 cm | TR5: FNA if >=1.0 cm,
+follow if >=0.5 cm
+
+Electronically signed: Dr. H. Sample, MD   04/08/2026 13:05

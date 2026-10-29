@@ -1,0 +1,53 @@
+SYNTHETIC IMAGING CENTER
+MAGNETIC RESONANCE IMAGING REPORT
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000342
+DOB: 04/12/1974   AGE: 52   SEX: M
+EXAM: MRI RIGHT KNEE WITHOUT CONTRAST
+EXAM DATE: 09/15/2026
+REFERRING: Dr. J. Example, MD (Orthopedic Surgery)
+RADIOLOGIST: Dr. K. Sample, MD
+
+CLINICAL HISTORY: Twisting injury while playing tennis on 08/22/2026. Pain along
+the inner (medial) joint line, swelling, and intermittent catching and locking.
+
+TECHNIQUE: Multiplanar, multisequence MRI of the right knee at 3.0 T including
+proton density (PD), fat-saturated PD, and T1-weighted images. No IV contrast.
+
+COMPARISON: Right knee radiographs 08/29/2026 (no fracture; mild medial joint
+space narrowing).
+
+FINDINGS:
+MENISCI
+  Medial meniscus: Oblique tear of the posterior horn extending to the inferior
+  articular surface, approximately 14 mm in length. No displaced or flipped
+  fragment in the intercondylar notch. Body and anterior horn intact.
+  Lateral meniscus: Intact.
+LIGAMENTS
+  Anterior cruciate ligament (ACL): Intact.
+  Posterior cruciate ligament (PCL): Intact.
+  Medial collateral ligament (MCL): Mild edema around the ligament without fiber
+  disruption, consistent with a low-grade (grade 1) sprain.
+  Lateral collateral ligament complex: Intact.
+EXTENSOR MECHANISM: Quadriceps and patellar tendons intact.
+CARTILAGE
+  Medial compartment: Partial-thickness cartilage loss (less than 50% of
+  thickness) over a 6 mm area of the weight-bearing medial femoral condyle.
+  Lateral compartment: Preserved.
+  Patellofemoral: Mild surface fraying of the patellar cartilage.
+BONE MARROW: Small area of bone marrow edema beneath the cartilage of the medial
+  tibial plateau, 9 x 6 mm, likely reactive or a bone bruise. No fracture.
+JOINT: Moderate joint effusion. Popliteal (Baker) cyst measuring 32 x 18 x 11 mm
+  (craniocaudal x AP x transverse).
+SOFT TISSUES: Mild swelling of the subcutaneous fat along the medial knee.
+
+IMPRESSION:
+1. Oblique tear of the posterior horn of the medial meniscus extending to the
+   inferior articular surface (14 mm). No displaced fragment.
+2. Moderate joint effusion and 32 mm popliteal (Baker) cyst.
+3. Grade 1 MCL sprain.
+4. Partial-thickness cartilage loss of the medial femoral condyle with small
+   reactive bone marrow edema of the medial tibial plateau (9 x 6 mm).
+
+Electronically signed: Dr. K. Sample, MD   09/15/2026 17:22

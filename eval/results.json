@@ -1,0 +1,1178 @@
+{
+ "model": "claude-sonnet-5-5",
+ "level": "8th",
+ "date": "2026-10-29",
+ "summary": {
+  "documents": 19,
+  "source_grade": 7.505,
+  "full_grade": 5.932,
+  "naive_grade": 6.037,
+  "full_numeric": 1.0,
+  "naive_numeric": 0.976,
+  "full_patient_unsupported": 1,
+  "naive_patient_unsupported": 66,
+  "full_general_unsupported": 12,
+  "full_claims_checked": 638,
+  "naive_claims_checked": 500,
+  "full_abnormal_coverage": 1.0,
+  "naive_abnormal_coverage": 0.695,
+  "full_disclaimer": 1.0,
+  "naive_disclaimer": 0.474,
+  "docs_with_citations": 18,
+  "avg_seconds": 13.568,
+  "failed_documents": []
+ },
+ "results": [
+  {
+   "file": "discharge_appendectomy.txt",
+   "source_grade": 7.5,
+   "full_grade": 6.8,
+   "naive_grade": 5.8,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 1,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 38,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 1,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 0.0,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 8,
+   "citations_used": 7,
+   "full_seconds": 14.2,
+   "full_output_tokens": 2015,
+   "full_explanation": "## Diagnosis\n\nYou were diagnosed with **acute appendicitis, non-perforated**. Appendicitis means the appendix is inflamed. The appendix is a small, tube-like organ attached to the first part of the large intestine, in the lower right part of the abdomen [2]. \"Non-perforated\" means, as written in your document, that it had not burst. Your document says no abscess (a pocket of infection) or free air was seen on the CT scan.\n\n## Procedure\n\nYou had a **laparoscopic appendectomy** on 06/05/2026. This is surgery to remove the appendix using small cuts. Your document says there were 3 small incisions: at the belly button, the lower left abdomen, and just above the pubic bone.\n\n- Anesthesia: General. Anesthesia is the use of medicines to prevent pain during surgery [3].\n- Estimated blood loss: Minimal (<10 mL).\n\n## Hospital course\n\n- You came to the emergency department (ED) with 18 hours of pain. It started around the belly button and moved to the right lower abdomen. You also had nausea and poor appetite.\n- Your temperature was 38.1 C.\n- A CT scan (a detailed X-ray picture) of the abdomen and pelvis with IV contrast showed a dilated (widened) appendix measuring 11 mm with surrounding inflammation.\n- Before surgery you got one dose of IV ceftriaxone 2 g and metronidazole 500 mg. These are antibiotics. No more antibiotics were needed after surgery.\n- Surgery was uncomplicated and done the same day.\n- At discharge you were eating a regular diet, walking, urinating normally, and your pain was controlled with oral medicines.\n- The pathology report (lab study of the removed tissue) is still pending.\n\n## Lab results\n\n- **WBC (white blood count): 14.2 x10^3/uL.** This is **above** the typical adult range of 4.5-11.0. Your report did not list a range, so this range is a typical one and not from your report. White blood cells are part of your immune system [1]. A high count can happen with infection or tissue damage from surgery, among other causes [1]. Your document does not say what caused your result.\n\n## Wound care\n\n- Your incisions are closed with dissolvable stitches under the skin and skin glue. Do not pick at the glue. It will peel off on its own in 7-14 days.\n- You may shower starting 06/06/2026. Let soapy water run over the incisions and pat dry.\n- No tub baths, hot tubs, or swimming for 2 weeks.\n- Mild bruising and shoulder pain (from the gas used during surgery) are normal for a few days.\n\n## Activity\n\n- Walk several times a day.\n- Do not lift more than 10 lb (4.5 kg) or do strenuous exercise for 2 weeks (until 06/20/2026).\n- No driving while taking oxycodone.\n- You may return to desk work in 3-5 days as comfortable.\n\n## Medications\n\n1. **Acetaminophen 500 mg tablets**: take 2 tablets (1,000 mg) by mouth every 8 hours for 3 days, then as needed. Maximum 3,000 mg in 24 hours. It relieves mild to moderate pain and reduces fever [5].\n2. **Ibuprofen 200 mg tablets**: take 3 tablets (600 mg) by mouth every 6 hours as needed, with food. Maximum 2,400 mg in 24 hours. It is an NSAID, a type of pain reliever [6].\n3. **Oxycodone 5 mg tablet**: 1 tablet by mouth every 6 hours ONLY if needed for severe pain not relieved by #1 and #2. Quantity 6 tablets, no refills. It is an opioid (narcotic) pain medicine used for severe pain [7].\n4. **Docusate sodium 100 mg** by mouth twice daily while taking oxycodone. It is a stool softener, which makes stools easier to pass [8].\n\n## When to call or return to the ED\n\nCall the surgery clinic or return to the ED for:\n\n- Fever higher than 101.0 F (38.3 C) or shaking chills\n- Increasing redness, warmth, swelling, or pus draining from an incision\n- Belly pain that is getting worse instead of better, or a hard, swollen belly\n- Vomiting or being unable to keep down liquids\n- No bowel movement or gas for more than 3 days\n- Calf pain or swelling, or sudden shortness of breath\n\n## Follow-up\n\nGeneral Surgery Clinic, Dr. B. Sample, MD, on 06/19/2026 at 1:30 PM for a wound check and pathology review. Clinic phone: (555) 010-0142.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Discharge Summary, Explained Simply\n\n## What happened\nYou had **appendicitis** (an inflamed appendix). It had **not burst**, which is good news. You came in with belly pain that started near your belly button and moved to the lower right side, along with nausea, low appetite, and a fever. A CT scan confirmed the diagnosis.\n\nOn 06/05/2026 the surgeon removed your appendix using **laparoscopic (keyhole) surgery**. This used 3 small cuts: one at the belly button, one on the lower left belly, and one just above the pubic bone. The surgery went smoothly, with very little blood loss. You got antibiotics before surgery and did not need more afterward.\n\nBy discharge you were eating normally, walking, urinating normally, and your pain was controlled with pills.\n\n**Still pending:** A lab report on your removed appendix (pathology). It will be reviewed at your follow-up visit.\n\n## Caring for your incisions\n- The stitches under the skin dissolve on their own. The skin glue will peel off by itself in 7-14 days, so don't pick at it.\n- You can **shower now**. Let soapy water run over the cuts and pat dry.\n- **No baths, hot tubs, or swimming for 2 weeks.**\n- Mild bruising is normal. Shoulder pain is also normal for a few days, caused by the gas used to inflate your belly during surgery.\n\n## Activity\n- Walk several times a day.\n- **No lifting over 10 lb (4.5 kg)** and no hard exercise until **06/20/2026**.\n- Don't drive while taking oxycodone.\n- You can go back to desk work in about 3-5 days, as you feel able.\n\n## Your medicines\n| Medicine | How to take it |\n|---|---|\n| **Acetaminophen (Tylenol) 500 mg** | 2 tablets every 8 hours for 3 days, then only as needed. Max 3,000 mg a day. |\n| **Ibuprofen 200 mg** | 3 tablets every 6 hours as needed, with food. Max 2,400 mg a day. |\n| **Oxycodone 5 mg** (strong pain medicine) | 1 tablet every 6 hours **only** for severe pain that the two medicines above don't relieve. You have 6 tablets, no refills. |\n| **Docusate 100 mg** (stool softener) | Twice a day while taking oxycodone, to prevent constipation. |\n\nStart with acetaminophen and ibuprofen. Use oxycodone only if you really need it.\n\n## When to get help\nCall the surgery clinic or go to the ER if you have:\n- Fever over 101.0 \u00b0F (38.3 \u00b0C) or shaking chills\n- Redness, warmth, swelling, or pus at an incision\n- Belly pain that is getting worse, or a hard, swollen belly\n- Vomiting or being unable to keep liquids down\n- No bowel movement or gas for more than 3 days\n- Calf pain or swelling, or sudden shortness of breath (these can signal a blood clot)\n\n## Follow-up\n**06/19/2026 at 1:30 PM** with Dr. Sample at the General Surgery Clinic. They will check your incisions and go over the pathology results.\nClinic phone: **(555) 010-0142**\n\n*This is a plain-language summary. If anything is unclear, ask your care team.*",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "You came in with belly pain that started near your belly button and moved to the lower right side, along with nausea, low appetite, and a fever.",
+     "kind": "patient_specific",
+     "reason": "Mostly supported, but the source documents a measured temperature of 38.1 C rather than a reported fever; this is a minor inference. The pain, nausea and poor appetite are supported."
+    },
+    {
+     "sentence": "Calf pain or swelling, or sudden shortness of breath (these can signal a blood clot)",
+     "kind": "general",
+     "reason": "The source lists these as warning signs but does not name a blood clot; no references were retrieved. This is widely accepted background, though it is not stated in the source."
+    }
+   ]
+  },
+  {
+   "file": "discharge_copd_exacerbation.txt",
+   "source_grade": 8.3,
+   "full_grade": 6.4,
+   "naive_grade": 6.1,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 2,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 38,
+   "naive_claims_checked": 34,
+   "judge_errors": [],
+   "abnormal_labs": 0,
+   "full_abnormal_coverage": null,
+   "naive_abnormal_coverage": null,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 8,
+   "citations_used": 6,
+   "full_seconds": 14.8,
+   "full_output_tokens": 2338,
+   "full_explanation": "## Why you were in the hospital\n\nYou were in the hospital from 02/02/2026 to 02/06/2026. The main diagnosis was an **acute exacerbation of chronic obstructive pulmonary disease (COPD)**. An exacerbation is a flare-up, when symptoms get worse. COPD is a group of lung diseases that make it hard to breathe and get worse over time [1].\n\nOther diagnoses listed:\n- **Tobacco use disorder**, current smoker (1 pack/day, 45 pack-years). A pack-year is a way to count how much someone has smoked over time.\n- **Hypertension**, which means high blood pressure.\n\nYour report also lists baseline spirometry (a breathing test): FEV1 48% predicted and FEV1/FVC 0.52.\n\n## What happened in the hospital\n\nYou came in with 4 days of more shortness of breath, wheezing, and thicker yellow-green sputum (mucus you cough up) after a cold.\n\nOn arrival:\n- RR (breathing rate) 26\n- HR (heart rate) 102\n- SpO2 (oxygen level in your blood) 86% on room air\n\nA blood gas test on 2 L oxygen showed pH 7.33, PaCO2 52 mmHg, and PaO2 64 mmHg. The report did not list ranges for these. A chest X-ray showed hyperinflated lungs (lungs that hold extra air), with no pneumonia or pneumothorax (collapsed lung). Chest X-rays can be used to look for pneumonia [4].\n\nTreatments you received:\n- Albuterol/ipratropium nebulizers (breathing treatments that turn medicine into a mist) every 4 hours\n- Methylprednisolone 40 mg IV daily (02/02-02/03), then prednisone 40 mg daily\n- Doxycycline 100 mg twice daily, started 02/02\n- Oxygen, adjusted to a goal SpO2 of 88-92%\n\nYou did not need BiPAP (a breathing support machine with a mask). You were weaned to room air on 02/05.\n\n## Oxygen check on 02/06/2026\n\n- At rest, room air: SpO2 92%\n- 6-minute walk, room air (lowest): SpO2 89%\n\nThe report says home oxygen was not needed (criteria: SpO2 88% or lower).\n\n## Discharge medications\n\n1. **Prednisone** 10 mg tablets, a steroid taper, taken with breakfast. Prednisone is a corticosteroid used for many conditions, including some that affect the lungs [7].\n   - 02/07 and 02/08: 40 mg (4 tablets) once daily\n   - 02/09 and 02/10: 20 mg (2 tablets) once daily\n   - 02/11 and 02/12: 10 mg (1 tablet) once daily\n   - Then STOP. Last dose 02/12/2026.\n2. **Doxycycline** 100 mg by mouth, one final dose this evening (02/06/2026) to complete a 5-day course. Doxycycline is an antibiotic that treats bacterial infections [8].\n3. **Albuterol HFA** 90 mcg/puff, 2 puffs every 4-6 hours as needed for shortness of breath or wheezing (rescue inhaler).\n4. **Tiotropium** 18 mcg inhalation capsule, inhale the contents of 1 capsule once daily with the HandiHaler device. This is NEW. It is a daily controller, not for sudden symptoms.\n5. **Nicotine patch** 21 mg/24 hr, apply 1 new patch every morning (NEW).\n6. **Nicotine gum** 2 mg, chew 1 piece every 1-2 hours as needed for cravings (maximum 24 pieces per day) (NEW).\n7. **Lisinopril** 20 mg by mouth once daily (home medication, unchanged).\n\n## Smoking cessation\n\nYou were counseled for 15 minutes and want to quit. Your quit date is 02/06/2026. Quitting smoking is important for health, and nicotine addiction can make it hard [5]. Your plan:\n- 21 mg patch for 6 weeks\n- then 14 mg for 2 weeks\n- then 7 mg for 2 weeks\n\nYou were referred to the Synthetic General Hospital Tobacco Treatment Program.\n\n## Return to the ED for\n\n- Severe shortness of breath\n- SpO2 below 88% at rest\n- Confusion or extreme sleepiness\n- Chest pain\n- Needing the rescue inhaler more often than every 2 hours\n\n## Follow-up\n\n- Primary care, Dr. C. Placeholder, DO: 02/12/2026 at 11:00 AM\n- Pulmonology, Dr. D. Specimen, MD: 03/05/2026 at 9:30 AM\n- Pulmonary rehabilitation: referral placed; the program will call to schedule. Pulmonary rehab is a program for people with ongoing breathing problems that works with your medical treatment [6].\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Hospital Stay, Explained Simply\n\n## Why you were in the hospital\nYou had a **COPD flare-up**. COPD is a long-term lung condition that makes breathing harder. After a cold, your breathing got worse. You had more wheezing and thicker yellow-green mucus. When you arrived, your oxygen level was low (86%).\n\n## What was done\n- Breathing treatments (nebulizers) to open your airways\n- Steroids (first by IV, then prednisone pills) to calm swelling in your lungs\n- An antibiotic (doxycycline) for a possible infection\n- Extra oxygen, which you no longer need\n- A chest X-ray showed no pneumonia and no collapsed lung.\n- You did not need a breathing machine (BiPAP).\n\n## Do you need oxygen at home?\n**No.** Today your oxygen was 92% at rest and 89% while walking. Both are acceptable, so you don't need home oxygen.\n\n## Your medicines\n\n| Medicine | What to do | Why |\n|---|---|---|\n| **Prednisone** (10 mg tablets) | Take with breakfast. **Feb 7-8:** 4 tablets. **Feb 9-10:** 2 tablets. **Feb 11-12:** 1 tablet. Then stop. | Calms lung inflammation |\n| **Doxycycline** | One last dose this evening (Feb 6) | Finishes your antibiotic |\n| **Albuterol inhaler** (rescue) | 2 puffs every 4-6 hours only when needed for shortness of breath or wheezing | Quick relief |\n| **Tiotropium** (NEW) | Inhale 1 capsule once a day with the HandiHaler | Daily control. It does **not** work for sudden symptoms. |\n| **Nicotine patch 21 mg** (NEW) | Put on 1 new patch every morning | Helps you quit smoking |\n| **Nicotine gum 2 mg** (NEW) | Chew 1 piece every 1-2 hours if you have cravings (no more than 24 a day) | Helps with cravings |\n| **Lisinopril 20 mg** | Once a day, no change | Blood pressure |\n\n**Tips:** Do not swallow the tiotropium capsule. It goes in the inhaler device only. Take doxycycline with a full glass of water and stay upright afterward.\n\n## Quitting smoking\nQuitting is the best thing you can do for your lungs, and your quit date is **today, Feb 6**. Your patch plan:\n- 21 mg for 6 weeks\n- then 14 mg for 2 weeks\n- then 7 mg for 2 weeks\n\nYou've also been referred to the hospital's Tobacco Treatment Program. Don't smoke while wearing the patch.\n\n## Go to the emergency department if you have\n- Severe shortness of breath\n- Oxygen level below 88% at rest (if you have a monitor)\n- Confusion or extreme sleepiness\n- Chest pain\n- Needing your rescue inhaler more often than every 2 hours\n\n## Follow-up appointments\n- **Primary care, Dr. Placeholder:** Feb 12, 2026 at 11:00 AM\n- **Lung specialist, Dr. Specimen:** Mar 5, 2026 at 9:30 AM\n- **Pulmonary rehab** (exercise and breathing program): they will call you to schedule. If you don't hear from them, call to check.\n\n*This is a general explanation. Please ask your care team if anything is unclear.*",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "An antibiotic (doxycycline) for a possible infection",
+     "kind": "patient_specific",
+     "reason": "The source does not state the indication for doxycycline or call it a possible infection. It only says doxycycline was given as a 5-day course."
+    },
+    {
+     "sentence": "Take doxycycline with a full glass of water and stay upright afterward.",
+     "kind": "general",
+     "reason": "This instruction is not in the source. It is generic advice applied to the patient as if it were part of the discharge instructions."
+    },
+    {
+     "sentence": "Do not swallow the tiotropium capsule. It goes in the inhaler device only.",
+     "kind": "general",
+     "reason": "This is not in the source. The source only says to inhale the contents of the capsule with the HandiHaler. The advice is reasonable general knowledge but was not part of the discharge instructions."
+    },
+    {
+     "sentence": "Don't smoke while wearing the patch.",
+     "kind": "general",
+     "reason": "This instruction is not in the source and is added as general advice."
+    },
+    {
+     "sentence": "Quitting is the best thing you can do for your lungs",
+     "kind": "general",
+     "reason": "This is an overstated, unreferenced claim. It is not in the source and no references were provided."
+    },
+    {
+     "sentence": "Both are acceptable, so you don't need home oxygen.",
+     "kind": "patient_specific",
+     "reason": "The source says home oxygen is not needed because the criterion is SpO2 88% or lower, not because the values are 'acceptable'. The wording is a mild reinterpretation."
+    }
+   ]
+  },
+  {
+   "file": "discharge_diabetic_ketoacidosis.txt",
+   "source_grade": 7.3,
+   "full_grade": 6.5,
+   "naive_grade": 5.6,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 4,
+   "full_general_unsupported": 2,
+   "full_claims_checked": 47,
+   "naive_claims_checked": 34,
+   "judge_errors": [],
+   "abnormal_labs": 11,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 0.182,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 8,
+   "citations_used": 8,
+   "full_seconds": 17.0,
+   "full_output_tokens": 2662,
+   "full_explanation": "## Diagnosis\n\nYou were in the hospital from 08/11/2026 to 08/13/2026. Your document lists these diagnoses:\n\n- **Diabetic ketoacidosis (DKA), moderate - resolved.** DKA happens when the body doesn't have enough insulin to let glucose (sugar) into cells. The liver then breaks down fat for energy, which makes ketones. When ketones build up too fast, they can reach dangerous levels [5].\n- **Type 1 diabetes mellitus (diagnosed at age 11).** With type 1 diabetes, the body makes little or no insulin. Insulin is a hormone that helps glucose move into cells to be used for energy [5].\n- **Viral gastroenteritis (trigger).** This is inflammation of the lining of the stomach and intestines caused by a virus. Its main symptoms are vomiting and diarrhea [6]. Your document lists it as the trigger.\n- **Acute kidney injury from dehydration - resolved.** This means your kidneys were not working as well as usual because your body was low on fluid. Your document says it resolved.\n\n## Hospital course\n\n- You had two days of vomiting and diarrhea. You skipped your insulin glargine because you were not eating.\n- You arrived with abdominal pain, deep rapid breathing, and a heart rate (HR) of 118.\n- You were treated with a DKA protocol:\n  - IV fluids: 3 L normal saline, then fluids with dextrose (sugar) once glucose was below 250 mg/dL.\n  - An IV insulin infusion at 0.1 units/kg/hr.\n  - IV potassium once potassium fell below 5.0. Your lowest potassium was 3.4 mmol/L on 08/11.\n- DKA resolved on 08/12 at 06:00 (anion gap 11, bicarbonate 19).\n- You were given insulin glargine 20 units 2 hours before the insulin drip was stopped.\n- You have been eating normally since 08/12.\n\n## Admission lab results (08/11/2026 02:50)\n\nThe ranges below are the ones printed on your report.\n\n- **Glucose: 486 mg/dL**, above the range of 70-99. Glucose is a type of sugar and is your body's main source of energy [1].\n- **Sodium: 131 mmol/L**, below the range of 136-145.\n- **Potassium: 5.6 mmol/L**, above the range of 3.5-5.1.\n- **Chloride: 95 mmol/L**, below the range of 98-107.\n- **Bicarbonate (CO2): 10 mmol/L**, below the range of 22-29. This test relates to your body's acid-base balance [3].\n- **Anion gap: 26 mmol/L**, above the range of 7-16. This test gives a measure of the acid-base balance in your blood [4].\n- **Venous pH: 7.14**, below the range of 7.32-7.43. pH is a measure of how acidic the blood is.\n- **Beta-hydroxybutyrate: 6.8 mmol/L**, above the range of <0.4. This is a type of ketone.\n- **BUN: 26 mg/dL**, above the range of 7-20. BUN is a waste product that the kidneys clear.\n- **Creatinine: 1.32 mg/dL**, above the range of 0.57-1.00. Creatinine is another waste product that the kidneys clear.\n- **Hemoglobin A1c: 9.4%**, above the range of 4.0-5.6. This test shows your average blood glucose over the past two to three months [2].\n\n## Discharge labs (08/13/2026)\n\n- Glucose 164 mg/dL\n- Sodium 139\n- Potassium 4.1\n- Chloride 106\n- Bicarbonate 23 mmol/L\n- Anion gap 10\n- Creatinine 0.84 mg/dL\n\nYour document did not give flags or ranges for the discharge labs.\n\n## Medications at discharge\n\n1. **Insulin glargine (long-acting insulin):** 22 units under the skin once daily at 9:00 PM. This is INCREASED from 20 units. Your document says to never skip this dose, even when sick or not eating. Long-acting insulin replaces insulin your body would normally make [7].\n2. **Insulin lispro (rapid-acting insulin):** inject 0-15 minutes before each meal. It also replaces insulin your body would normally make [8].\n   - Meal dose: 1 unit for every 10 grams of carbohydrate.\n   - Correction: add 1 unit for every 40 mg/dL above 150 mg/dL.\n   - Example from your document: glucose 230 mg/dL, lunch with 60 g carbs = 6 + 2 = 8 units.\n3. **Glucagon nasal powder 3 mg:** 1 spray in one nostril for severe low blood sugar.\n4. **Ondansetron 4 mg dissolving tablet:** every 8 hours as needed for nausea (#6).\n\n## Sick-day rules\n\n- Never stop glargine. Check blood glucose every 2-4 hours while sick.\n- Check blood ketones every 4 hours if glucose is over 250 mg/dL or if vomiting.\n- Drink at least 8 oz (240 mL) of fluid every hour. If glucose is under 200 and you cannot eat, use fluids with sugar (juice, regular sports drink).\n- Ketones 0.6-1.4 mmol/L: take a correction dose and recheck in 2 hours.\n- Ketones 1.5-2.9 mmol/L: call the diabetes team right away.\n- Ketones 3.0 mmol/L or higher, vomiting for more than 4 hours, belly pain, fast breathing, or confusion: go to the emergency department.\n\n## Follow-up\n\n- Diabetes educator (carb counting, sick-day plan): 08/18/2026 at 10:00 AM\n- Endocrinology, Dr. E. Demo, MD: 08/20/2026 at 3:00 PM\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Hospital Stay, Explained Simply\n\n## What happened\nYou were in the hospital from August 11 to August 13 because of **diabetic ketoacidosis (DKA)**. This is a serious problem in people with type 1 diabetes. When your body doesn't have enough insulin, it burns fat for energy and makes acids called **ketones**. These build up in the blood and make you sick.\n\n**What set it off:** You had a stomach virus with two days of vomiting and diarrhea. You skipped your long-acting insulin (glargine) because you weren't eating. Skipping it is what let the DKA develop.\n\n**Other problems:** You were also dehydrated, which strained your kidneys. This has **fully recovered**.\n\n## How you were treated\n- IV fluids to rehydrate you\n- Insulin through an IV\n- Potassium through an IV, since potassium dropped during treatment\n- Close monitoring of your blood tests\n\nBy August 12 the acid in your blood was back to normal, and you've been eating normally since. Your blood tests on the day you went home (blood sugar, salts, kidney function) were normal or close to normal.\n\n**Your A1c was 9.4%.** This shows your average blood sugar over the past 2-3 months has been higher than ideal. Your diabetes team will work with you on this.\n\n## Your medicines at home\n\n**1. Insulin glargine (long-acting)**\n- **22 units once a day at 9:00 PM.** This is a small increase from 20 units.\n- **Never skip it, even if you're sick or not eating.**\n\n**2. Insulin lispro (rapid-acting), before meals**\n- Take it 0-15 minutes before you eat.\n- **Meal dose:** 1 unit for every 10 grams of carbs you eat.\n- **Correction dose:** add 1 unit for every 40 mg/dL your blood sugar is above 150.\n- *Example:* blood sugar 230 and a lunch with 60 g carbs = 6 units for food + 2 units for correction = **8 units**.\n\n**3. Glucagon nasal powder (3 mg)**\n- For **severe low blood sugar** (for example, if you pass out or can't swallow). Spray once in one nostril. Make sure family or friends know where it is and how to use it.\n\n**4. Ondansetron 4 mg (dissolving tablet)**\n- For nausea. Let it dissolve on your tongue every 8 hours **only if needed**. You have 6 tablets.\n\n## Sick-day rules\nKeep these handy. Illness is when DKA is most likely to happen.\n\n- **Never stop your glargine.**\n- Check blood sugar **every 2-4 hours**.\n- Check **ketones every 4 hours** if your sugar is over 250 or you're vomiting.\n- Drink **at least 8 oz (240 mL) of fluid every hour.** If your sugar is under 200 and you can't eat, choose fluids with sugar (juice, regular sports drink).\n\n| Ketone level | What to do |\n|---|---|\n| 0.6-1.4 | Take a correction dose and recheck in 2 hours |\n| 1.5-2.9 | **Call your diabetes team right away** |\n| 3.0 or higher | **Go to the emergency department** |\n\n**Go to the emergency department** if you also have: vomiting for more than 4 hours, belly pain, fast or deep breathing, or confusion.\n\n## Follow-up appointments\n- **Diabetes educator** (carb counting and sick-day plan): **August 18, 10:00 AM**\n- **Endocrinologist, Dr. E. Demo:** **August 20, 3:00 PM**\n\n## Key takeaways\n1. Insulin glargine is needed **every day**, even when you can't eat.\n2. Check ketones and sugar often when sick.\n3. Know when to call or go to the ER.\n4. Bring your questions and blood sugar records to your appointments.\n\n*This is a plain-language summary. If anything is unclear, ask your care team, and call them if you're unsure about a dose.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "BUN is a waste product that the kidneys clear.",
+     "kind": "general",
+     "reason": "Not in the references, but it is widely accepted, uncontroversial background (BUN is a waste product cleared by the kidneys). Flagged only because there is no reference support; low risk."
+    },
+    {
+     "sentence": "Creatinine is another waste product that the kidneys clear.",
+     "kind": "general",
+     "reason": "Not in the references, but it is widely accepted, uncontroversial background. Flagged only because there is no reference support; low risk."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Skipping it is what let the DKA develop.",
+     "kind": "patient_specific",
+     "reason": "The source lists the gastroenteritis as the trigger and notes the skipped glargine, but it never states that skipping insulin was the cause of the DKA; this is stated more definitively than the source supports."
+    },
+    {
+     "sentence": "Make sure family or friends know where it is and how to use it.",
+     "kind": "patient_specific",
+     "reason": "This instruction is not in the discharge summary."
+    },
+    {
+     "sentence": "Illness is when DKA is most likely to happen.",
+     "kind": "general",
+     "reason": "This overstates certainty. Illness is a common trigger, but 'most likely' is not supported by the source, and no references were provided."
+    },
+    {
+     "sentence": "This is a small increase from 20 units.",
+     "kind": "patient_specific",
+     "reason": "The source says the dose was increased from 20 to 22 units but does not describe the increase as 'small'; this is added characterization."
+    },
+    {
+     "sentence": "Bring your questions and blood sugar records to your appointments.",
+     "kind": "patient_specific",
+     "reason": "This instruction is not in the source."
+    }
+   ]
+  },
+  {
+   "file": "discharge_heart_failure.txt",
+   "source_grade": 6.8,
+   "full_grade": 6.3,
+   "naive_grade": 5.4,
+   "full_numeric": 1.0,
+   "naive_numeric": 0.929,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [
+    "55",
+    "70"
+   ],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 3,
+   "full_general_unsupported": 1,
+   "full_claims_checked": 38,
+   "naive_claims_checked": 33,
+   "judge_errors": [],
+   "abnormal_labs": 1,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 1.0,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 8,
+   "citations_used": 8,
+   "full_seconds": 20.1,
+   "full_output_tokens": 2353,
+   "full_explanation": "## Overview\n\nThis is a summary of your hospital stay from 03/09/2026 to 03/14/2026. You went home with self-care.\n\n## Diagnosis\n\n- **Main diagnosis:** Acute on chronic systolic heart failure (a CHF exacerbation). This means long-term heart failure that suddenly got worse. Heart failure means the heart can't pump enough oxygen-rich blood to meet the body's needs [2]. \"Systolic\" is the term your document uses for the type of heart failure you have.\n- **Other diagnoses:** Hypertension, hyperlipidemia, and nonischemic cardiomyopathy.\n  - Hypertension is high blood pressure, the force of blood pushing against artery walls [3].\n  - Hyperlipidemia means high levels of fats such as cholesterol in the blood. Cholesterol is a waxy, fat-like substance found in the cells of your body [4].\n  - Cardiomyopathy is a disease of the heart muscle [5]. \"Nonischemic\" is a term your document uses to describe your type; the document doesn't explain it further.\n\n## Hospital course\n\n- You came in with 1 week of worsening shortness of breath, orthopnea (trouble breathing when lying flat; you slept on 3 pillows), and leg swelling. The document says this followed eating high-salt foods and missing several furosemide doses.\n- Arrival vitals: BP 158/94, HR 104, SpO2 90% on room air. (SpO2 is the oxygen level in your blood.)\n- **BNP:** 1,840 pg/mL. The report's range is <100, so your result is above the range on your report. BNP is a protein made by your heart and blood vessels. Testing it helps confirm or rule out heart failure in people with symptoms [1]. A BNP test alone can't diagnose the cause of symptoms [1].\n- **Chest X-ray:** pulmonary vascular congestion (extra blood or fluid in the lung blood vessels) and small bilateral pleural effusions (small amounts of fluid on both sides around the lungs).\n- **Troponin:** negative x2 (two tests).\n- **Echocardiogram (heart ultrasound)** on 03/10/2026: LVEF 30% (previously 35%), with no significant valve disease. LVEF is the left ventricle's ejection fraction, a measure of how well the heart pumps.\n- **Treatment:** IV furosemide 40 mg twice daily, with net fluid loss of 5.1 L. Your weight went from 94.6 kg (208.6 lb) to 90.1 kg (198.6 lb). On 03/13/2026 you were switched to oral furosemide and stayed stable on room air.\n\n## Discharge vitals and labs\n\n- Vitals: BP 118/72, HR 72, SpO2 96% on room air, weight 90.1 kg (198.6 lb).\n- Labs on 03/14/2026:\n  - Sodium 137 mmol/L\n  - Potassium 4.2 mmol/L\n  - **Creatinine** 1.24 mg/dL (1.10 on admission). Creatinine is a waste product that is often checked to see how the kidneys are working. Your report didn't list a reference range for it, so I can't say where it falls compared with a range.\n  - BNP 410 pg/mL\n\n## Medications\n\n1. **Furosemide** 40 mg by mouth twice daily (morning and early afternoon). **CHANGED**; it was 40 mg once daily. Furosemide is a diuretic (\"water pill\") that makes the kidneys remove extra water and salt [7].\n2. **Metoprolol succinate ER** 50 mg by mouth once daily. **CONTINUE**. Metoprolol is a beta blocker that slows the heart rate and relaxes blood vessels [8].\n3. **Lisinopril** 10 mg by mouth once daily. **CONTINUE**.\n4. **Potassium chloride ER** 20 mEq by mouth once daily. **NEW**.\n5. **Atorvastatin** 40 mg by mouth at bedtime. **CONTINUE**.\n\n## Patient instructions\n\n- Weigh yourself every morning after urinating and before breakfast, on the same scale, and write it down. Your target (\"dry\") weight is about 198 lb.\n- Call the Heart Failure Clinic if your weight goes up more than 2 lb in one day or 5 lb in one week, or if swelling or shortness of breath gets worse.\n- Limit sodium to less than 2,000 mg per day. Sodium is a mineral in table salt [6]. Limit fluids to 2 liters (about 64 oz) per day.\n- Call 911 for chest pain, shortness of breath at rest, or fainting.\n\n## Follow-up\n\n- Blood test (BMP): 03/18/2026, Synthetic General Hospital outpatient lab. A BMP is a basic metabolic panel, a blood test.\n- Heart Failure Clinic, Dr. B. Sample, MD (Cardiology): 03/20/2026 at 10:30 AM.\n- Primary care, Dr. C. Placeholder, DO: 03/27/2026 at 2:15 PM.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Hospital Stay, Explained Simply\n\n## Why you were in the hospital\nYou were in the hospital from March 9 to March 14, 2026 because of a **heart failure flare-up**. \"Heart failure\" doesn't mean your heart stopped. It means your heart is weak and doesn't pump as strongly as it should, so fluid builds up in your body.\n\n**What led to it:** Eating salty foods and missing several doses of your water pill (furosemide).\n\n**What you were feeling:** Worsening shortness of breath, needing 3 pillows to sleep, and swollen legs.\n\n## What the tests showed\n- **Fluid in the lungs:** The chest X-ray showed extra fluid in and around your lungs.\n- **BNP (a heart stress blood test):** Very high at 1,840 (normal is under 100). It improved to 410 by discharge.\n- **No heart attack:** Your troponin tests were negative.\n- **Heart ultrasound:** Your heart's pumping strength (ejection fraction) is **30%**, down from 35%. A normal level is roughly 55-70%. Your heart valves are fine.\n\n## Treatment\n- You received IV water pills and lost about **10 pounds of extra fluid** (5.1 liters).\n- Your breathing and oxygen levels returned to normal (oxygen 96%).\n- Your blood pressure and heart rate also improved.\n- Your kidney number (creatinine) rose slightly, from 1.10 to 1.24. This is common with water pills, and it will be rechecked.\n\n## Your medicines\n| Medicine | What to do | Purpose |\n|---|---|---|\n| **Furosemide 40 mg** | **Changed:** now **twice a day** (morning and early afternoon). It was once a day. | Water pill, removes extra fluid |\n| **Potassium chloride 20 mEq** | **New:** once daily | Replaces potassium lost through the water pill |\n| Metoprolol succinate ER 50 mg | Continue once daily | Protects and slows the heart |\n| Lisinopril 10 mg | Continue once daily | Lowers blood pressure, eases heart strain |\n| Atorvastatin 40 mg | Continue at bedtime | Lowers cholesterol |\n\n**Important:** Take your water pill every day, even when you feel well.\n\n## Daily care at home\n- **Weigh yourself every morning** after using the bathroom and before breakfast, on the same scale. Write it down.\n- **Your goal (\"dry\") weight is about 198 lb.**\n- **Salt:** Less than 2,000 mg of sodium per day.\n- **Fluids:** No more than 2 liters (about 64 oz) per day.\n\n## When to get help\n**Call the Heart Failure Clinic if:**\n- You gain more than **2 lb in one day** or **5 lb in one week**\n- Swelling or shortness of breath gets worse\n\n**Call 911 if you have:**\n- Chest pain\n- Shortness of breath while resting\n- Fainting\n\n## Your appointments\n1. **Blood test:** March 18, 2026 at the Synthetic General Hospital outpatient lab. This checks your kidneys and potassium.\n2. **Heart Failure Clinic:** March 20, 2026 at 10:30 AM with Dr. B. Sample (cardiologist)\n3. **Primary care:** March 27, 2026 at 2:15 PM with Dr. C. Placeholder\n\n*This is a general explanation of your paperwork. Please ask your care team if you have any questions about your own care.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "Testing it helps confirm or rule out heart failure in people with symptoms [1].",
+     "kind": "general",
+     "reason": "Mostly consistent with reference 1, but the sentence follows a patient result and could imply BNP confirmed heart failure here; minor and acceptable, flagged only for cautious framing."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Your kidney number (creatinine) rose slightly, from 1.10 to 1.24. This is common with water pills, and it will be rechecked.",
+     "kind": "general",
+     "reason": "The values are supported, but the claim that this rise is common with water pills is not in the source and no references were provided. It also presents general information as if it explains this patient's result. The BMP follow-up is supported only as a scheduled blood test, not specifically as a recheck of creatinine."
+    },
+    {
+     "sentence": "Your breathing and oxygen levels returned to normal (oxygen 96%).",
+     "kind": "patient_specific",
+     "reason": "The source documents SpO2 of 96% on room air and stability on room air, but it does not say breathing returned to normal."
+    },
+    {
+     "sentence": "Your blood pressure and heart rate also improved.",
+     "kind": "patient_specific",
+     "reason": "Supported by vitals (BP 158/94 to 118/72, HR 104 to 72). This is borderline, but 'improved' is a fair interpretation, so it is not strictly unsupported. However, it is flagged for the interpretive wording."
+    },
+    {
+     "sentence": "**Important:** Take your water pill every day, even when you feel well.",
+     "kind": "patient_specific",
+     "reason": "The source gives no explicit instruction to take furosemide every day even when feeling well. It only lists the dose and notes that missed doses contributed to the admission."
+    },
+    {
+     "sentence": "| Metoprolol succinate ER 50 mg | Continue once daily | Protects and slows the heart |",
+     "kind": "general",
+     "reason": "The stated purpose is not in the source. It is generic background applied to the patient's medication, and no references were provided."
+    },
+    {
+     "sentence": "A normal level is roughly 55-70%.",
+     "kind": "general",
+     "reason": "The normal ejection fraction range is not in the source and no references were provided. It is widely accepted, but it is not verifiable here."
+    }
+   ]
+  },
+  {
+   "file": "discharge_pneumonia.txt",
+   "source_grade": 6.8,
+   "full_grade": 6.0,
+   "naive_grade": 5.0,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 2,
+   "full_general_unsupported": 1,
+   "full_claims_checked": 40,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 0,
+   "full_abnormal_coverage": null,
+   "naive_abnormal_coverage": null,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 8,
+   "citations_used": 7,
+   "full_seconds": 15.1,
+   "full_output_tokens": 2333,
+   "full_explanation": "## Overview\n\nThis is a discharge summary. It is a report written when you left the hospital. You were admitted on 01/17/2026 and discharged on 01/20/2026, a stay of 3 days.\n\n## Diagnoses\n\n- **Main diagnosis:** Community-acquired pneumonia in the right lower lobe. Pneumonia is an infection in the lungs that makes the air sacs fill with fluid or pus [1]. \"Community-acquired\" means it started outside the hospital. \"Right lower lobe\" means the lower part of your right lung.\n- **Acute hypoxemic respiratory failure (resolved):** This means your blood did not have enough oxygen [2]. Your document says it is resolved.\n- **Hypertension:** This is high blood pressure, which is the force of blood pushing against your artery walls [3].\n- **Former smoker:** 25 pack-years, quit 7 years ago.\n\n## Why you came in\n\nYou had 4 days of productive cough (a cough that brings up mucus), fever, chills, and right-sided chest pain with deep breaths.\n\nIn the ED:\n- Temperature: 38.9 C (102.0 F). A fever is a body temperature higher than normal [4].\n- HR 108, RR 24, BP 132/78.\n- SpO2 (blood oxygen level) was 89% on room air and 94% on 2 L/min of oxygen through a nasal cannula (small tubes in the nose).\n\n## Tests\n\nNo lab flags were computed for this document. Your report lists these results:\n- WBC (white blood cells, which fight infection): 15.8 x10^3/uL. The report lists a reference range of 4.0-11.0.\n- Neutrophils: 84%.\n- Procalcitonin: 1.2 ng/mL. The report lists a reference of <0.5.\n- BUN: 18 mg/dL.\n- Lactate: 1.4 mmol/L.\n- CURB-65 score: 0. This is a pneumonia severity score. Your document says you were admitted because of low oxygen.\n- **Chest X-ray on 01/17/2026:** It showed right lower lobe consolidation (a lung area filled with fluid or infection) and no pleural effusion (no fluid around the lung). Chest X-rays can detect pneumonia [6].\n- **Blood cultures x2:** No growth to date. The final result is pending.\n- Urine Legionella and pneumococcal antigens: negative.\n- Influenza, COVID-19, and RSV tests: negative.\n\n## Hospital course\n\n- You received ceftriaxone 1 g IV (through a vein) every 24 hours from 01/17 to 01/19.\n- You received azithromycin 500 mg on 01/17, then 250 mg daily.\n- Your fever resolved on 01/18.\n- You were weaned to room air on 01/19.\n- On the morning of 01/20 you were switched to oral amoxicillin-clavulanate to complete a 5-day total course of antibiotics.\n\n**Discharge vitals:** T 36.9 C, HR 84, RR 16, BP 128/76, SpO2 95% on room air (walking).\n\n## Discharge medications\n\n1. **Amoxicillin-clavulanate 875 mg/125 mg:** 1 tablet by mouth twice daily with food. Next dose is this evening. Last dose is the evening of 01/21/2026. It treats bacterial infections, including lung infections [7].\n2. **Azithromycin 250 mg:** 1 tablet by mouth once daily. Last dose is 01/21/2026. It is an antibiotic that treats bacterial infections [8].\n3. **Benzonatate 100 mg:** 1 capsule by mouth three times daily as needed for cough.\n4. **Acetaminophen 650 mg:** by mouth every 6 hours as needed for fever or chest pain. Do not exceed 3,000 mg per day.\n5. **Amlodipine 5 mg:** by mouth once daily. This is your home medication and is unchanged.\n\n## Instructions\n\n- Finish all antibiotics even if you feel better.\n- Cough and tiredness may last 2-6 weeks.\n- Use the incentive spirometer (a handheld breathing exerciser) 10 times every hour while awake.\n- Return to the ED or call if you have any of these:\n  - fever over 38.3 C (101 F)\n  - worsening shortness of breath\n  - chest pain\n  - confusion\n  - being unable to keep fluids down\n  - a home oxygen reading below 92%\n\n## Follow-up\n\n- Primary care with Dr. A. Example, MD on 01/27/2026 at 9:00 AM. The pneumococcal vaccine will be discussed.\n- Repeat chest X-ray the week of 03/09/2026 to confirm the consolidation has cleared.\n- You will be called if the final blood culture results change your treatment.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Hospital Stay, Explained\n\n## Why you were in the hospital\nYou had **pneumonia** (a lung infection) in the lower part of your right lung. Before you came in, you had 4 days of cough with mucus, fever, chills, and chest pain when you took deep breaths. Your oxygen level was low (89%), which is why you were admitted. You needed a small amount of extra oxygen through a tube in your nose for a short time.\n\n## What happened in the hospital\n- You got **IV antibiotics** (ceftriaxone and azithromycin).\n- Your fever went away on 01/18.\n- You were off oxygen by 01/19.\n- Tests for flu, COVID-19, RSV, and two other germs (Legionella and pneumococcus) were negative.\n- Your chest X-ray showed the infection in the right lower lung. There was no fluid around the lung.\n- On the day you left, your temperature, heart rate, blood pressure, and oxygen level (95% walking) were all normal.\n\n## Your medicines at home\n| Medicine | What it's for | How to take it |\n|---|---|---|\n| **Amoxicillin-clavulanate** 875/125 mg | Antibiotic | 1 tablet twice a day with food. Take your next dose **this evening**. **Last dose: evening of 01/21.** |\n| **Azithromycin** 250 mg | Antibiotic | 1 tablet once a day. **Last dose: 01/21.** |\n| **Benzonatate** 100 mg | Cough | 1 capsule up to 3 times a day, only if needed. |\n| **Acetaminophen** 650 mg | Fever or chest pain | Every 6 hours if needed. **No more than 3,000 mg in one day.** Check other products you take for hidden acetaminophen. |\n| **Amlodipine** 5 mg | Blood pressure | Once a day, same as before. No change. |\n\n**Finish all your antibiotics, even if you feel better.**\n\n## Recovering at home\n- Cough and tiredness can last **2 to 6 weeks**. This is normal.\n- Use your **incentive spirometer** (the breathing device) 10 times every hour while you're awake. It helps keep your lungs open.\n- Rest and drink plenty of fluids.\n\n## Go to the ER or call your doctor if you have:\n- Fever over **38.3 \u00b0C (101 \u00b0F)**\n- Worse shortness of breath\n- Chest pain\n- Confusion\n- Trouble keeping fluids down\n- Oxygen reading below **92%** if you check at home\n\n## Follow-up\n- **Dr. Example (primary care): 01/27/2026 at 9:00 AM.** You can ask about a pneumonia (pneumococcal) vaccine at this visit.\n- **Repeat chest X-ray: week of 03/09/2026.** This confirms the infection has cleared.\n- **Blood cultures:** The final results are not back yet. So far they show no growth. The hospital will call you if the results change your treatment.\n\n*This summary is for understanding only. If anything is unclear, ask your doctor or pharmacist.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "\"Community-acquired\" means it started outside the hospital.",
+     "kind": "general",
+     "reason": "Not covered by the references, but it is a plain-language definition of a term and widely accepted background, so it is only marginally a claim; flagged as not backed by references."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Check other products you take for hidden acetaminophen.",
+     "kind": "general",
+     "reason": "This instruction is not in the source discharge instructions. It is reasonable general advice, but it is presented as part of the patient's instructions."
+    },
+    {
+     "sentence": "Rest and drink plenty of fluids.",
+     "kind": "patient_specific",
+     "reason": "The source discharge instructions do not tell the patient to rest or drink plenty of fluids. They only say to return if unable to keep fluids down."
+    },
+    {
+     "sentence": "This is normal.",
+     "kind": "general",
+     "reason": "The source says cough and tiredness may last 2-6 weeks but does not call this normal. This overstates certainty and applies it to the patient as a finding."
+    },
+    {
+     "sentence": "It helps keep your lungs open.",
+     "kind": "general",
+     "reason": "No reference was provided to support this claim. It is a plausible general statement about incentive spirometers but is not in the source."
+    },
+    {
+     "sentence": "This confirms the infection has cleared.",
+     "kind": "patient_specific",
+     "reason": "The source says the repeat X-ray is to confirm the consolidation has cleared. The explanation instead says the X-ray confirms the infection has cleared, which is a different and stronger claim."
+    }
+   ]
+  },
+  {
+   "file": "lab_all_normal_physical.txt",
+   "source_grade": 5.2,
+   "full_grade": 4.4,
+   "naive_grade": 7.1,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 4,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 49,
+   "naive_claims_checked": 19,
+   "judge_errors": [],
+   "abnormal_labs": 0,
+   "full_abnormal_coverage": null,
+   "naive_abnormal_coverage": null,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 0,
+   "citations_used": 0,
+   "full_seconds": 13.2,
+   "full_output_tokens": 2201,
+   "full_explanation": "## About this report\n\nThis is a lab report from your annual physical. Your blood was collected on 10/05/2026 at 07:55 after fasting (not eating for a set time). The report was finished on 10/05/2026 at 14:30. Two sets of tests were done: a comprehensive metabolic panel and a complete blood count (CBC) with differential.\n\nEvery result below is within the range printed on your report.\n\n## Comprehensive metabolic panel\n\nThis is a group of blood tests that looks at things like blood sugar, kidney function, salts in the blood (electrolytes), and liver function.\n\n- **Glucose** (blood sugar): 88 mg/dL. Within the range on your report (65-99).\n- **BUN** (blood urea nitrogen, a waste product): 14 mg/dL. Within the range (6-20).\n- **Creatinine** (another waste product): 0.82 mg/dL. Within the range (0.57-1.00).\n- **eGFR** (an estimate of how well the kidneys filter blood): 96 mL/min/1.73m2. Within the range (>59).\n- **Sodium**: 140 mmol/L. Within the range (134-144).\n- **Potassium**: 4.2 mmol/L. Within the range (3.5-5.2).\n- **Chloride**: 103 mmol/L. Within the range (96-106).\n- **Carbon Dioxide, Total**: 24 mmol/L. Within the range (20-29).\n- **Calcium**: 9.4 mg/dL. Within the range (8.7-10.2).\n- **Protein, Total**: 7.1 g/dL. Within the range (6.0-8.5).\n- **Albumin** (a main protein in blood): 4.4 g/dL. Within the range (3.9-4.9).\n- **Globulin, Total** (another group of blood proteins): 2.7 g/dL. Within the range (1.5-4.5).\n- **A/G Ratio** (albumin compared to globulin): 1.6. Within the range (1.2-2.2).\n- **Bilirubin, Total** (a yellow substance made when old red blood cells break down): 0.6 mg/dL. Within the range (0.0-1.2).\n- **Alkaline Phosphatase** (a liver and bone enzyme): 68 U/L. Within the range (44-121).\n- **AST (SGOT)** (a liver enzyme): 21 U/L. Within the range (0-40).\n- **ALT (SGPT)** (a liver enzyme): 18 U/L. Within the range (0-32).\n\n## CBC with differential\n\nA CBC counts the cells in your blood. The \"differential\" part shows the share of each type of white blood cell.\n\n- **WBC** (white blood cells, which help fight infection): 6.1 x10^3/uL. Within the range (3.4-10.8).\n- **RBC** (red blood cells, which carry oxygen): 4.48 x10^6/uL. Within the range (3.77-5.28).\n- **Hemoglobin** (the oxygen-carrying protein in red blood cells): 13.6 g/dL. Within the range (11.1-15.9).\n- **Hematocrit** (the percent of blood made up of red blood cells): 40.8%. Within the range (34.0-46.6).\n- **MCV** (average size of red blood cells): 91 fL. Within the range (79-97).\n- **MCH** (average amount of hemoglobin in each red blood cell): 30.4 pg. Within the range (26.6-33.0).\n- **MCHC** (average hemoglobin concentration in red blood cells): 33.3 g/dL. Within the range (31.5-35.7).\n- **RDW** (how much red blood cell sizes vary): 12.9%. Within the range (11.7-15.4).\n- **Platelets** (cell pieces that help blood clot): 248 x10^3/uL. Within the range (150-450).\n- **Neutrophils**: 58%. Within the range (40-74).\n- **Lymphocytes**: 32%. Within the range (14-46).\n- **Monocytes**: 7%. Within the range (4-12).\n- **Eosinophils**: 2%. Within the range (0-5).\n- **Basophils**: 1%. Within the range (0-3).\n\n## Provider comment\n\nDr. B. Sample wrote that all results are within the reference range, and that kidney, liver, electrolyte, and blood count values are normal. The comment says no changes are needed, to continue current healthy habits, and to repeat routine labs at next year's physical.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Lab Results, Explained Simply\n\n**The bottom line:** Your blood work is normal. Every result falls within the expected range, and your doctor sees no problems and recommends no changes.\n\n## What was tested\n\nYou had two common blood panels, drawn while fasting (no food beforehand).\n\n### 1. Comprehensive Metabolic Panel (a check of your body's chemistry)\n- **Blood sugar (glucose 88):** Normal. No sign of diabetes or prediabetes.\n- **Kidney tests (BUN, creatinine, eGFR):** Normal. Your kidneys are filtering well. An eGFR of 96 is a healthy result.\n- **Electrolytes (sodium, potassium, chloride, carbon dioxide, calcium):** All balanced. These minerals matter for your nerves, muscles, and heart.\n- **Liver tests (AST, ALT, alkaline phosphatase, bilirubin):** Normal. Your liver shows no sign of irritation or damage.\n- **Proteins (total protein, albumin, globulin, A/G ratio):** Normal. These reflect nutrition, liver function, and immune health.\n\n### 2. Complete Blood Count (CBC) with Differential (a check of your blood cells)\n- **Red blood cells, hemoglobin, hematocrit and related values:** Normal. This means no anemia, and your blood is carrying oxygen well.\n- **White blood cells and their types (neutrophils, lymphocytes, etc.):** Normal. There are no signs of infection or immune problems.\n- **Platelets:** Normal. Your blood should clot as expected.\n\n## What this means for you\n- No further testing or treatment is needed based on these results.\n- Keep up your current healthy habits.\n- Repeat routine labs at next year's physical.\n\n## A note\nNormal labs are reassuring, but they don't test for everything. If you notice new symptoms or have questions, contact your doctor's office anytime.",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "**Blood sugar (glucose 88):** Normal. No sign of diabetes or prediabetes.",
+     "kind": "patient_specific",
+     "reason": "Glucose 88 is normal, but the source never says there is no sign of diabetes or prediabetes. A single fasting glucose does not rule out prediabetes, and no HbA1c was done."
+    },
+    {
+     "sentence": "Your kidneys are filtering well.",
+     "kind": "patient_specific",
+     "reason": "The source says kidney values are normal but never makes this interpretation. It is a mild extrapolation, though consistent with the normal eGFR."
+    },
+    {
+     "sentence": "Your liver shows no sign of irritation or damage.",
+     "kind": "patient_specific",
+     "reason": "The source says only that liver values are normal. It never states that there is no sign of irritation or damage, which overstates what these tests can show."
+    },
+    {
+     "sentence": "There are no signs of infection or immune problems.",
+     "kind": "patient_specific",
+     "reason": "The source reports normal WBC and differential counts, but never concludes there is no infection or immune problem. This overstates what the counts show."
+    }
+   ]
+  },
+  {
+   "file": "lab_cbc_iron_deficiency.txt",
+   "source_grade": 6.6,
+   "full_grade": 5.1,
+   "naive_grade": 6.3,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 3,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 38,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 11,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 0.909,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 8,
+   "citations_used": 7,
+   "full_seconds": 14.3,
+   "full_output_tokens": 2016,
+   "full_explanation": "## About this report\n\nThis is a blood test report collected on 02/10/2026 and reported the same day. It includes a complete blood count (CBC, a test that counts and measures your blood cells), iron studies, a look at your blood cells under a microscope (a peripheral smear), and a comment from Dr. A. Example, MD.\n\n## Complete blood count (CBC)\n\nBelow, \"range\" means the range printed on your report.\n\n**Red blood cell measures (all below the range on your report unless noted):**\n\n- **Hemoglobin: 9.8 g/dL** (range 12.0-15.5), below the range. Hemoglobin is an iron-rich protein in red blood cells that carries oxygen from your lungs to the rest of your body. [1]\n- **Hematocrit: 31.0%** (range 36.0-46.0), below the range. This is the percent of your blood made up of red blood cells. [2]\n- **RBC (red blood cell count): 4.10 x10^6/uL** (range 4.20-5.40), below the range. This counts how many red blood cells you have. [4]\n- **MCV: 75.6 fL** (range 80.0-100.0), below the range. MCV is the average size of your red blood cells. [3]\n- **MCH: 23.9 pg** (range 27.0-33.0), below the range. MCH is the average amount of hemoglobin in each red blood cell.\n- **MCHC: 31.6 g/dL** (range 32.0-36.0), below the range. MCHC is how concentrated the hemoglobin is in your red blood cells.\n- **RDW: 17.8%** (range 11.5-14.5), above the range. RDW shows how much your red blood cells vary in size.\n\n**Within the range on your report:**\n\n- WBC (white blood cells, which help fight infection): 6.4 x10^3/uL (range 4.0-11.0)\n- Platelets (cells that help blood clot): 412 x10^3/uL (range 150-450)\n- Neutrophils: 61% (range 40-74)\n- Lymphocytes: 29% (range 19-48)\n- Monocytes: 7% (range 3-12)\n- Eosinophils: 2% (range 0-7)\n- Basophils: 1% (range 0-2)\n\nThe last five are types of white blood cells (the \"differential\").\n\n## Iron studies\n\n- **Ferritin: 6 ng/mL** (range 15-150), below the range. Ferritin is a protein that binds to iron and stores it in your body. [5]\n- **Iron, serum: 28 ug/dL** (range 50-170), below the range. This is the amount of iron in the liquid part of your blood.\n- **TIBC: 452 ug/dL** (range 250-450), above the range. TIBC (total iron-binding capacity) shows how much room your blood has to carry iron.\n- **Transferrin saturation: 6%** (range 20-50), below the range. This shows how much of the iron-carrying protein (transferrin) is filled with iron.\n\n## Peripheral smear\n\nA smear is when a lab specialist looks at your blood cells under a microscope. Yours showed:\n\n- Microcytic (small) and hypochromic (pale) red cells, with moderate anisocytosis (red cells of uneven sizes).\n- Occasional pencil cells (long, thin red cells).\n- No schistocytes (broken pieces of red cells).\n- Platelets adequate.\n\n## Provider comment\n\nDr. Example wrote that the findings are consistent with **iron deficiency anemia**. Anemia means your blood does not carry enough oxygen to the rest of your body. [6] Iron deficiency anemia happens when you don't have enough iron in your body. [3]\n\nThe comment also says you reported heavy menstrual periods for the past year and fatigue with exercise.\n\n## Medication\n\n- **Ferrous sulfate 325 mg (65 mg elemental iron)** by mouth once daily.\n- Take it with water or orange juice, and not with tea, coffee, or calcium.\n- Ferrous sulfate is an iron supplement. It gives the body iron to help make red blood cells. [8]\n\n## Follow-up\n\n- A gynecology referral has been placed. Gynecology is the medical care of the female reproductive system.\n- Repeat CBC and ferritin in 8 weeks (on or after 04/07/2026).\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Blood Test Results, Explained Simply\n\n## The main finding\nYou have **iron deficiency anemia**. This means your body doesn't have enough iron to make healthy red blood cells. Red blood cells carry oxygen around your body, so when you don't have enough of them, you can feel tired, especially during exercise.\n\n## What the numbers show\n\n**Red blood cells (low)**\n- **Hemoglobin (9.8, normal is 12.0-15.5):** This is the protein in red blood cells that carries oxygen. Yours is lower than normal.\n- **Hematocrit and RBC count:** Also a bit low, which fits with anemia.\n- **MCV, MCH, MCHC:** These show your red blood cells are smaller and paler than normal, which is typical when iron is low.\n- **RDW (high):** Your red blood cells vary more in size than usual.\n\n**Iron levels (low)**\n- **Ferritin (6, normal is 15-150):** This shows your iron stores. Yours are very low, which is the clearest sign of iron deficiency.\n- **Serum iron and transferrin saturation:** Both low, meaning little iron is circulating in your blood.\n- **TIBC (slightly high):** Your body is producing more \"iron-carrying\" capacity, trying to grab all the iron it can.\n\n**Normal results**\n- Your white blood cells (which fight infection) and platelets (which help blood clot) are normal.\n\n**Blood smear (looking at cells under a microscope)**\nThe cells looked small and pale, with a few \"pencil-shaped\" cells. These are common in iron deficiency. There was no sign of cell damage.\n\n## Likely cause\nYour doctor noted that you've had **heavy periods for the past year**. Losing extra blood each month is a common reason for low iron.\n\n## The plan\n1. **Take iron:** Ferrous sulfate 325 mg, once a day by mouth.\n   - Take it with **water or orange juice** (vitamin C helps absorption).\n   - Avoid taking it with **tea, coffee, or calcium** (including dairy and calcium supplements), since these block absorption.\n   - Common side effects: constipation, upset stomach, dark or black stools. Dark stools are expected with iron.\n2. **See a gynecologist:** A referral has been placed to look into the heavy periods. Treating the cause is important so the iron doesn't drop again.\n3. **Repeat blood tests:** Get a CBC and ferritin check **on or after April 7, 2026**, to see if the treatment is working.\n\n## When to contact your doctor\n- Chest pain, fainting, a racing heart, or severe shortness of breath\n- Very heavy bleeding (soaking through a pad or tampon every hour for several hours)\n- Side effects from the iron that you can't tolerate\n\nThis explanation is general. Please talk with your doctor about any questions about your own results.",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Common side effects: constipation, upset stomach, dark or black stools. Dark stools are expected with iron.",
+     "kind": "general",
+     "reason": "Side effects of iron are not in the source and no references were retrieved; this is widely accepted background, but it is not documented for this patient."
+    },
+    {
+     "sentence": "Chest pain, fainting, a racing heart, or severe shortness of breath",
+     "kind": "patient_specific",
+     "reason": "Warning-sign instruction not in the source; the provider gave no such contact instructions."
+    },
+    {
+     "sentence": "Very heavy bleeding (soaking through a pad or tampon every hour for several hours)",
+     "kind": "patient_specific",
+     "reason": "Specific contact threshold not in the source; the provider gave no such instruction."
+    },
+    {
+     "sentence": "Side effects from the iron that you can't tolerate",
+     "kind": "patient_specific",
+     "reason": "Instruction to contact the doctor about side effects is not in the source."
+    }
+   ]
+  },
+  {
+   "file": "lab_diabetes_a1c_followup.txt",
+   "source_grade": 7.9,
+   "full_grade": 5.6,
+   "naive_grade": 5.3,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 2,
+   "full_general_unsupported": 1,
+   "full_claims_checked": 27,
+   "naive_claims_checked": 22,
+   "judge_errors": [],
+   "abnormal_labs": 2,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 0.5,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 6,
+   "citations_used": 5,
+   "full_seconds": 10.7,
+   "full_output_tokens": 1303,
+   "full_explanation": "## About this report\n\nThis is a diabetes monitoring panel. It was collected on 07/21/2026 and reported on 07/22/2026. It compares your current results with your previous ones from 04/16/2026.\n\n## Diagnosis\n\nYour provider's note says this is a follow-up for **type 2 diabetes**. This is a condition where blood sugar (glucose) levels are too high because the body doesn't make enough insulin or doesn't use it well. Insulin is a hormone that helps move glucose from the blood into your cells for energy [4].\n\n## Lab results\n\n**Hemoglobin A1c: 7.8%** (previous 8.6%)\n- This test shows your average blood sugar over the past two to three months [2].\n- Your result is above the range on your report (4.0-5.6).\n- Your report lists a treatment goal of <7.0% for most adults with diabetes. Your provider notes that your A1c improved from 8.6% to 7.8% but is still above the goal of <7.0%.\n- Estimated average glucose was 177 mg/dL (previous 200 mg/dL).\n\n**Fasting glucose: 146 mg/dL** (previous 171 mg/dL)\n- This measures the sugar in your blood after not eating [1].\n- Your result is above the range on your report (70-99). Your provider notes it improved.\n\n**Kidney tests**\n- Creatinine, serum: 0.98 mg/dL (previous 1.01). This is within the range on your report (0.70-1.30). Creatinine is a waste product that the kidneys filter out.\n- eGFR: 89 mL/min/1.73m2 (previous 86). This is within the range on your report (>=60). eGFR is an estimate of how well your kidneys filter.\n- Urine albumin/creatinine ratio: 18 mg/g (previous 23). This is within the range on your report (<30). It checks for albumin, a protein, leaking into the urine.\n- Urine albumin was 21 mg/L (previous 26) and urine creatinine was 118 mg/dL (previous 112). Your report did not list ranges for these two.\n- Your provider's note says your kidney function and urine albumin are normal.\n\n## Medications\n\n- **Metformin 1000 mg by mouth twice daily with meals.** Your note says it was increased to this dose in April, and the plan is to continue it. Metformin is a medicine for type 2 diabetes. It helps control the amount of glucose in your blood [5].\n- **Empagliflozin 10 mg by mouth once daily in the morning.** This is a new medicine added in the plan. It lowers blood sugar by causing the kidneys to remove more glucose in the urine [6].\n\n## Follow-up\n\n- Repeat A1c in 3 months (October 2026).\n- Your annual dilated eye exam is due. This is an eye exam using drops that widen the pupils.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Diabetes Check-Up Results, Explained\n\n## The big picture\nYour diabetes is **getting better**, but it isn't quite at goal yet. Your kidneys look healthy.\n\n## Your results\n\n**A1c: 7.8% (was 8.6%)**\nThis test shows your average blood sugar over the past 2-3 months. It went down, which is good news. The goal for most adults with diabetes is under 7.0%, so you're close but not there yet.\n\n**Estimated average glucose: 177 (was 200)**\nThis is just another way of expressing your A1c as an average blood sugar number. It's also improving.\n\n**Fasting glucose: 146 (was 171)**\nThis is your blood sugar after not eating overnight. A normal level is 70-99. Yours is still high but moving in the right direction.\n\n**Kidney tests: normal**\n- **Creatinine (0.98) and eGFR (89):** These show how well your kidneys filter your blood. Both are in the healthy range.\n- **Urine albumin/creatinine ratio (18):** This checks for protein leaking into the urine, an early sign of kidney damage from diabetes. Under 30 is normal, so yours is fine.\n\nDiabetes can harm the kidneys over time, so it's good that these stay normal.\n\n## What your doctor wants you to do\n1. **Keep taking metformin** 1000 mg twice a day with meals. The increase in April appears to be helping.\n2. **Start a new medicine, empagliflozin** (10 mg once each morning). It helps your body remove extra sugar through urine and is meant to bring your A1c closer to goal.\n3. **Repeat the A1c test in about 3 months** (October 2026).\n4. **Get your yearly dilated eye exam.** It's due now. Diabetes can affect the eyes without causing symptoms early on.\n\n## Helpful things to know about empagliflozin\nAsk your doctor or pharmacist about these:\n- You may urinate more often. Drink enough fluids.\n- Genital yeast infections and urinary infections can happen, so good hygiene helps. Tell your doctor if you notice itching, pain, or redness.\n- Contact your doctor if you are sick with vomiting or diarrhea or can't eat or drink, since you may need to pause the medicine.\n\n## Questions to ask your doctor\n- What A1c goal is right for me?\n- What side effects should I watch for with the new medicine?\n- Should I check my blood sugar at home?\n\n*This summary is for understanding only. Follow your own doctor's advice for your care.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "This measures the sugar in your blood after not eating [1].",
+     "kind": "general",
+     "reason": "Reference [1] describes a general blood glucose test and does not mention fasting, but this is widely accepted background for a fasting glucose test, so it is only a minor citation mismatch."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "It helps your body remove extra sugar through urine and is meant to bring your A1c closer to goal.",
+     "kind": "general",
+     "reason": "Mechanism is widely accepted background, but the stated intent (bring A1c closer to goal) is not stated in the source note, which only lists the plan to add empagliflozin; it applies an unstated purpose to this patient."
+    },
+    {
+     "sentence": "The increase in April appears to be helping.",
+     "kind": "patient_specific",
+     "reason": "The source notes A1c improved since the metformin increase, but does not attribute the improvement to it; causal inference is stated as appearing to help beyond the note."
+    },
+    {
+     "sentence": "Your diabetes is **getting better**, but it isn't quite at goal yet.",
+     "kind": "patient_specific",
+     "reason": "Mostly supported by improved A1c and fasting glucose, but 'diabetes is getting better' is a broader characterization than the source's statement that A1c improved; minor overstatement."
+    }
+   ]
+  },
+  {
+   "file": "lab_kidney_ckd_stage3.txt",
+   "source_grade": 7.7,
+   "full_grade": 5.6,
+   "naive_grade": 7.0,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 4,
+   "full_general_unsupported": 1,
+   "full_claims_checked": 27,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 4,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 0.75,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 7,
+   "citations_used": 7,
+   "full_seconds": 11.1,
+   "full_output_tokens": 1641,
+   "full_explanation": "## About this report\n\nThis is a basic metabolic panel (BMP). It is a blood test that checks several chemicals in your blood, including some that show how your kidneys are working. It was collected on 09/08/2026 and ordered by Dr. C. Placeholder, DO.\n\n## Lab results\n\n**Results above the range on your report:**\n- **BUN: 34 mg/dL** (range on report: 8-23). BUN, or blood urea nitrogen, measures a waste product that forms when your body breaks down protein. Your kidneys normally remove it in urine. [1]\n- **Creatinine: 1.60 mg/dL** (range on report: 0.74-1.35). Creatinine is a waste product made when muscles are used. [2]\n- **BUN/Creatinine Ratio: 21** (range on report: 10-20). This compares the two values above.\n\n**Result below the range on your report:**\n- **eGFR: 48 mL/min/1.73m2** (range on report: >=60). eGFR is an estimate of how well your kidneys filter your blood. Your report says it was calculated with the CKD-EPI 2021 creatinine equation (race-free). [3]\n\n**Results within the range on your report:**\n- Sodium: 139 mmol/L (range 136-145)\n- Potassium: 5.0 mmol/L (range 3.5-5.1)\n- Chloride: 106 mmol/L (range 98-107)\n- CO2 (Bicarbonate): 22 mmol/L (range 22-29)\n- Anion Gap: 11 mmol/L (range 7-16)\n- Glucose: 97 mg/dL (range 70-99)\n- Calcium: 9.1 mg/dL (range 8.6-10.3)\n\n## Trend\n\nYour report lists your earlier results:\n\n| Date | Creatinine (mg/dL) | eGFR (mL/min/1.73m2) |\n|---|---|---|\n| 02/17/2026 | 1.52 | 51 |\n| 06/02/2026 | 1.55 | 50 |\n| 09/08/2026 | 1.60 | 48 |\n\nThe report also gives these eGFR stages: G1 >=90, G2 60-89, G3a 45-59, G3b 30-44, G4 15-29, G5 <15.\n\n## Provider comment\n\nYour provider wrote that your eGFR has been between 45 and 59 for more than 3 months. They say this is consistent with **chronic kidney disease (CKD) stage G3a**. CKD means the kidneys are damaged and can't filter blood as they should. [4] Your provider wrote that it is likely related to long-standing **hypertension** (high blood pressure), which is the force of blood pushing against artery walls. [5]\n\nYour provider also noted that your potassium of 5.0 mmol/L is at the upper end of normal.\n\n## Medications\n\n- **Lisinopril 20 mg daily:** Your provider wrote to continue it. Lisinopril is an ACE inhibitor, a type of medicine used to treat high blood pressure. [7]\n- **Avoid NSAIDs** such as ibuprofen and naproxen. NSAIDs are a type of over-the-counter pain reliever. [6]\n\n## Diet\n\nYour provider wrote to limit high-potassium foods and salt substitutes.\n\n## Follow-up\n\n- A urine albumin/creatinine ratio test has been ordered.\n- Repeat BMP in 3 months (early December 2026).\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Kidney Blood Test, Explained Simply\n\n## The big picture\nThis test shows your kidneys are working at about **half to a bit under two-thirds of normal capacity**. This is called **chronic kidney disease (CKD), stage 3a**, which is a mild-to-moderate reduction. Your doctor thinks it's most likely from **long-standing high blood pressure**. It has been slowly changing, not suddenly getting worse.\n\n## Key results\n\n**Kidney function markers (these are out of range):**\n- **Creatinine 1.60 (high):** A waste product your kidneys filter out. Higher means the kidneys are filtering less well.\n- **eGFR 48 (low):** An estimate of how well your kidneys filter. Normal is 60 or higher. Yours falls in stage G3a (45-59).\n- **BUN 34 (high):** Another waste product. It can run higher with reduced kidney function, and sometimes with mild dehydration.\n\n**Normal results:**\n- Sodium, chloride, calcium, glucose (no sign of diabetes range), and anion gap are all normal.\n- **Potassium 5.0:** Normal, but at the top of the range. This matters because of your medication (see below).\n- **Bicarbonate 22:** Normal, right at the lower edge.\n\n## The trend\n| Date | eGFR |\n|---|---|\n| Feb 2026 | 51 |\n| June 2026 | 50 |\n| Sept 2026 | 48 |\n\nThere's a slight, slow downward drift over about 7 months. It's a small change, but it's worth watching, which is why your doctor is monitoring closely.\n\n## What your doctor recommends\n1. **Keep taking lisinopril 20 mg daily.** It lowers blood pressure and helps protect the kidneys. Don't stop it unless your doctor tells you to.\n2. **Limit high-potassium foods** (such as bananas, oranges, potatoes, tomatoes, and spinach) and **avoid salt substitutes**, which are often made of potassium. Lisinopril can raise potassium, and kidneys with reduced function clear it more slowly.\n3. **Avoid NSAIDs** like ibuprofen (Advil, Motrin) and naproxen (Aleve). They can harm the kidneys. Acetaminophen (Tylenol) is usually the safer choice for pain, but check with your doctor.\n4. **Urine test (albumin/creatinine ratio):** This checks for protein leaking into your urine, an important early sign of kidney damage that helps guide treatment.\n5. **Repeat blood test in about 3 months** (early December 2026).\n\n## Helpful habits\n- Take blood pressure medicine as prescribed and keep your blood pressure well controlled.\n- Stay well hydrated unless you've been told to limit fluids.\n- Tell any doctor or pharmacist you have kidney disease before starting new medicines or supplements.\n\n## Call your doctor if you notice\n- Much less urine than usual\n- Swelling in your legs, ankles, or face\n- Muscle weakness, an irregular heartbeat, or palpitations (possible high potassium)\n- Persistent vomiting, diarrhea, or inability to drink fluids\n\n## Questions to ask your doctor\n- What is my urine protein result, and what does it mean for treatment?\n- Is my blood pressure at the right goal?\n- Should I see a dietitian?\n\n*This is a general explanation, not a replacement for advice from your own care team.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "NSAIDs are a type of over-the-counter pain reliever. [6]",
+     "kind": "general",
+     "reason": "Reference [6] does not mention NSAIDs; it only names acetaminophen as an OTC pain reliever. The claim is widely accepted background (NSAIDs such as ibuprofen and naproxen are sold OTC), but the citation does not support it."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "This test shows your kidneys are working at about **half to a bit under two-thirds of normal capacity**.",
+     "kind": "patient_specific",
+     "reason": "The source reports eGFR 48 but never states a percentage of normal function. The phrasing 'half to under two-thirds' is an interpretation that does not match the stated figure well, since 48 is slightly under half of a normal ~100."
+    },
+    {
+     "sentence": "It has been slowly changing, not suddenly getting worse.",
+     "kind": "patient_specific",
+     "reason": "The source shows a small eGFR decline over three measurements but does not characterize the course as slowly changing or rule out sudden worsening."
+    },
+    {
+     "sentence": "There's a slight, slow downward drift over about 7 months. It's a small change, but it's worth watching, which is why your doctor is monitoring closely.",
+     "kind": "patient_specific",
+     "reason": "The provider comment does not describe a downward drift or say the doctor is monitoring closely because of it; it only orders a repeat BMP in 3 months."
+    },
+    {
+     "sentence": "**BUN 34 (high):** Another waste product. It can run higher with reduced kidney function, and sometimes with mild dehydration.",
+     "kind": "general",
+     "reason": "No references were retrieved to support this. The dehydration mention is general background, and the source does not suggest dehydration for this patient."
+    },
+    {
+     "sentence": "Stay well hydrated unless you've been told to limit fluids.",
+     "kind": "patient_specific",
+     "reason": "Hydration advice is not in the provider's instructions in the source."
+    },
+    {
+     "sentence": "Acetaminophen (Tylenol) is usually the safer choice for pain, but check with your doctor.",
+     "kind": "general",
+     "reason": "The source does not mention acetaminophen; the claim is a recommendation not given by the provider."
+    }
+   ]
+  },
+  {
+   "file": "lab_lipid_panel_borderline.txt",
+   "source_grade": 8.0,
+   "full_grade": 6.4,
+   "naive_grade": 6.6,
+   "full_numeric": 1.0,
+   "naive_numeric": 0.95,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [
+    "30"
+   ],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 5,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 31,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 4,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 0.75,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 6,
+   "citations_used": 5,
+   "full_seconds": 8.8,
+   "full_output_tokens": 1396,
+   "full_explanation": "## About this report\n\nThis is a fasting lipid panel. It is a blood test that measures cholesterol and triglycerides (a type of fat) in your blood [1]. Your blood was collected on 04/14/2026 after fasting for 12 hours. Cholesterol is a waxy, fat-like substance found in every cell of your body [1].\n\n## Lab results\n\nBelow, \"range on your report\" means the range printed on your lab report.\n\n- **Total Cholesterol: 224 mg/dL.** This is above the range on your report (<200).\n- **Triglycerides: 168 mg/dL.** This is above the range on your report (<150). Triglycerides are a type of fat in your blood [2].\n- **HDL Cholesterol: 46 mg/dL.** This is within the range on your report (>40). HDL is sometimes called the \"good\" cholesterol. It carries cholesterol from other parts of your body back to your liver [6].\n- **LDL Cholesterol (calculated): 144 mg/dL.** This is above the range on your report (<100). LDL is sometimes called the \"bad\" cholesterol [6]. \"Calculated\" means the LDL is an estimate based on your total cholesterol, HDL, and triglycerides [1]. Your report says it used the Friedewald equation (LDL = TC - HDL - TG/5).\n- **VLDL Cholesterol (calculated): 34 mg/dL.** This is within the range on your report (5-40). VLDL stands for very-low-density lipoprotein. Your liver makes it, and it mainly carries triglycerides to your tissues [3].\n- **Non-HDL Cholesterol: 178 mg/dL.** This is above the range on your report (<130).\n- **Chol/HDL Ratio: 4.9.** This is within the range on your report (<5.0).\n\nYour report also lists category tables. For LDL, 130-159 mg/dL is \"borderline high.\" For triglycerides, 150-199 mg/dL is \"borderline high.\"\n\n## Provider comment\n\nYour provider wrote that your LDL of 144 mg/dL and triglycerides of 168 mg/dL are in the borderline-high range.\n\nThe note also lists:\n- Blood pressure at the visit: 128/80\n- Non-smoker\n- No diabetes\n- Estimated 10-year ASCVD risk: 5.6% (borderline). ASCVD stands for atherosclerotic cardiovascular disease, which is heart and blood vessel disease linked to plaque buildup.\n\n## Plan\n\n- A heart-healthy diet low in saturated fat. Saturated fats include foods like butter, solid shortening, and lard [4].\n- 150 minutes per week of moderate exercise.\n- Limit alcohol.\n- No statin at this time. Statins are a type of cholesterol medicine [6].\n\n## Follow-up\n\n- Recheck a fasting lipid panel in 3 months (mid-July 2026).\n- Your provider will revisit a statin if your LDL stays at or above 130 mg/dL.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Cholesterol Results, Explained\n\n## The short version\nYour cholesterol is somewhat higher than ideal, but not dangerously high. Your doctor's plan is to start with lifestyle changes and recheck in 3 months. You don't need medication right now.\n\n## Your numbers\n\n| Test | Your result | Goal | What it means |\n|---|---|---|---|\n| **Total cholesterol** | 224 | Under 200 | Mildly high |\n| **LDL (\"bad\") cholesterol** | 144 | Under 100 | Borderline high |\n| **HDL (\"good\") cholesterol** | 46 | Over 40 | Acceptable |\n| **Triglycerides** (a type of blood fat) | 168 | Under 150 | Borderline high |\n| **Non-HDL cholesterol** | 178 | Under 130 | Higher than ideal |\n| **Cholesterol/HDL ratio** | 4.9 | Under 5.0 | Just within the goal |\n\n**LDL** is the main one to watch. Over many years, high LDL can build up in artery walls and raise the risk of heart attack and stroke.\n\n**HDL** helps clear cholesterol from the blood. Yours is in an acceptable range, though higher is better.\n\n## Your heart risk\nYour doctor estimated a **5.6% chance of a heart attack or stroke over the next 10 years**. This is considered borderline, meaning it's not high, but it's worth taking steps to lower it. In your favor: you don't smoke, you don't have diabetes, and your blood pressure (128/80) is only slightly above the ideal.\n\n## The plan\n1. **Eat heart-healthy.** Cut back on saturated fat (fatty red meat, butter, cheese, fried and processed foods). Eat more vegetables, fruit, whole grains, beans, nuts, and fish.\n2. **Exercise.** Aim for 150 minutes a week of moderate activity, such as brisk walking (about 30 minutes, 5 days a week).\n3. **Limit alcohol**, which can raise triglycerides.\n4. **No statin for now.** Statins are cholesterol-lowering medicines.\n5. **Repeat blood test in about 3 months (mid-July 2026).** Fast for 12 hours beforehand, as you did this time.\n\n## What could happen next\nIf your LDL is still **130 or higher** at the recheck, your doctor will likely talk with you about starting a statin. This is a conversation, not an automatic decision.\n\n## Questions to ask your doctor\n- How much could diet and exercise realistically lower my numbers?\n- Does my family history change the plan?\n- Should I do anything about my blood pressure?\n\nContact your doctor sooner if you develop chest pain, shortness of breath, or other concerning symptoms.\n\n*This explanation is for general understanding and doesn't replace advice from your own doctor.*",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Your cholesterol is somewhat higher than ideal, but not dangerously high.",
+     "kind": "patient_specific",
+     "reason": "The source calls values borderline high but never says they are 'not dangerously high'; this is an added judgment."
+    },
+    {
+     "sentence": "Your blood pressure (128/80) is only slightly above the ideal.",
+     "kind": "patient_specific",
+     "reason": "The source gives BP 128/80 but no interpretation of it as slightly above ideal; the comment is not in the source."
+    },
+    {
+     "sentence": "Contact your doctor sooner if you develop chest pain, shortness of breath, or other concerning symptoms.",
+     "kind": "patient_specific",
+     "reason": "This instruction is not in the source; the provider did not give any symptom-based guidance."
+    },
+    {
+     "sentence": "Fast for 12 hours beforehand, as you did this time.",
+     "kind": "patient_specific",
+     "reason": "The source documents a 12-hour fast for this draw but does not instruct a 12-hour fast for the repeat panel."
+    },
+    {
+     "sentence": "Total cholesterol | 224 | Under 200 | Mildly high",
+     "kind": "patient_specific",
+     "reason": "The source flags total cholesterol HIGH and does not describe it as 'mildly' high; the severity qualifier is an addition."
+    }
+   ]
+  },
+  {
+   "file": "lab_liver_panel_elevated.txt",
+   "source_grade": 10.2,
+   "full_grade": 6.6,
+   "naive_grade": 6.2,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 4,
+   "full_general_unsupported": 1,
+   "full_claims_checked": 27,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 3,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 1.0,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 7,
+   "citations_used": 7,
+   "full_seconds": 10.0,
+   "full_output_tokens": 1506,
+   "full_explanation": "## About this report\n\nThis is a liver blood test report (a \"hepatic function panel\") collected on 08/03/2026 at 10:25. You were not fasting. Dr. B. Sample ordered it, and the status is FINAL.\n\n## Lab results\n\nThe numbers below are compared with the ranges printed on your report.\n\n**Above the range on your report:**\n- **ALT (SGPT): 142 U/L** (range 7 - 56). ALT is an enzyme found mainly in your liver. It is often checked to look for liver damage or disease. [2]\n- **AST (SGOT): 98 U/L** (range 10 - 40). AST is an enzyme too. Doctors use it to help look for liver damage or disease. [1]\n- **GGT: 88 U/L** (range 8 - 61). This was an add-on test, meaning it was added to the same blood sample.\n\n**Within the range on your report:**\n- Alkaline Phosphatase: 104 U/L (range 44 - 147)\n- Total Bilirubin: 0.9 mg/dL (range 0.1 - 1.2)\n- Direct Bilirubin: 0.2 mg/dL (range 0.0 - 0.3)\n- Albumin: 4.2 g/dL (range 3.5 - 5.0)\n- Total Protein: 7.3 g/dL (range 6.0 - 8.3)\n\n**Lab note:** The lab described a \"hepatocellular pattern.\" This means ALT and AST are elevated while alkaline phosphatase and bilirubin are normal. The AST/ALT ratio is listed as 0.7.\n\n## Provider comment\n\nYour doctor wrote that:\n- Your ALT was 61 U/L on 03/02/2026 and has more than doubled.\n- Albumin and bilirubin are normal, so liver function is preserved.\n- Your BMI is 33.\n- You reported 2-3 alcoholic drinks per week and no new medications or supplements.\n\nThe doctor listed several possibilities (a \"differential\") that are being considered:\n- **Metabolic dysfunction-associated steatotic liver disease (fatty liver):** too much fat builds up in the liver. [4]\n- **Alcohol** as a factor. [3]\n- **Medication effect.**\n- **Viral hepatitis:** liver inflammation caused by a virus. [5]\n\n## Tests ordered\n\n- **Hepatitis B surface antigen.** This looks for hepatitis B, a viral liver infection. [6]\n- **Hepatitis C antibody.** This looks for hepatitis C, a virus that causes liver inflammation. [7]\n- **Right upper quadrant ultrasound.** This is an imaging test of the upper right area of your belly.\n\n## Instructions and follow-up\n\n- Avoid alcohol.\n- Keep acetaminophen under 2,000 mg per day until re-evaluated.\n- Repeat the hepatic function panel in 6 weeks (mid-September 2026).\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Liver Blood Test Explained\n\n## The short version\nYour blood test shows that two liver enzymes (ALT and AST) are higher than normal. This suggests your liver cells are irritated or inflamed. **The good news:** your liver is still doing its main jobs well. Your doctor is ordering more tests to find the cause.\n\n## What the numbers mean\n\n**Elevated (above normal):**\n- **ALT: 142** (normal 7-56). This enzyme leaks from liver cells when they're stressed. It was 61 in March, so it has more than doubled.\n- **AST: 98** (normal 10-40). This is another liver-cell enzyme, and it is also raised.\n- **GGT: 88** (normal 8-61). This is mildly high. It can go up with liver irritation, alcohol, or some medications.\n\n**Normal:**\n- **Alkaline phosphatase, bilirubin (total and direct):** These are normal, which suggests your bile ducts are not blocked.\n- **Albumin and total protein:** These are normal, which shows your liver is still making proteins properly.\n\n## What this pattern suggests\nThe lab calls this a \"hepatocellular pattern,\" meaning the irritation is mainly in the liver cells themselves rather than the bile drainage system.\n\n## Possible causes your doctor is considering\n- **Fatty liver (MASLD):** This is very common, and weight can be a factor. Your BMI is 33.\n- **Alcohol:** You reported 2-3 drinks a week, which is low, but even small amounts can matter when the liver is irritated.\n- **Medication effect:** You reported no new medicines or supplements.\n- **Viral hepatitis:** This is an infection of the liver (hepatitis B or C).\n\nThe cause isn't known yet. These are possibilities, not a diagnosis.\n\n## What your doctor has ordered\n1. **Blood tests for hepatitis B and C**\n2. **Ultrasound of the upper right abdomen** to look at the liver for fat, texture changes, or other problems\n3. **Repeat liver blood tests in about 6 weeks** (mid-September 2026) to see whether the numbers are changing\n\n## What you should do now\n- **Avoid alcohol** until your doctor re-evaluates you.\n- **Limit acetaminophen (Tylenol)** to under 2,000 mg per day. Check labels on cold and flu products, since many contain it.\n- Tell your doctor about any new medicines, vitamins, or herbal products you start.\n- Keep your ultrasound and lab appointments.\n\n## When to contact your doctor promptly\n- Yellowing of your skin or eyes\n- Dark urine or pale stools\n- Severe belly pain\n- Persistent nausea or vomiting\n- Unusual fatigue or swelling in your legs or belly\n\n## Bottom line\nThe enzyme rise is a signal to investigate, not a reason to panic. Many causes, including fatty liver, can be managed or improved with lifestyle changes. Your doctor will use the next tests to find out what is going on.\n\n*This explanation is for general understanding. Please talk with your doctor about what these results mean for you.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "This was an add-on test, meaning it was added to the same blood sample.",
+     "kind": "general",
+     "reason": "The source labels GGT as an \"ADD-ON TEST\" but does not say it was added to the same blood sample. This is a general assumption not found in the references."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "This suggests your liver cells are irritated or inflamed.",
+     "kind": "general",
+     "reason": "Interpretive claim; the source says only hepatocellular pattern, no statement about inflammation. Mostly accepted background, but stated as a finding without hedging."
+    },
+    {
+     "sentence": "**GGT: 88** (normal 8-61). This is mildly high. It can go up with liver irritation, alcohol, or some medications.",
+     "kind": "patient_specific",
+     "reason": "'Mildly high' is a severity characterization not stated in the source (flag is only HIGH)."
+    },
+    {
+     "sentence": "These are normal, which suggests your bile ducts are not blocked.",
+     "kind": "patient_specific",
+     "reason": "The source does not state any conclusion about bile duct obstruction; this is an inference applied to the patient."
+    },
+    {
+     "sentence": "These are normal, which shows your liver is still making proteins properly.",
+     "kind": "patient_specific",
+     "reason": "Source says liver function is preserved, but does not specifically say protein production is proper; slightly overstated ('shows')."
+    },
+    {
+     "sentence": "You reported 2-3 drinks a week, which is low, but even small amounts can matter when the liver is irritated.",
+     "kind": "patient_specific",
+     "reason": "The source gives 2-3 drinks per week, but it does not call this 'low' or say small amounts matter; the claim is added interpretation."
+    },
+    {
+     "sentence": "Many causes, including fatty liver, can be managed or improved with lifestyle changes.",
+     "kind": "general",
+     "reason": "No references retrieved; claim is plausible background but the source does not state it, and applies fatty liver management to the patient without a diagnosis."
+    }
+   ]
+  },
+  {
+   "file": "lab_thyroid_hypothyroid.txt",
+   "source_grade": 7.3,
+   "full_grade": 6.3,
+   "naive_grade": 4.8,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 5,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 22,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 3,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 1.0,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 8,
+   "citations_used": 6,
+   "full_seconds": 9.7,
+   "full_output_tokens": 1231,
+   "full_explanation": "## Overview\n\nThis is a thyroid lab report collected on 05/06/2026. The thyroid is a small, butterfly-shaped gland in the front of your neck that makes hormones. [1]\n\n## Lab results\n\n- **TSH (thyroid stimulating hormone):** 11.8 mIU/L, which is **above** the range on your report (0.45 - 4.50 mIU/L). TSH is a hormone measured in a blood test, and a level that is too high or too low may be a sign of a thyroid problem. [1]\n- **Free T4 (free thyroxine):** 0.62 ng/dL, which is **below** the range on your report (0.82 - 1.77 ng/dL). T4 is a hormone your thyroid gland makes. [2]\n- **Free T3 (free triiodothyronine):** 2.4 pg/mL, which is **within** the range on your report (2.0 - 4.4 pg/mL). T3 is another thyroid hormone. [1]\n- **TPO (thyroid peroxidase) antibodies:** 286 IU/mL, which is **above** the range on your report (<35 IU/mL). Antibodies are proteins made by the immune system.\n\n## Prior results\n\nOn 01/21/2026, your TSH was 7.4 mIU/L and your free T4 was 0.86 ng/dL.\n\n## Interpretation from your doctor\n\nYour report says TSH has risen from 7.4 to 11.8 mIU/L and free T4 is now low. It says this is consistent with **primary hypothyroidism**. Hypothyroidism, or underactive thyroid, means the thyroid doesn't make enough thyroid hormones to meet the body's needs. [3]\n\nThe report also says the positive TPO antibodies suggest **autoimmune thyroiditis (Hashimoto's)**. Hashimoto's disease is a condition where the immune system attacks the thyroid. [3]\n\nThe report notes you reported fatigue, cold intolerance, dry skin, and constipation. Your weight is listed as 68 kg.\n\n## Medication\n\n- **Levothyroxine 75 mcg** by mouth once daily, on an empty stomach, 30-60 minutes before breakfast.\n- Levothyroxine is a medicine that replaces thyroid hormone that is normally made by the body. [8]\n- Take it at least 4 hours apart from calcium or iron supplements, as your report says. Calcium and iron are minerals the body needs, and both can be found in supplements. [6][7]\n\n## Follow-up\n\nRepeat TSH and free T4 in 6 weeks (around 06/17/2026).\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Thyroid Test Results, Explained\n\n## The big picture\nYour thyroid is underactive. This is called **hypothyroidism**. The thyroid is a small gland in your neck that helps control your energy, body temperature, and metabolism. Yours isn't making enough thyroid hormone.\n\n## What each test means\n\n| Test | Your result | What it means |\n|---|---|---|\n| **TSH** | 11.8 (High) | TSH is a signal from your brain telling your thyroid to work harder. A high level means your brain is \"shouting\" because your thyroid isn't keeping up. |\n| **Free T4** | 0.62 (Low) | This is the main hormone your thyroid makes. Yours is below normal. |\n| **Free T3** | 2.4 (Normal) | This is the active form of thyroid hormone. It's still normal for now. |\n| **TPO antibodies** | 286 (High) | These show your immune system is attacking your thyroid. |\n\n## Trend over time\nIn January your TSH was 7.4. Now it is 11.8, and your T4 has dropped from 0.86 to 0.62. Your thyroid function has gotten worse over these months.\n\n## What's causing it\nThe high antibodies point to **Hashimoto's thyroiditis**, a common autoimmune condition. Your immune system mistakenly attacks the thyroid over time. It is not caused by anything you did, and it is very treatable.\n\n## Why you've felt the way you have\nYour symptoms fit this condition: tiredness, feeling cold, dry skin, and constipation. These often improve once treatment starts.\n\n## Your treatment plan\n**Levothyroxine 75 mcg, one pill daily.** This replaces the hormone your thyroid is missing.\n\n- Take it **on an empty stomach**, 30-60 minutes before breakfast, with water.\n- Try to take it **at the same time every day**.\n- Keep it **at least 4 hours apart from calcium or iron supplements**, since they block absorption.\n- Don't stop it on your own. This is usually a long-term medicine.\n\n## Follow-up\n- Repeat blood tests (TSH and free T4) in **6 weeks, around June 17, 2026**.\n- Your dose may be adjusted based on those results. It can take several weeks to feel better, so be patient.\n\n## Call your doctor if you notice\n- Chest pain, a racing or irregular heartbeat\n- Shakiness, severe anxiety, or trouble sleeping (which can mean the dose is too high)\n- Symptoms that aren't improving or are getting worse\n\n*This explanation is for general understanding. Please ask your doctor or pharmacist any questions about your care.*",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Your thyroid is underactive.",
+     "kind": "patient_specific",
+     "reason": "Supported in substance (primary hypothyroidism), so this is not flagged as unsupported; however 'Yours isn't making enough thyroid hormone' is consistent too. Listed here only as a low-severity note.  \u2011 actually supported."
+    },
+    {
+     "sentence": "Try to take it **at the same time every day**.",
+     "kind": "patient_specific",
+     "reason": "The source does not instruct taking it at the same time every day; it only says once daily on an empty stomach."
+    },
+    {
+     "sentence": "Don't stop it on your own. This is usually a long-term medicine.",
+     "kind": "patient_specific",
+     "reason": "Not in the source; no instruction about long-term use or not stopping. No references retrieved to support it."
+    },
+    {
+     "sentence": "It is not caused by anything you did, and it is very treatable.",
+     "kind": "patient_specific",
+     "reason": "Source does not state cause or treatability; reassurance applied to the patient without support."
+    },
+    {
+     "sentence": "Your dose may be adjusted based on those results. It can take several weeks to feel better, so be patient.",
+     "kind": "patient_specific",
+     "reason": "Source does not mention dose adjustment or time to symptom improvement."
+    }
+   ]
+  },
+  {
+   "file": "radiology_chest_xray_pneumonia.txt",
+   "source_grade": 10.1,
+   "full_grade": 6.0,
+   "naive_grade": 6.9,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 2,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 27,
+   "naive_claims_checked": 19,
+   "judge_errors": [],
+   "abnormal_labs": 0,
+   "full_abnormal_coverage": null,
+   "naive_abnormal_coverage": null,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 5,
+   "citations_used": 3,
+   "full_seconds": 10.0,
+   "full_output_tokens": 1355,
+   "full_explanation": "## About this report\n\nThis is a report of a chest X-ray, which takes pictures of your lungs, heart, and bones. It was done on 01/17/2026 at 18:42. Two views were taken: one from the front (PA) and one from the side (lateral). No earlier X-rays were available to compare with.\n\n## Why the X-ray was done\n\nThe report lists these reasons: fever, a cough that brings up mucus (productive cough), right-sided chest pain that hurts when breathing in (pleuritic chest pain), and low oxygen (hypoxia). Your oxygen level (SpO2) was 89% on room air.\n\n- A fever is a body temperature higher than normal. It is often a sign the body is fighting an infection. [3]\n- Chest pain can have many causes, including lung problems such as pneumonia. [5]\n\n## Findings\n\n**Lungs**\n- There was a dense area in the right lower lobe where the air spaces look filled in. This is called \"consolidation.\"\n- The report notes \"air bronchograms.\" This means the air-filled breathing tubes show up against the filled-in lung around them.\n- On the side view, the cloudy area lay over the lower part of the spine in the chest. The report says this fits the posterior basal segment, which is the back-bottom part of the lower lobe.\n- The right hemidiaphragm (the muscle under the lung) was partly hard to see. The right heart border stayed sharp. The radiologist says this places the problem in the lower lobe, not the middle lobe.\n- The left lung is clear.\n\n**Pleura (the lining around the lungs)**\n- No pleural effusion (fluid around the lung).\n- No pneumothorax (collapsed lung from air leaking).\n\n**Heart and mediastinum (the space between the lungs)**\n- Heart size is normal.\n- The mediastinum looks normal.\n- There is mild calcification (calcium buildup) in the aortic arch, the curve of the main artery from the heart.\n\n**Bones and soft tissues**\n- Mild degenerative changes (wear-related changes) in the thoracic spine, the chest part of the spine.\n- No acute bony abnormality, meaning no new bone injury.\n\n**Lines and tubes:** None.\n\n## Impression (the radiologist's summary)\n\n1. Right lower lobe consolidation, \"consistent with pneumonia in the appropriate clinical setting.\" Pneumonia is an infection in one or both lungs that makes the air sacs fill with fluid or pus. [1]\n2. No pleural effusion or pneumothorax.\n3. The radiologist recommends a follow-up chest X-ray in 6-8 weeks after treatment to confirm the problem has cleared. The report gives your age and smoking history as reasons.\n\n## Lab results\n\nNo lab values were found in this document.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Chest X-Ray Results, Explained Simply\n\n**Why you had this test:** You came in with a fever, a cough that brings up mucus, chest pain on the right side when you breathe in, and low oxygen levels (89%). The X-ray was done to look for the cause.\n\n## Main Finding: Pneumonia\nThe X-ray shows a dense, cloudy area in the **lower part of your right lung**. Normally, lungs look dark on an X-ray because they're filled with air. In this area, the air spaces are filled with fluid and infection-fighting cells, so it looks white instead. This is what pneumonia (a lung infection) typically looks like, and it fits with your symptoms.\n\nThe radiologist also noted that the infection is in the lower lobe rather than the middle lobe. This is a detail about exactly where it is, based on which edges of your heart and diaphragm look blurry or sharp.\n\n## Good News\n- **No fluid around the lung** (no pleural effusion). Fluid there can sometimes complicate pneumonia.\n- **No collapsed lung** (no pneumothorax).\n- **Your left lung is clear.**\n- **Your heart size is normal.**\n\n## Other Minor Findings\n- **Mild calcium buildup in the aorta** (the large blood vessel leaving the heart). This is common with age and is something your regular doctor can monitor, for example through blood pressure and cholesterol management.\n- **Mild wear-and-tear in the spine** of your upper back. This is common and not related to your current illness.\n\n## What Happens Next\nThe radiologist recommends a **repeat chest X-ray in 6 to 8 weeks** after you've finished treatment. This is to make sure the pneumonia has fully cleared. It's a routine precaution, particularly for people your age or with a smoking history, because other lung conditions can occasionally look similar to pneumonia or hide behind it.\n\n## Things to Discuss with Your Care Team\n- Your treatment plan (usually antibiotics, and possibly oxygen given your low oxygen level)\n- Whether you need to be treated in the hospital or at home\n- Warning signs to watch for: worsening shortness of breath, high fever that doesn't improve, confusion, or worsening chest pain\n- If you smoke, support to quit, which helps your lungs recover\n\n*This explanation is for general understanding. Your doctor can answer questions specific to your situation.*",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "The radiologist also noted that the infection is in the lower lobe rather than the middle lobe.",
+     "kind": "patient_specific",
+     "reason": "The report says the findings localize the process to the lower lobe rather than the middle lobe, but it calls this consolidation 'consistent with pneumonia'. It does not say the radiologist noted 'infection' per se; this is a minor overstatement of certainty."
+    },
+    {
+     "sentence": "In this area, the air spaces are filled with fluid and infection-fighting cells, so it looks white instead.",
+     "kind": "general",
+     "reason": "This is a general mechanism applied to the patient as if it were established. The report only describes consolidation and does not say what fills the airspaces."
+    },
+    {
+     "sentence": "This is common with age and is something your regular doctor can monitor, for example through blood pressure and cholesterol management.",
+     "kind": "general",
+     "reason": "The source gives no monitoring or management advice for the aortic calcification. This applies general information to the patient as a recommendation."
+    },
+    {
+     "sentence": "Mild wear-and-tear in the spine of your upper back. This is common and not related to your current illness.",
+     "kind": "patient_specific",
+     "reason": "The report says only that there are mild degenerative changes of the thoracic spine. It does not state that they are unrelated to the current illness."
+    }
+   ]
+  },
+  {
+   "file": "radiology_ct_abdomen_kidney_stone.txt",
+   "source_grade": 8.4,
+   "full_grade": 6.0,
+   "naive_grade": 4.9,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 3,
+   "full_general_unsupported": 2,
+   "full_claims_checked": 38,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 0,
+   "full_abnormal_coverage": null,
+   "naive_abnormal_coverage": null,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 4,
+   "citations_used": 4,
+   "full_seconds": 13.7,
+   "full_output_tokens": 1812,
+   "full_explanation": "## About this report\n\nThis is a CT scan report of your belly (abdomen) and pelvis. A CT scan uses X-rays to make detailed pictures of the inside of the body. Yours was done on 05/22/2026 without IV contrast (a dye given through a vein). It used a \"renal stone protocol,\" which is a scan setup used to look for kidney stones.\n\n## Why the scan was done\n\nThe report says you had sudden left flank pain (pain in the side of the back) that spread to the groin for 6 hours. A urinalysis (a urine test [4]) also showed blood in your urine.\n\n## Main findings (Impression)\n\n- **A stone in the left ureter.** The ureter is the tube that carries urine from the kidney to the bladder. The report describes a 4 mm stone in the lower part of the left ureter, about 1.5 cm above where the ureter meets the bladder (the ureterovesical junction, or UVJ). The report calls it \"obstructing,\" meaning it is blocking some urine flow. A kidney stone is a solid piece of material that forms in the kidney from substances in the urine [1].\n- **Signs of backup above the stone.** The report notes mild left hydroureteronephrosis. This means the ureter and the kidney's collecting area are stretched, usually because urine is backing up. The renal pelvis (the funnel-shaped part of the kidney) measures 14 mm. There is also mild perinephric stranding, which means hazy changes in the fat around the kidney.\n- **A small stone in the right kidney.** There is a 2 mm stone in the lower part of the right kidney. The report calls it nonobstructing, meaning it is not blocking urine flow. There is no hydronephrosis (swelling from urine backup) on the right.\n- **A small lump on the left adrenal gland.** Adrenal glands are small glands above the kidneys. The report calls this an incidental finding, meaning it was found by chance. It is a 1.8 cm nodule (a small lump) measuring 6 HU. HU stands for Hounsfield units, a measure of how dense tissue looks on CT. The report says this is below 10 HU and is consistent with a benign lipid-rich adenoma. Benign means not cancer [2]. The report says no imaging follow-up is needed. It also says an outpatient check for hormone overproduction may be considered.\n- **Pouches in the colon.** The report lists sigmoid diverticulosis without diverticulitis. Diverticula are small pouches that bulge out through weak spots in the colon, and diverticulosis means having these pouches. Diverticulitis means the pouches are inflamed [3]. The report says there is no inflammation around the pouches.\n\n## Other details in the findings\n\n- Bladder: partially distended (partly full), with no bladder stones.\n- Kidney sizes: left 11.8 cm and right 11.5 cm.\n- Liver, gallbladder and bile ducts, pancreas: described as normal or unremarkable. The liver had no focal lesion on this noncontrast exam.\n- Spleen: normal size (10.2 cm).\n- Appendix: normal. No bowel obstruction.\n- Lymph nodes: none enlarged.\n- Peritoneum: no free air or free fluid.\n- Lung bases: clear.\n- Bones: no aggressive bone lesion. Mild degenerative changes (wear-related changes) in the lower lumbar spine (lower back).\n\n## Technique and comparison\n\nThe scan was a low-dose helical CT from the lung bases to the pubic symphysis (the front joint of the pelvis). The radiation measures listed were CTDIvol 6.2 mGy and DLP 312 mGy-cm. There was no earlier scan to compare with.\n\n## Lab results\n\nNo structured lab values were found in this document.\n\n## Follow-up\n\nThe only follow-up in the report is the note about the adrenal nodule: no imaging follow-up needed, and outpatient evaluation for hormone overproduction may be considered. The report does not describe treatment for the stones.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your CT Scan Results, Explained Simply\n\n**Why you had the scan:** You came in with sudden pain in your left side that spread toward your groin, and your urine test showed blood. This pattern often points to a kidney stone, so the scan was done to look for one.\n\n## Main finding: a kidney stone (left side)\n- You have a **4 mm stone** (about the size of a pencil eraser tip) in the tube that carries urine from your left kidney to your bladder. This tube is called the ureter.\n- The stone is close to the bladder, about 1.5 cm away.\n- It is **partly blocking urine flow**. Because of this, the kidney and ureter above the stone are mildly swollen, and there is some mild inflammation around the kidney. This explains your pain and the blood in your urine.\n- Stones of this size often pass on their own, usually with pain control, fluids, and sometimes a medicine that relaxes the ureter. Your care team will guide you on this.\n\n## Other findings\n- **A small stone in your right kidney (2 mm).** It is not blocking anything and is not causing problems now. It's worth knowing about, since it could grow or move later.\n- **A small growth on your left adrenal gland (1.8 cm).** The adrenal glands sit on top of the kidneys and make hormones. The scan details strongly suggest this is a **benign (non-cancerous) adenoma**, which is a common and harmless finding. It was found by chance. No repeat scans are needed, but your doctor may order a simple blood or urine test to check that it isn't making extra hormones.\n- **Small pouches in the lower colon (diverticulosis).** These are very common, especially with age. There is no sign of infection or inflammation. Often they cause no symptoms.\n\n## Everything else looked normal\nYour appendix, liver, gallbladder, pancreas, spleen, lymph nodes, bones, and the bottom of your lungs looked fine. There were no signs of a bowel blockage. Your spine showed mild wear-and-tear changes, which are common.\n\n## When to get urgent help\nReturn to the emergency department right away if you have:\n- Fever or chills (a blocked, infected kidney is serious)\n- Pain you can't control with the medicine given\n- Repeated vomiting so you can't keep fluids down\n- Little or no urine\n\n## Questions to ask your doctor\n- How long should I wait for the stone to pass, and when would I need a procedure?\n- Should I strain my urine to catch the stone?\n- Do I need testing for the adrenal nodule?\n- How can I lower my chances of future stones (for example, drinking more water)?\n\n*This summary is for understanding only. Your own doctor can best explain what it means for you.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "The report calls it \"obstructing,\" meaning it is blocking some urine flow.",
+     "kind": "general",
+     "reason": "The report does say 'obstructing', but 'blocking some urine flow' is a mild inference; this is generally accepted, so it is only weakly unsupported."
+    },
+    {
+     "sentence": "This means the ureter and the kidney's collecting area are stretched, usually because urine is backing up.",
+     "kind": "general",
+     "reason": "This is a reasonable general definition but is not stated in the references; it is widely accepted background, so it is a minor flag."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "It is **partly blocking urine flow**.",
+     "kind": "patient_specific",
+     "reason": "The report calls the stone 'obstructing' with mild hydroureteronephrosis but never says it is partly blocking flow; partial obstruction is an inference."
+    },
+    {
+     "sentence": "This explains your pain and the blood in your urine.",
+     "kind": "patient_specific",
+     "reason": "The report does not state that the stone explains the symptoms; this causal link is the explanation's own inference."
+    },
+    {
+     "sentence": "Stones of this size often pass on their own, usually with pain control, fluids, and sometimes a medicine that relaxes the ureter.",
+     "kind": "general",
+     "reason": "No reference was retrieved. The claim is broadly accepted, but its application to this patient's stone is not in the source."
+    },
+    {
+     "sentence": "It's worth knowing about, since it could grow or move later.",
+     "kind": "general",
+     "reason": "The report makes no such statement and gives no follow-up for the right kidney stone; this is a general prediction applied to the patient."
+    },
+    {
+     "sentence": "It is not blocking anything and is not causing problems now.",
+     "kind": "patient_specific",
+     "reason": "The report says the stone is nonobstructing, but it does not say whether the stone is causing problems; the symptom claim is an inference."
+    },
+    {
+     "sentence": "These are very common, especially with age.",
+     "kind": "general",
+     "reason": "No reference was retrieved to support the claim, and it is not stated in the source."
+    }
+   ]
+  },
+  {
+   "file": "radiology_mri_knee_meniscus_tear.txt",
+   "source_grade": 10.3,
+   "full_grade": 7.6,
+   "naive_grade": 6.2,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 1,
+   "naive_patient_unsupported": 5,
+   "full_general_unsupported": 1,
+   "full_claims_checked": 27,
+   "naive_claims_checked": 26,
+   "judge_errors": [],
+   "abnormal_labs": 0,
+   "full_abnormal_coverage": null,
+   "naive_abnormal_coverage": null,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 5,
+   "citations_used": 4,
+   "full_seconds": 14.2,
+   "full_output_tokens": 1778,
+   "full_explanation": "## About this report\n\nThis is an MRI report of your right knee, done on 09/15/2026 without contrast (no dye through an IV). An MRI uses magnets, radio waves, and a computer to make detailed pictures of the inside of the body, including joints, ligaments, and tendons [4]. The report was written by Dr. K. Sample, MD, and your knee doctor, Dr. J. Example, MD, requested it.\n\n## Clinical history\n\nThe report says you twisted your knee playing tennis on 08/22/2026. You had pain along the inner (medial) joint line, swelling, and intermittent catching and locking.\n\n## Comparison\n\nThe radiologist looked at knee X-rays from 08/29/2026. Those showed no fracture (broken bone) and mild medial joint space narrowing, meaning a slightly smaller gap between the bones on the inner side of the knee.\n\n## Findings\n\n**Menisci** (the C-shaped cushions of cartilage in the knee)\n- Medial meniscus (inner side): There is an oblique tear in the posterior horn (the back part). It reaches the inferior articular surface (the underside of the cushion) and is approximately 14 mm long. No displaced or flipped fragment was seen in the intercondylar notch (the space in the middle of the knee). The body and anterior horn (front part) are intact.\n- Lateral meniscus (outer side): Intact.\n\n**Ligaments** (tissues that connect bones at a joint) [2]\n- ACL and PCL (the two ligaments crossing in the middle of the knee): Both intact.\n- MCL (medial collateral ligament, on the inner side): Mild edema (swelling from fluid in tissues [1]) around the ligament, with no fiber disruption. The report calls this consistent with a low-grade (grade 1) sprain. A sprain is a stretched or torn ligament [2].\n- Lateral collateral ligament complex (outer side): Intact.\n\n**Extensor mechanism:** The quadriceps and patellar tendons (which help straighten the knee) are intact.\n\n**Cartilage** (the smooth cushioning layer on the bone ends)\n- Medial compartment: Partial-thickness cartilage loss (less than 50% of thickness) over a 6 mm area of the weight-bearing medial femoral condyle (the rounded end of the thigh bone on the inner side).\n- Lateral compartment: Preserved.\n- Patellofemoral (kneecap area): Mild surface fraying of the patellar cartilage.\n\n**Bone marrow:** A small area of bone marrow edema (fluid in the inner part of the bone) lies beneath the cartilage of the medial tibial plateau (the top of the shin bone, inner side). It measures 9 x 6 mm. The report says it is likely reactive or a bone bruise. A bone bruise is a type of bruise in the bone [5]. No fracture was seen.\n\n**Joint:** The report describes a moderate joint effusion (extra fluid in the knee joint). It also describes a popliteal (Baker) cyst, a fluid-filled sac behind the knee, measuring 32 x 18 x 11 mm (craniocaudal x AP x transverse).\n\n**Soft tissues:** Mild swelling of the fat just under the skin along the inner knee.\n\n## Impression (the radiologist's summary)\n\n1. Oblique tear of the posterior horn of the medial meniscus reaching the inferior articular surface (14 mm). No displaced fragment.\n2. Moderate joint effusion and a 32 mm popliteal (Baker) cyst.\n3. Grade 1 MCL sprain.\n4. Partial-thickness cartilage loss of the medial femoral condyle, with small reactive bone marrow edema of the medial tibial plateau (9 x 6 mm).\n\n## Lab results\n\nNo lab values were found in this document.\n\n## Follow-up\n\nThis report does not list any treatment or next steps. Your doctor can explain what these findings mean for you.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Knee MRI, Explained Simply\n\n**Why you had the scan:** You twisted your right knee playing tennis and have had inner-knee pain, swelling, and a feeling of catching or locking. The MRI looked for the cause.\n\n## Main Findings\n\n**1. Meniscus tear (inner side)**\nThe meniscus is a rubbery C-shaped cushion that absorbs shock between your thigh bone and shin bone. You have a tear of about 14 mm (a little over half an inch) in the back part of the inner meniscus. The torn piece has *not* flipped or moved out of place, which is good news. This tear is the likely reason for your pain and the catching or locking.\n\n**2. Fluid in the knee and a Baker's cyst**\n- There is a moderate amount of extra fluid in the joint. This is your knee's reaction to injury and irritation.\n- A Baker's cyst (a fluid-filled pocket behind the knee, about 3 cm long) has formed. These often develop when a knee is irritated and making extra fluid. It's usually not dangerous and often shrinks once the underlying problem is treated.\n\n**3. Mild MCL sprain (grade 1)**\nThe MCL is a ligament on the inner side of the knee. It was mildly stretched, but not torn. This usually heals on its own with time.\n\n**4. Cartilage wear and a bone bruise**\n- A small area (6 mm) of the smooth cartilage on the thigh bone has thinned, less than halfway through. This is often a sign of wear that was likely present before the injury. The X-ray also showed mild narrowing of the inner joint space.\n- There is a small bone bruise (9 x 6 mm) on the shin bone. No fracture was found. Bruises like this typically heal with time.\n\n## What Was Normal\n- ACL and PCL (the central stabilizing ligaments): intact\n- Outer meniscus and outer ligament: intact\n- Quadriceps and patellar tendons: intact\n- No broken bones\n\n## What This Means for You\nTreatment depends on your symptoms. Options your orthopedic doctor may discuss include:\n- Rest, activity changes, ice, and anti-inflammatory medicine\n- Physical therapy\n- Injections in some cases\n- Arthroscopic surgery (a minimally invasive procedure to trim or repair the meniscus), which is more often considered when locking or catching continues despite other treatment\n\nBecause you have catching and locking, be sure to discuss these symptoms with Dr. Example.\n\n## When to Seek Prompt Care\nContact your doctor soon if you have a knee that is locked and won't straighten, severe or worsening swelling, fever or redness, or calf pain and swelling (which can signal a blood clot, rarely related to a Baker's cyst).\n\n*This is a general explanation. Your doctor will put these results together with your exam and symptoms to recommend the best plan for you.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "ACL and PCL (the two ligaments crossing in the middle of the knee): Both intact.",
+     "kind": "general",
+     "reason": "The 'intact' finding is supported, but the description of the ligaments as crossing in the middle of the knee is not in the references. It is accepted background, so this is a minor flag."
+    },
+    {
+     "sentence": "The report was written by Dr. K. Sample, MD, and your knee doctor, Dr. J. Example, MD, requested it.",
+     "kind": "patient_specific",
+     "reason": "The source lists Dr. J. Example as an orthopedic surgery referrer, not as 'your knee doctor'. This is a small embellishment, though broadly consistent."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "This tear is the likely reason for your pain and the catching or locking.",
+     "kind": "patient_specific",
+     "reason": "The report does not state that the tear causes the symptoms; this causal attribution is an inference not in the source."
+    },
+    {
+     "sentence": "This is your knee's reaction to injury and irritation.",
+     "kind": "patient_specific",
+     "reason": "The report only documents a moderate effusion and gives no cause, so attributing it to injury and irritation is an unsupported inference."
+    },
+    {
+     "sentence": "This is often a sign of wear that was likely present before the injury.",
+     "kind": "patient_specific",
+     "reason": "The report does not say the cartilage loss is degenerative or predates the injury; this is an inference applied to the patient as if it were a finding."
+    },
+    {
+     "sentence": "It was mildly stretched, but not torn.",
+     "kind": "patient_specific",
+     "reason": "The report describes edema without fiber disruption (grade 1 sprain), which supports 'not torn' but does not say the ligament was 'stretched'. This is a minor interpretive gloss."
+    },
+    {
+     "sentence": "Outer meniscus and outer ligament: intact",
+     "kind": "patient_specific",
+     "reason": "The report says the lateral meniscus and lateral collateral ligament complex are intact; this is supported, but 'outer ligament' simplifies a ligament complex. It is a minor issue and arguably not a real error."
+    },
+    {
+     "sentence": "It's usually not dangerous and often shrinks once the underlying problem is treated.",
+     "kind": "general",
+     "reason": "No references were provided. This is generally accepted, but 'often shrinks' is stated with some certainty and not tied to this patient's findings."
+    }
+   ]
+  },
+  {
+   "file": "radiology_thyroid_ultrasound_nodule.txt",
+   "source_grade": 5.4,
+   "full_grade": 5.2,
+   "naive_grade": 5.0,
+   "full_numeric": 1.0,
+   "naive_numeric": 0.75,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [
+    "15",
+    "30"
+   ],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 2,
+   "full_general_unsupported": 1,
+   "full_claims_checked": 27,
+   "naive_claims_checked": 24,
+   "judge_errors": [],
+   "abnormal_labs": 0,
+   "full_abnormal_coverage": null,
+   "naive_abnormal_coverage": null,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 2,
+   "citations_used": 2,
+   "full_seconds": 21.6,
+   "full_output_tokens": 1509,
+   "full_explanation": "## About this report\n\nThis is a thyroid ultrasound report dated 04/08/2026. An ultrasound uses sound waves to make pictures of the inside of the body. The thyroid is a small, butterfly-shaped gland in the front of your neck that makes hormones that control how your body uses energy [1]. The report says the exam was done because of fullness in the right lower neck found on physical exam.\n\n## Background from your report\n\n- Your TSH (a blood test related to thyroid function) was listed as normal, at 1.9 mIU/L on 03/25/2026.\n- No earlier exam was available to compare with.\n\n## Thyroid gland size and texture\n\n- Right lobe: 5.2 x 1.8 x 1.9 cm\n- Left lobe: 4.7 x 1.5 x 1.6 cm\n- Isthmus (the thin bridge of tissue between the two lobes): 0.3 cm AP (front to back)\n- The tissue looked homogeneous (even and uniform), with normal vascularity (blood flow).\n\n## Nodules\n\nThyroid nodules are lumps in the thyroid gland [1]. The report describes two. It uses a scoring system called ACR TI-RADS, which gives points for how a nodule looks.\n\n**Nodule 1 (right lobe, mid to lower pole)**\n- Size: 1.7 x 1.1 x 1.3 cm\n- Composition: solid (2 points)\n- Echogenicity: hypoechoic, meaning it looks darker than the normal thyroid tissue on the ultrasound (2 points)\n- Shape: wider-than-tall (0 points)\n- Margin: smooth (0 points)\n- Echogenic foci (bright spots): none (0 points)\n- Total: 4 points, which the report calls ACR TI-RADS TR4 (moderately suspicious)\n\n**Nodule 2 (left lobe, upper pole)**\n- Size: 0.5 x 0.4 x 0.4 cm\n- Spongiform composition (0 points), meaning it has a sponge-like look. The report calls this ACR TI-RADS TR1 (benign, meaning not cancer).\n\n## Lymph nodes\n\nThe report says there were no suspicious cervical (neck) lymph nodes. Level II and III nodes on both sides looked normal, with preserved fatty hila (the normal fatty center of a lymph node).\n\n## Impression and recommendation\n\n1. A 1.7 cm solid hypoechoic nodule in the right lobe, TR4 (moderately suspicious). The report says it meets the size threshold for fine-needle aspiration.\n2. A 0.5 cm spongiform nodule in the left lobe, TR1 (benign). The report says no follow-up is needed.\n3. No suspicious lymph nodes.\n\nThe radiologist recommends an ultrasound-guided fine-needle aspiration (FNA) biopsy of Nodule 1 in the right lobe. A biopsy removes cells or tissue so a doctor called a pathologist can look at them under a microscope [2]. A needle biopsy uses a needle passed through the skin to reach the area [2]. In an FNA, a thin needle is used, and ultrasound is used to guide it.\n\nThe report also includes a size guide. For TR4, it lists FNA if the nodule is 1.5 cm or larger, and follow-up if it is 1.0 cm or larger.\n\n## Lab results\n\nNo structured lab values were flagged in this document. The TSH value above comes from the report's indication line, which describes it as normal.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Thyroid Ultrasound Results, Explained Simply\n\n## Why you had this test\nYour doctor felt some fullness in the lower right side of your neck. Your thyroid blood test (TSH) was normal, which means your thyroid is working properly.\n\n## What the ultrasound found\n\n**Thyroid gland overall:** Both sides are a normal size, and the tissue looks even and healthy with normal blood flow.\n\n**Two small lumps (nodules) were found.** Thyroid nodules are very common, and most are not cancer.\n\n**Nodule 1 (right side, the one needing attention)**\n- Size: about 1.7 cm (a little under an inch, roughly the size of a large grape seed or a peanut)\n- It is solid and looks darker than the surrounding thyroid on ultrasound.\n- Its shape and edges are smooth, and there are no tiny bright specks. These are reassuring features.\n- It scored 4 points on a standard scoring system called **TI-RADS**, placing it in category **TR4, \"moderately suspicious.\"** This does *not* mean it is cancer. It means it has some features that deserve a closer look.\n- Because it is larger than 1.5 cm, guidelines recommend taking a small sample.\n\n**Nodule 2 (left side)**\n- Very small, about 0.5 cm.\n- It has a \"spongiform\" (sponge-like) look, which is benign (not cancer).\n- It needs no follow-up.\n\n**Lymph nodes in the neck:** They look normal. This is good news, since there are no signs of spread.\n\n## What happens next\nThe radiologist recommends a **fine-needle aspiration (FNA) biopsy** of the right-side nodule:\n- A thin needle, guided by ultrasound, takes a few cells from the nodule.\n- It is done in the office or clinic, usually takes about 15-30 minutes, and you can typically go home right after.\n- You may feel brief pressure or mild soreness, and sometimes a small bruise.\n- A pathologist then examines the cells under a microscope.\n\n## Key points\n- Most nodules in the TR4 category turn out to be benign. The biopsy is the way to be sure.\n- Your thyroid function is normal.\n- The small left nodule and the lymph nodes need no action.\n\n## Questions you might ask your doctor\n- When and where will the biopsy be scheduled?\n- Do I need to stop any medications (such as blood thinners) beforehand?\n- How long until results come back, and how will I be told?\n- What are the next steps for each possible result?\n\n*This summary is for understanding only. Please discuss your results and next steps with your doctor.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "In an FNA, a thin needle is used, and ultrasound is used to guide it.",
+     "kind": "general",
+     "reason": "The references do not describe FNA specifically. A thin needle is widely accepted background, and the report does say the FNA is ultrasound-guided, so this is only mildly unsupported."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Your thyroid blood test (TSH) was normal, which means your thyroid is working properly.",
+     "kind": "general",
+     "reason": "TSH was normal per source, but 'working properly' overstates; only TSH was measured. Mild overgeneralization."
+    },
+    {
+     "sentence": "Both sides are a normal size, and the tissue looks even and healthy with normal blood flow.",
+     "kind": "patient_specific",
+     "reason": "Source reports homogeneous echotexture and normal vascularity but does not state lobe sizes are 'normal' or the tissue 'healthy'."
+    },
+    {
+     "sentence": "Its shape and edges are smooth, and there are no tiny bright specks. These are reassuring features.",
+     "kind": "patient_specific",
+     "reason": "Shape is wider-than-tall, not described as smooth; only margin is smooth. Also, 'reassuring' is not stated in source."
+    },
+    {
+     "sentence": "Size: about 1.7 cm (a little under an inch, roughly the size of a large grape seed or a peanut)",
+     "kind": "general",
+     "reason": "Size comparison to a grape seed or peanut is not in the source and is inaccurate (1.7 cm is about 2/3 inch, larger than a grape seed)."
+    },
+    {
+     "sentence": "It is done in the office or clinic, usually takes about 15-30 minutes, and you can typically go home right after.",
+     "kind": "general",
+     "reason": "Procedure setting and duration are not in the source or references; stated as fact without support."
+    },
+    {
+     "sentence": "Most nodules in the TR4 category turn out to be benign. The biopsy is the way to be sure.",
+     "kind": "general",
+     "reason": "Prevalence of benign outcomes in TR4 is not supported by the source or references, and no data are given."
+    }
+   ]
+  },
+  {
+   "file": "sample_lab_report.txt",
+   "source_grade": 7.4,
+   "full_grade": 5.5,
+   "naive_grade": 6.9,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 5,
+   "full_general_unsupported": 1,
+   "full_claims_checked": 31,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 8,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 1.0,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 8,
+   "citations_used": 8,
+   "full_seconds": 13.1,
+   "full_output_tokens": 1711,
+   "full_explanation": "## Overview\n\nThis report has blood test results (collected 07/10/2026) and notes from your doctor. Below, \"range on your report\" means the range printed next to each result.\n\n## Comprehensive metabolic panel\n\nThis is a group of blood tests that look at sugar, salts (electrolytes), and other substances in your blood.\n\n- **Glucose: 112 mg/dL** (range on your report: 70-99). This is above the range. Glucose is a type of sugar and is your body's main source of energy. [3]\n- **Potassium: 5.8 mmol/L** (range on your report: 3.5-5.0). This is above the range. Potassium is an electrolyte, a mineral that helps control fluids and the body's acid-base balance. [2] Your doctor's notes call this \"mild hyperkalemia,\" which means too much potassium in the blood. [2]\n- **BUN: 22 mg/dL** (range on your report: 7-20). This is above the range. BUN stands for blood urea nitrogen, a waste product measured in the blood.\n- **Sodium: 138 mmol/L** (135-145), **chloride: 101 mmol/L** (96-106), **creatinine: 1.1 mg/dL** (0.6-1.3), and **calcium: 9.4 mg/dL** (8.5-10.5) are all within the range on your report.\n\n## Lipid panel\n\nThis test measures cholesterol and triglycerides (a type of fat) in your blood. Cholesterol is a waxy, fat-like substance found in your blood and in every cell of your body. [1]\n\n- **Total cholesterol: 238 mg/dL** (range on your report: 0-200). Above the range.\n- **LDL: 158 mg/dL** (0-100). Above the range.\n- **HDL: 38 mg/dL** (40-60). Below the range. In general, low LDL and high HDL levels are good for heart health. [1]\n- **Triglycerides: 190 mg/dL** (0-150). Above the range. Higher than normal triglycerides may mean a higher risk of heart disease, stroke, and other conditions that affect the arteries. [5]\n\nYour doctor's notes call this an \"elevated lipid panel.\"\n\n## Complete blood count (CBC)\n\nThis test counts the cells in your blood.\n\n- **Hemoglobin: 12.1 g/dL** (range on your report: 13.5-17.5). Below the range. Hemoglobin is an iron-rich protein in red blood cells that carries oxygen from your lungs to the rest of your body. [4] The test alone can't tell what is causing a level outside the range. [4]\n- **WBC (white blood cells): 7.2 x10^3/uL** (4.5-11.0) is within the range on your report.\n- **Platelets: 260 x10^3/uL** (150-450) are within the range on your report.\n\n## Physician notes\n\n- You came in for a routine follow-up of **hypertension** (high blood pressure) and reported **mild fatigue** (tiredness or lack of energy). [6][7]\n- Your doctor wrote to **continue lisinopril 10mg daily**. Lisinopril is a type of medicine called an ACE inhibitor, used to treat high blood pressure. [8]\n- Your doctor noted the mild hyperkalemia is \"likely related to ACE inhibitor therapy.\"\n\n## Follow-up\n\n- Dietary counseling is recommended because of the elevated lipid panel.\n- Repeat potassium check in 2 weeks.\n- Follow up in 1 month.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Lab Results Explained\n\n## Overview\nMost of your results are fine. A few are outside the normal range, and your doctor has a plan for them.\n\n## Things to Pay Attention To\n\n**Potassium: 5.8 (normal 3.5-5.0), mildly high**\n- Potassium is a mineral that helps your heart and muscles work properly.\n- Your doctor thinks your blood pressure medicine, lisinopril, may be causing this. That is a known side effect.\n- You will need a repeat blood test in 2 weeks. Please don't skip it, because potassium that rises higher can affect the heart rhythm.\n- Until then, ask your doctor whether you should limit high-potassium foods (bananas, oranges, potatoes, tomatoes) and salt substitutes, which often contain potassium. Also avoid ibuprofen or naproxen unless your doctor approves.\n\n**Cholesterol (all somewhat off)**\n- Total cholesterol 238 (goal under 200): high\n- LDL, the \"bad\" cholesterol, 158 (goal under 100): high\n- HDL, the \"good\" cholesterol, 38 (goal above 40): slightly low\n- Triglycerides 190 (goal under 150): mildly high\n\nTogether these raise your risk of heart disease over time. Your doctor recommends meeting with a dietitian to work on eating habits. Exercise, weight management, and cutting back on fried and processed foods and sugary items can also help.\n\n**Hemoglobin: 12.1 (normal 13.5-17.5), mildly low**\n- This suggests mild anemia, meaning fewer red blood cells to carry oxygen.\n- It may be part of why you feel tired.\n- The note doesn't mention a plan for this, so ask your doctor whether more testing, such as iron levels, is needed.\n\n## Slightly Off, Less Concerning\n- **Glucose 112 (normal 70-99):** A little high. If you were not fasting, this may be normal. If you were, it could be an early sign of prediabetes, so ask whether an A1c test makes sense.\n- **BUN 22 (normal 7-20):** Barely high. It can reflect mild dehydration or diet. Your kidney marker (creatinine) is normal.\n\n## Normal Results\nSodium, chloride, creatinine, calcium, white blood cells, and platelets are all in the normal range. Your kidney function looks fine.\n\n## Your Plan\n1. Keep taking lisinopril 10 mg daily unless your doctor tells you otherwise.\n2. Repeat potassium test in 2 weeks.\n3. Dietary counseling for cholesterol.\n4. Follow-up visit in 1 month.\n\n## Questions to Ask Your Doctor\n- Should I change my diet now because of my potassium?\n- Is my fatigue related to the low hemoglobin?\n- Do I need testing for anemia or diabetes?\n- Will I need cholesterol medicine if diet changes aren't enough?\n\n**Call your doctor right away or seek emergency care** if you have a very irregular or slow heartbeat, chest pain, fainting, severe muscle weakness, or trouble breathing.\n\n*This explanation is for general understanding and does not replace advice from your healthcare provider.*",
+   "full_unsupported_claims": [
+    {
+     "sentence": "BUN stands for blood urea nitrogen, a waste product measured in the blood.",
+     "kind": "general",
+     "reason": "Mostly accepted background, but BUN is not defined in the references, and the sentence is imprecise: BUN is a measurement of the nitrogen in urea, a waste product, rather than a waste product itself."
+    }
+   ],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Most of your results are fine.",
+     "kind": "patient_specific",
+     "reason": "Only 7 of 14 values are flagged normal and several are abnormal (potassium, lipids, hemoglobin, glucose, BUN); 'most are fine' overstates."
+    },
+    {
+     "sentence": "Your doctor thinks your blood pressure medicine, lisinopril, may be causing this. That is a known side effect.",
+     "kind": "general",
+     "reason": "The first part is supported by the note, but 'known side effect' is general background not in the references; widely accepted, so low concern. The note says 'likely related', and the explanation says 'may', which slightly understates."
+    },
+    {
+     "sentence": "Also avoid ibuprofen or naproxen unless your doctor approves.",
+     "kind": "general",
+     "reason": "Medication instruction not in the source; the physician did not give this advice."
+    },
+    {
+     "sentence": "Until then, ask your doctor whether you should limit high-potassium foods (bananas, oranges, potatoes, tomatoes) and salt substitutes, which often contain potassium.",
+     "kind": "general",
+     "reason": "Dietary specifics are not in the source and no references were retrieved; they are presented as relevant to this patient's care."
+    },
+    {
+     "sentence": "Exercise, weight management, and cutting back on fried and processed foods and sugary items can also help.",
+     "kind": "general",
+     "reason": "Lifestyle advice not in the source; the physician only recommended dietary counseling."
+    },
+    {
+     "sentence": "This suggests mild anemia, meaning fewer red blood cells to carry oxygen.",
+     "kind": "patient_specific",
+     "reason": "The source does not diagnose anemia; the physician note does not mention hemoglobin."
+    },
+    {
+     "sentence": "It may be part of why you feel tired.",
+     "kind": "patient_specific",
+     "reason": "The source does not link the fatigue to hemoglobin; this is speculation."
+    },
+    {
+     "sentence": "If you were not fasting, this may be normal. If you were, it could be an early sign of prediabetes, so ask whether an A1c test makes sense.",
+     "kind": "patient_specific",
+     "reason": "Fasting status is not in the source and prediabetes is not mentioned; this is speculation."
+    },
+    {
+     "sentence": "It can reflect mild dehydration or diet.",
+     "kind": "general",
+     "reason": "Possible causes of high BUN are not in the source, and they are offered as potential explanations for this patient."
+    },
+    {
+     "sentence": "Your kidney function looks fine.",
+     "kind": "patient_specific",
+     "reason": "Only creatinine was normal; BUN is high and no kidney function assessment (e.g. eGFR) was given."
+    }
+   ]
+  },
+  {
+   "file": "tricky_mixed_narrative_and_labs.txt",
+   "source_grade": 6.3,
+   "full_grade": 5.3,
+   "naive_grade": 6.8,
+   "full_numeric": 1.0,
+   "naive_numeric": 1.0,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 6,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 44,
+   "naive_claims_checked": 27,
+   "judge_errors": [],
+   "abnormal_labs": 4,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 0.75,
+   "full_disclaimer": true,
+   "naive_disclaimer": false,
+   "references": 8,
+   "citations_used": 8,
+   "full_seconds": 14.7,
+   "full_output_tokens": 1992,
+   "full_explanation": "## Why you visited\n\nYou came in on 09/30/2026 for a blood pressure follow-up and for leg cramps you have had for 3 weeks. Your note says the calf cramps happen at night and that you feel more tired. Your home blood pressure readings average about 145/90.\n\n**Blood pressure** is the force of blood pushing on the walls of your arteries. It is written as two numbers, like 148/92. The top number is the pressure when the heart beats. The bottom number is the pressure between beats [6].\n\n## Vitals\n\n- BP 148/92, and a repeat of 146/90 after 5 minutes seated\n- HR 88\n- Temp 98.2 F\n- RR 14\n- SpO2 98% on room air\n- Height 165 cm\n- Weight 82.5 kg (BMI 30.3)\n\n## Lab results (drawn 09/30/2026 08:10)\n\nA flag below tells you whether a value is above, below, or within the range printed on your report.\n\n- **Sodium: 137 mmol/L.** Within the range on your report (135-145). Prior: 140.\n- **Potassium: 3.1 mmol/L.** Below the range on your report (3.5-5.0). Prior: 3.6. Potassium is an electrolyte, a charged mineral that helps control fluid and acid-base balance in your body [2].\n- **Chloride: 96 mmol/L.** Within the range on your report (96-106). Prior: 102.\n- **CO2: 31 mmol/L.** Above the range on your report (22-29). Prior: 26. This test measures carbon dioxide, a waste product of metabolism, in your blood [1]. Your note does not say what the high CO2 means.\n- **Creatinine: 0.94 mg/dL.** Within the range on your report (0.60-1.10). Prior: 0.88.\n- **Glucose: 104 mg/dL.** Above the range on your report (70-99). Prior: 98. Glucose is a type of sugar that is your body's main source of energy [4]. Your note calls this a mildly elevated fasting glucose.\n- **Magnesium: 1.6 mg/dL.** Below the range on your report (1.7-2.2). Prior: not done. Magnesium is a mineral you get from foods [3].\n\n## Assessment and plan\n\n**1. Hypertension (high blood pressure), not at goal.** Your note says the goal is under 130/80. You have had hypertension for about 6 years. On 07/08/2026 your BP was 156/96, and hydrochlorothiazide 25 mg once daily was started. The plan is:\n- Reduce hydrochlorothiazide to 12.5 mg once daily. It is a diuretic (\"water pill\") that helps the kidneys remove extra water and salt [7].\n- Add losartan 50 mg once daily. Your note says this should also help raise your potassium.\n\n**2. Low potassium and low magnesium.** Your doctor wrote that these come from the diuretic and are likely causing the leg cramps. Muscle cramps are sudden, involuntary muscle spasms, and low electrolyte levels are one general cause [5]. The plan is:\n- Start potassium chloride ER 20 mEq by mouth once daily for 14 days.\n- Start magnesium oxide 400 mg by mouth once daily.\n- Eat potassium-rich foods such as bananas, beans, and potatoes.\n\n**3. Mildly elevated fasting glucose (104).** Hemoglobin A1c will be added to your next labs.\n\n**4. Knee pain.** Stop ibuprofen. Your note says it can raise BP and affect the kidneys with losartan. Use acetaminophen 650 mg up to three times daily as needed instead.\n\n## Other medicines listed\n\n- Atorvastatin 20 mg at bedtime. This is a statin, a medicine that slows how much cholesterol your body makes [8]. Your note does not list a change to it.\n\n## Follow-up\n\n- Repeat BMP (basic metabolic panel, a group of blood chemistry tests), magnesium, and A1c on 10/14/2026.\n- Return visit 11/04/2026. Bring your home BP log.\n- Call sooner for muscle weakness, palpitations, or BP above 180/110.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Visit Summary, in Plain Language\n\n## Why you came in\nYou were here to check your blood pressure and to talk about leg cramps at night and feeling more tired over the past 3 weeks.\n\n## What we found\n- **Blood pressure is still too high.** Today it was 148/92 (and 146/90 on recheck). Your goal is under 130/80. Your home readings (about 145/90) match this.\n- **Your potassium and magnesium are low.** These minerals help your muscles and heart work properly. The blood pressure pill you started in July (hydrochlorothiazide, a \"water pill\") makes your body lose some of them. This is the most likely cause of your **leg cramps and tiredness**.\n- **Your fasting blood sugar is slightly high** (104; normal is up to 99). It's not diabetes, but we want to keep an eye on it.\n- Your kidney function looks normal.\n\n## Changes to your medicines\n\n| Medicine | What to do | Why |\n|---|---|---|\n| Hydrochlorothiazide | **Lower** to 12.5 mg once daily | A smaller dose means less loss of potassium and magnesium |\n| Losartan 50 mg | **New**, once daily | Lowers blood pressure and helps your body hold on to potassium |\n| Potassium chloride ER 20 mEq | **New**, once daily for 14 days | Raises your potassium |\n| Magnesium oxide 400 mg | **New**, once daily | Raises your magnesium |\n| Ibuprofen | **Stop** | It can raise blood pressure and, combined with losartan, can hurt your kidneys |\n| Acetaminophen (Tylenol) 650 mg | Use **up to 3 times a day** if needed for knee pain | A safer pain reliever for you right now |\n| Atorvastatin 20 mg | **No change**, keep taking at bedtime | Cholesterol |\n\n**Tips:** Eat potassium-rich foods such as bananas, beans, and potatoes. Take the potassium pill with food and a full glass of water.\n\n## Follow-up\n- **October 14, 2026:** Repeat blood tests (potassium, magnesium, kidney function, and an A1c, which shows your average blood sugar over about 3 months).\n- **November 4, 2026:** Return visit. Bring your home blood pressure log.\n\n## Call us sooner if you have\n- Muscle weakness\n- Heart palpitations (fluttering or pounding)\n- Blood pressure above 180/110\n\nAlso seek care right away for chest pain, fainting, or severe weakness.\n\n*This summary is meant to help you understand your visit. If anything is unclear, ask your care team.*",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "It's not diabetes, but we want to keep an eye on it.",
+     "kind": "patient_specific",
+     "reason": "The source only calls the glucose mildly elevated and orders an A1c; it never states this is not diabetes. A single fasting value cannot rule it out."
+    },
+    {
+     "sentence": "Your kidney function looks normal.",
+     "kind": "patient_specific",
+     "reason": "Creatinine is flagged normal, but the source never states an assessment of kidney function."
+    },
+    {
+     "sentence": "Cholesterol",
+     "kind": "patient_specific",
+     "reason": "The source does not give an indication for atorvastatin."
+    },
+    {
+     "sentence": "Take the potassium pill with food and a full glass of water.",
+     "kind": "patient_specific",
+     "reason": "The source gives no administration instructions for potassium chloride."
+    },
+    {
+     "sentence": "Also seek care right away for chest pain, fainting, or severe weakness.",
+     "kind": "patient_specific",
+     "reason": "The source lists only muscle weakness, palpitations, and BP above 180/110 as reasons to call sooner. Chest pain and fainting are not mentioned, and urgent care is not specified."
+    },
+    {
+     "sentence": "A safer pain reliever for you right now",
+     "kind": "patient_specific",
+     "reason": "The source says to use acetaminophen instead of ibuprofen but does not describe it as safer."
+    }
+   ]
+  },
+  {
+   "file": "tricky_ocr_noisy_bmp.txt",
+   "source_grade": 5.1,
+   "full_grade": 5.1,
+   "naive_grade": 6.8,
+   "full_numeric": 1.0,
+   "naive_numeric": 0.909,
+   "full_unsupported_numbers": [],
+   "naive_unsupported_numbers": [
+    "911"
+   ],
+   "full_patient_unsupported": 0,
+   "naive_patient_unsupported": 4,
+   "full_general_unsupported": 0,
+   "full_claims_checked": 22,
+   "naive_claims_checked": 19,
+   "judge_errors": [],
+   "abnormal_labs": 2,
+   "full_abnormal_coverage": 1.0,
+   "naive_abnormal_coverage": 0.5,
+   "full_disclaimer": true,
+   "naive_disclaimer": true,
+   "references": 2,
+   "citations_used": 2,
+   "full_seconds": 11.5,
+   "full_output_tokens": 1121,
+   "full_explanation": "## About this report\n\nThis is a **Basic Metabolic Panel**. It is a group of blood tests that check things like sugar, salts (electrolytes), and kidney-related measures. Your blood was collected on 03/02/2026 at 07:55. The report says you were not fasting (Fasting: N). The text of the fax is a little garbled, but the numbers below are read as they appear.\n\n## Lab results\n\n**Results above the range on your report:**\n\n- **Glucose: 132 mg/dL** (range on report: 70\u201399). This is above the range. Glucose is a type of sugar. It is your body's main source of energy. [1]\n- **Potassium: 5.9 mmol/l** (range on report: 3.5\u20135.1). This is above the range. Potassium is an electrolyte, a mineral with an electrical charge that helps control fluids and the body's acid-base (pH) balance. [2]\n\n**Results within the range on your report:**\n\n- BUN: 18 mg/dL (range 7\u201320)\n- Creatinine: 1.02 mg/dl (range 0.70\u20131.30)\n- Sodium: 141 mmol/l (range 136\u2013145)\n- Chloride: 104 mmol/L (range 98\u2013107)\n- CO2: 24 mmol/L (range 22\u201329)\n- Calcium: 9.6 mg/dL (range 8.6\u201310.3)\n- Anion gap: 13 mmol/l (range 7\u201316)\n- eGFR (CKD-EPI): 82 mL/min/1.73m2. The report did not list a range for this one. A typical adult range is 60 or higher, and your result is within that.\n\n## Lab comment about the potassium\n\nThe lab commented that the sample was **moderately hemolyzed**. This means some blood cells in the sample were broken open. The lab wrote that potassium **may be falsely elevated** and recommended a **redraw** (a repeat blood draw) for potassium.\n\n## Handwritten note\n\nA scanned handwritten note says: \"Pt called 3/2 - repeat K+ tmrw AM, no diet change for now. -A.E.\" K+ is the symbol for potassium. So the note says the potassium test is to be repeated the next morning, and that no diet change is needed for now.\n\nThe report does not say what caused the glucose result, and it does not give any plan for it.\n\nThis is an educational explanation, not medical advice. Talk to your doctor or care team about what this means for you.",
+   "naive_explanation": "# Your Blood Test Results, Explained\n\n**What this test is:** A basic metabolic panel checks your blood sugar, kidney function, salts (electrolytes), and calcium.\n\n## The main findings\n\n**1. Potassium is high (5.9; normal is 3.5-5.1)**\n- Potassium is a mineral that helps your heart and muscles work properly.\n- **However, the lab noted that your blood sample was \"moderately hemolyzed.\"** This means some blood cells broke open in the tube, which releases potassium and can make the result look higher than it really is.\n- So this number may not be accurate. That's why the lab recommended a repeat test.\n\n**2. Blood sugar is mildly high (132; normal is 70-99)**\n- You were **not fasting** when this was drawn, so some elevation can be expected after eating.\n- A single non-fasting reading doesn't diagnose anything. Your doctor may want to check it again, perhaps with a fasting test or an A1c, depending on your history.\n\n## The normal results\n- **Kidney function** (BUN, creatinine, eGFR of 82) looks normal. This is reassuring, since kidney problems are a common cause of true high potassium.\n- **Sodium, chloride, CO2, calcium, and anion gap** are all in the normal range.\n\n## What your doctor has decided\nA handwritten note says you called on 3/2, and Dr. Example wants you to **repeat the potassium test tomorrow morning**. You do not need to change your diet for now.\n\n## What you should do\n- **Get the repeat blood test tomorrow morning** as instructed.\n- Tell your doctor about any medicines or supplements you take (some, like certain blood pressure drugs or potassium supplements, can raise potassium).\n- **Seek urgent care or call 911** if you develop a very irregular or slow heartbeat, chest pain, fainting, severe muscle weakness, or trouble breathing.\n\n## Bottom line\nMost of your results are normal. The high potassium is probably a result of the sample problem, but a repeat test will confirm that. The blood sugar is mildly high and should be discussed at your follow-up.\n\n*This is a general explanation. Please talk to your doctor about what these results mean for you.*",
+   "full_unsupported_claims": [],
+   "naive_unsupported_claims": [
+    {
+     "sentence": "Dr. Example wants you to **repeat the potassium test tomorrow morning**.",
+     "kind": "patient_specific",
+     "reason": "The handwritten note is signed only \"A.E.\" and says \"repeat K+ tmrw AM\". The ordering physician is listed as Dr. A. Example, but the note does not say the doctor personally decided this, so the attribution is an inference."
+    },
+    {
+     "sentence": "The high potassium is probably a result of the sample problem, but a repeat test will confirm that.",
+     "kind": "patient_specific",
+     "reason": "The report says only that potassium MAY be falsely elevated due to hemolysis. Calling the sample problem the probable cause overstates certainty, and it is not a finding in the source."
+    },
+    {
+     "sentence": "Your doctor may want to check it again, perhaps with a fasting test or an A1c, depending on your history.",
+     "kind": "patient_specific",
+     "reason": "The source contains no plan to recheck glucose and no mention of a fasting test or A1c. This is speculation presented as a possible doctor action."
+    },
+    {
+     "sentence": "Tell your doctor about any medicines or supplements you take (some, like certain blood pressure drugs or potassium supplements, can raise potassium).",
+     "kind": "patient_specific",
+     "reason": "This instruction is not in the source. It is generic advice applied to this patient, and no medications are documented."
+    }
+   ]
+  }
+ ],
+ "failed": []
+}

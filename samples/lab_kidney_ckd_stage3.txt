@@ -1,0 +1,43 @@
+SYNTHETIC REFERENCE LABORATORY
+NEPHROLOGY CLINIC - BASIC METABOLIC PANEL
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000204
+DOB: 05/09/1962 | AGE: 64 | SEX: Male
+COLLECTED: 09/08/2026 08:50
+REPORTED: 09/08/2026 12:17
+ORDERING PROVIDER: Dr. C. Placeholder, DO
+
+| Test                 | Result | Units         | Reference |
+|----------------------|--------|---------------|-----------|
+| Sodium               | 139    | mmol/L        | 136-145   |
+| Potassium            | 5.0    | mmol/L        | 3.5-5.1   |
+| Chloride             | 106    | mmol/L        | 98-107    |
+| CO2 (Bicarbonate)    | 22     | mmol/L        | 22-29     |
+| Anion Gap            | 11     | mmol/L        | 7-16      |
+| BUN                  | 34 H   | mg/dL         | 8-23      |
+| Creatinine           | 1.60 H | mg/dL         | 0.74-1.35 |
+| BUN/Creatinine Ratio | 21 H   | ratio         | 10-20     |
+| eGFR                 | 48 L   | mL/min/1.73m2 | >=60      |
+| Glucose              | 97     | mg/dL         | 70-99     |
+| Calcium              | 9.1    | mg/dL         | 8.6-10.3  |
+
+eGFR calculated with the CKD-EPI 2021 creatinine equation (race-free).
+
+TREND
+| Date       | Creatinine (mg/dL) | eGFR (mL/min/1.73m2) |
+|------------|--------------------|----------------------|
+| 02/17/2026 | 1.52               | 51                   |
+| 06/02/2026 | 1.55               | 50                   |
+| 09/08/2026 | 1.60               | 48                   |
+
+eGFR STAGES: G1 >=90 | G2 60-89 | G3a 45-59 | G3b 30-44 | G4 15-29 | G5 <15
+
+PROVIDER COMMENT:
+eGFR has been between 45 and 59 for more than 3 months, consistent with chronic
+kidney disease stage G3a, likely related to long-standing hypertension.
+Potassium 5.0 mmol/L is at the upper end of normal while on lisinopril 20 mg
+daily; continue lisinopril and limit high-potassium foods and salt substitutes.
+Avoid NSAIDs such as ibuprofen and naproxen. Urine albumin/creatinine ratio
+ordered. Repeat BMP in 3 months (early December 2026).
+Dr. C. Placeholder, DO

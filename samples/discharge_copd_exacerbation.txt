@@ -1,0 +1,59 @@
+DISCHARGE SUMMARY - HOSPITAL MEDICINE
+Facility: Synthetic General Hospital
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000278
+DOB: 08/27/1957 (Age 68)     Sex: F
+Admit Date: 02/02/2026       Discharge Date: 02/06/2026
+Attending: Dr. A. Example, MD
+Consultant: Pulmonology, Dr. D. Specimen, MD
+
+PRINCIPAL DIAGNOSIS: Acute exacerbation of chronic obstructive pulmonary disease (COPD)
+OTHER DIAGNOSES: Tobacco use disorder, current smoker (1 pack/day, 45 pack-years);
+hypertension. Baseline spirometry: FEV1 48% predicted, FEV1/FVC 0.52.
+
+HOSPITAL COURSE:
+Admitted with 4 days of increased shortness of breath, wheezing, and thicker
+yellow-green sputum after a cold. On arrival: RR 26, HR 102, SpO2 86% on room
+air. Blood gas on 2 L oxygen: pH 7.33, PaCO2 52 mmHg, PaO2 64 mmHg. Chest X-ray:
+hyperinflated lungs, no pneumonia or pneumothorax.
+Treated with albuterol/ipratropium nebulizers every 4 hours, methylprednisolone
+40 mg IV daily (02/02-02/03) then prednisone 40 mg daily, doxycycline 100 mg
+twice daily (started 02/02), and oxygen titrated to a goal SpO2 of 88-92%. Did
+not need BiPAP. Weaned to room air on 02/05.
+
+OXYGEN CHECK ON DAY OF DISCHARGE (02/06/2026):
+  At rest, room air ..................... SpO2 92%
+  6-minute walk, room air (lowest) ...... SpO2 89%
+  Home oxygen not needed (criteria: SpO2 88% or lower).
+
+DISCHARGE MEDICATIONS:
+1. Prednisone 10 mg tablets, taper, take with breakfast:
+     02/07 and 02/08: 40 mg (4 tablets) once daily
+     02/09 and 02/10: 20 mg (2 tablets) once daily
+     02/11 and 02/12: 10 mg (1 tablet) once daily
+     Then STOP. Last dose 02/12/2026.
+2. Doxycycline 100 mg by mouth - one final dose this evening (02/06/2026) to
+   complete a 5-day course.
+3. Albuterol HFA 90 mcg/puff - 2 puffs every 4-6 hours as needed for shortness
+   of breath or wheezing (rescue inhaler).
+4. Tiotropium 18 mcg inhalation capsule - inhale contents of 1 capsule once
+   daily with the HandiHaler device (NEW daily controller; not for sudden symptoms).
+5. Nicotine patch 21 mg/24 hr - apply 1 new patch every morning (NEW).
+6. Nicotine gum 2 mg - chew 1 piece every 1-2 hours as needed for cravings
+   (maximum 24 pieces per day) (NEW).
+7. Lisinopril 20 mg by mouth once daily (home medication, unchanged).
+
+SMOKING CESSATION:
+Counseled for 15 minutes; patient wants to quit. Quit date: 02/06/2026. Plan:
+21 mg patch for 6 weeks, then 14 mg for 2 weeks, then 7 mg for 2 weeks. Referred
+to the Synthetic General Hospital Tobacco Treatment Program.
+
+RETURN TO THE ED FOR: severe shortness of breath, SpO2 below 88% at rest,
+confusion or extreme sleepiness, chest pain, or needing the rescue inhaler more
+often than every 2 hours.
+
+FOLLOW-UP:
+- Primary care, Dr. C. Placeholder, DO: 02/12/2026 at 11:00 AM
+- Pulmonology, Dr. D. Specimen, MD: 03/05/2026 at 9:30 AM
+- Pulmonary rehabilitation: referral placed; the program will call to schedule.

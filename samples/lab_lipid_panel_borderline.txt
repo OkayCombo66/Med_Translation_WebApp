@@ -1,0 +1,34 @@
+EXAMPLE FAMILY MEDICINE CLINIC - LABORATORY RESULTS
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000147
+DOB: 06/22/1977   AGE: 48   SEX: M
+COLLECTED: 04/14/2026 07:40 (fasting, 12 hours)
+REPORTED: 04/14/2026 15:05
+ORDERED BY: Dr. B. Sample, MD
+
+LIPID PANEL, FASTING
+
+Total Cholesterol ........ 224 mg/dL     Ref: <200      HIGH
+Triglycerides ............ 168 mg/dL     Ref: <150      HIGH
+HDL Cholesterol .......... 46 mg/dL      Ref: >40
+LDL Cholesterol (calc) ... 144 mg/dL     Ref: <100      HIGH
+VLDL Cholesterol (calc) .. 34 mg/dL      Ref: 5-40
+Non-HDL Cholesterol ...... 178 mg/dL     Ref: <130      HIGH
+Chol/HDL Ratio ........... 4.9           Ref: <5.0
+
+LDL calculated by the Friedewald equation (LDL = TC - HDL - TG/5).
+
+ADULT LDL CATEGORIES (mg/dL):
+<100 optimal | 100-129 near optimal | 130-159 borderline high | 160-189 high | >=190 very high
+TRIGLYCERIDE CATEGORIES (mg/dL):
+<150 normal | 150-199 borderline high | 200-499 high | >=500 very high
+
+PROVIDER COMMENT:
+LDL 144 mg/dL and triglycerides 168 mg/dL are in the borderline-high range.
+BP at today's visit 128/80, non-smoker, no diabetes. Estimated 10-year ASCVD
+risk 5.6% (borderline). Plan: heart-healthy diet low in saturated fat, 150
+minutes per week of moderate exercise, limit alcohol. No statin at this time.
+Recheck fasting lipid panel in 3 months (mid-July 2026); revisit statin if LDL
+stays at or above 130 mg/dL.
+Dr. B. Sample, MD

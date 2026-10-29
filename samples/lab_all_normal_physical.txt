@@ -1,0 +1,51 @@
+EXAMPLE FAMILY MEDICINE CLINIC
+ANNUAL PHYSICAL - LABORATORY REPORT
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000219
+DOB: 04/18/1991 (Age 35)   SEX: F
+COLLECTED: 10/05/2026 07:55 (fasting)   REPORTED: 10/05/2026 14:30
+PROVIDER: Dr. B. Sample, MD
+
+COMPREHENSIVE METABOLIC PANEL
+Test                      Result   Units            Reference Range
+Glucose                   88       mg/dL            (65-99)
+BUN                       14       mg/dL            (6-20)
+Creatinine                0.82     mg/dL            (0.57-1.00)
+eGFR                      96       mL/min/1.73m2    (>59)
+Sodium                    140      mmol/L           (134-144)
+Potassium                 4.2      mmol/L           (3.5-5.2)
+Chloride                  103      mmol/L           (96-106)
+Carbon Dioxide, Total     24       mmol/L           (20-29)
+Calcium                   9.4      mg/dL            (8.7-10.2)
+Protein, Total            7.1      g/dL             (6.0-8.5)
+Albumin                   4.4      g/dL             (3.9-4.9)
+Globulin, Total           2.7      g/dL             (1.5-4.5)
+A/G Ratio                 1.6                       (1.2-2.2)
+Bilirubin, Total          0.6      mg/dL            (0.0-1.2)
+Alkaline Phosphatase      68       U/L              (44-121)
+AST (SGOT)                21       U/L              (0-40)
+ALT (SGPT)                18       U/L              (0-32)
+
+CBC WITH DIFFERENTIAL
+Test                      Result   Units            Reference Range
+WBC                       6.1      x10^3/uL         (3.4-10.8)
+RBC                       4.48     x10^6/uL         (3.77-5.28)
+Hemoglobin                13.6     g/dL             (11.1-15.9)
+Hematocrit                40.8     %                (34.0-46.6)
+MCV                       91       fL               (79-97)
+MCH                       30.4     pg               (26.6-33.0)
+MCHC                      33.3     g/dL             (31.5-35.7)
+RDW                       12.9     %                (11.7-15.4)
+Platelets                 248      x10^3/uL         (150-450)
+Neutrophils               58       %                (40-74)
+Lymphocytes               32       %                (14-46)
+Monocytes                 7        %                (4-12)
+Eosinophils               2        %                (0-5)
+Basophils                 1        %                (0-3)
+
+PROVIDER COMMENT:
+All results are within the reference range. Kidney, liver, electrolyte, and
+blood count values are normal. No changes needed. Continue current healthy
+habits and repeat routine labs at next year's physical.
+Dr. B. Sample, MD

@@ -1,0 +1,51 @@
+SYNTHETIC GENERAL HOSPITAL
+DISCHARGE SUMMARY
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000231
+DOB: 07/19/1954 (Age 71)    SEX: M
+ADMISSION DATE: 03/09/2026
+DISCHARGE DATE: 03/14/2026
+ATTENDING: Dr. A. Example, MD (Hospital Medicine)
+DISPOSITION: Home with self-care
+
+PRINCIPAL DIAGNOSIS: Acute on chronic systolic heart failure (CHF exacerbation)
+SECONDARY DIAGNOSES: Hypertension; hyperlipidemia; nonischemic cardiomyopathy
+
+HOSPITAL COURSE:
+Presented with 1 week of worsening shortness of breath, orthopnea (sleeping on
+3 pillows), and leg swelling after eating high-salt foods and missing several
+furosemide doses. Arrival vitals: BP 158/94, HR 104, SpO2 90% on room air.
+BNP 1,840 pg/mL (ref <100). Chest X-ray: pulmonary vascular congestion and
+small bilateral pleural effusions. Troponin negative x2. Echocardiogram
+03/10/2026: LVEF 30% (previously 35%), no significant valve disease.
+Treated with IV furosemide 40 mg twice daily with net fluid loss of 5.1 L.
+Weight decreased from 94.6 kg (208.6 lb) to 90.1 kg (198.6 lb). Switched to
+oral furosemide on 03/13/2026 and remained stable on room air.
+
+DISCHARGE VITALS: BP 118/72, HR 72, SpO2 96% on room air, weight 90.1 kg (198.6 lb)
+DISCHARGE LABS (03/14/2026): Sodium 137 mmol/L, Potassium 4.2 mmol/L,
+Creatinine 1.24 mg/dL (1.10 on admission), BNP 410 pg/mL
+
+DISCHARGE MEDICATIONS:
+1. Furosemide 40 mg by mouth twice daily (morning and early afternoon) - CHANGED, was 40 mg once daily
+2. Metoprolol succinate ER 50 mg by mouth once daily - CONTINUE
+3. Lisinopril 10 mg by mouth once daily - CONTINUE
+4. Potassium chloride ER 20 mEq by mouth once daily - NEW
+5. Atorvastatin 40 mg by mouth at bedtime - CONTINUE
+
+PATIENT INSTRUCTIONS:
+- Weigh yourself every morning after urinating and before breakfast, on the same
+  scale, and write it down. Your target ("dry") weight is about 198 lb.
+- Call the Heart Failure Clinic if your weight goes up more than 2 lb in one day
+  or 5 lb in one week, or if swelling or shortness of breath gets worse.
+- Limit sodium to less than 2,000 mg per day. Limit fluids to 2 liters
+  (about 64 oz) per day.
+- Call 911 for chest pain, shortness of breath at rest, or fainting.
+
+FOLLOW-UP:
+- Blood test (BMP): 03/18/2026, Synthetic General Hospital outpatient lab
+- Heart Failure Clinic, Dr. B. Sample, MD (Cardiology): 03/20/2026 at 10:30 AM
+- Primary care, Dr. C. Placeholder, DO: 03/27/2026 at 2:15 PM
+
+Electronically signed: Dr. A. Example, MD   03/14/2026 15:40

@@ -1,0 +1,46 @@
+SYNTHETIC REFERENCE LABORATORY
+HEMATOLOGY DEPARTMENT
+
+PATIENT: [SYNTHETIC TEST PATIENT]
+MRN: TEST-000123
+DOB: 03/15/1988 (Age 37)    SEX: F
+ORDERING PROVIDER: Dr. A. Example, MD
+COLLECTED: 02/10/2026 08:15    REPORTED: 02/10/2026 13:42
+SPECIMEN: Whole blood (EDTA); Serum
+
+COMPLETE BLOOD COUNT WITH DIFFERENTIAL
+
+TEST                 RESULT   FLAG   UNITS        REFERENCE
+WBC                  6.4             x10^3/uL     4.0-11.0
+RBC                  4.10     L      x10^6/uL     4.20-5.40
+Hemoglobin           9.8      L      g/dL         12.0-15.5
+Hematocrit           31.0     L      %            36.0-46.0
+MCV                  75.6     L      fL           80.0-100.0
+MCH                  23.9     L      pg           27.0-33.0
+MCHC                 31.6     L      g/dL         32.0-36.0
+RDW                  17.8     H      %            11.5-14.5
+Platelets            412             x10^3/uL     150-450
+Neutrophils          61              %            40-74
+Lymphocytes          29              %            19-48
+Monocytes            7               %            3-12
+Eosinophils          2               %            0-7
+Basophils            1               %            0-2
+
+IRON STUDIES
+
+TEST                 RESULT   FLAG   UNITS        REFERENCE
+Ferritin             6        L      ng/mL        15-150
+Iron, Serum          28       L      ug/dL        50-170
+TIBC                 452      H      ug/dL        250-450
+Transferrin Sat      6        L      %            20-50
+
+PERIPHERAL SMEAR: Microcytic, hypochromic red cells with moderate anisocytosis.
+Occasional pencil cells. No schistocytes. Platelets adequate.
+
+PROVIDER COMMENT:
+Findings are consistent with iron deficiency anemia. Patient reports heavy
+menstrual periods for the past year and fatigue with exercise. Start ferrous
+sulfate 325 mg (65 mg elemental iron) by mouth once daily, taken with water or
+orange juice and not with tea, coffee, or calcium. Gynecology referral placed.
+Repeat CBC and ferritin in 8 weeks (on or after 04/07/2026).
+Dr. A. Example, MD
