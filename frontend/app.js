@@ -10,6 +10,9 @@ const CHAR_WARN_LIMIT = 20000;
 // OCR makes one call; translate makes two (explain, then fact-check) plus quick lookups.
 // If you raise those settings in backend/.env, raise these too.
 const TIMEOUTS_MS = { quick: 15000, ocr: 330000, translate: 660000 };
+// localStorage key for "I understand" on the demo privacy notice. Change the version suffix
+// if the notice's wording changes, so everyone sees the new text once.
+const DEMO_NOTICE_KEY = "clearchart.demoNoticeDismissed.v1";
 
 // --- display labels for values the API returns ---
 const SAMPLE_GROUPS = [
@@ -186,15 +189,54 @@ function setTabCount(tabId, count, noun, warn = false) {
   badge.classList.toggle("warn", warn && count > 0);
 }
 
-// --- server health (API key banner, OCR availability) ---
+// --- demo privacy notice (shown until "I understand"; remembered in this browser) ---
+// Storage can throw (private windows, blocked site data). Then the notice just shows on every
+// visit, which is the safe side for a privacy warning.
+function demoNoticeDismissed() {
+  try {
+    return window.localStorage.getItem(DEMO_NOTICE_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function rememberDemoNoticeDismissed() {
+  try {
+    window.localStorage.setItem(DEMO_NOTICE_KEY, "1");
+  } catch {
+    // Not saved: it hides for now and comes back next visit
+  }
+}
+
+function setupDemoNotice() {
+  $("demoNotice").hidden = demoNoticeDismissed();
+  $("demoNoticeBtn").addEventListener("click", () => {
+    rememberDemoNoticeDismissed();
+    $("demoNotice").hidden = true;
+    // The focused button just disappeared: continue at the first control in the workspace
+    document.querySelector('.input-tabs [aria-selected="true"]').focus();
+  });
+}
+
+// --- server health (API key banner, OCR availability, demo rate limit) ---
 async function checkHealth() {
   try {
     const health = await request("/api/health");
     $("healthBanner").hidden = health.api_key_configured !== false;
     $("ocrEngineNote").hidden = health.ocr_engine !== "none";
+    showRateLimit(health.rate_limit_per_hour);
   } catch {
     // Server unreachable: the translate button will show a clear error when used.
   }
+}
+
+// Line under the Translate button. Older servers don't send the field, and 0 means no limit.
+function showRateLimit(limit) {
+  const hasLimit = typeof limit === "number" && Number.isFinite(limit) && limit > 0;
+  // The server counts translations and file reads in the same hourly allowance.
+  const noun = limit === 1 ? "request" : "requests";
+  $("rateLimitNote").textContent = hasLimit ? `Demo limit: ${limit.toLocaleString("en-US")} ${noun} per hour.` : "";
+  $("rateLimitNote").hidden = !hasLimit;
 }
 
 // --- keeping buttons and inputs in step with what's running ---
@@ -1012,6 +1054,7 @@ function renderResultMeta(data) {
 
 // --- wire everything up ---
 function init() {
+  setupDemoNotice(); // first, so the notice is in place before anything else renders
   configureMarkdown();
   setupTabs(document.querySelector(".input-tabs"));
   setupTabs(document.querySelector(".output-tabs"));

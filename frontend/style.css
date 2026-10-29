@@ -112,6 +112,51 @@ code {
 .panel-out .banner { margin-bottom: 1rem; }
 .panel-in .banner { margin-top: 0.75rem; }
 
+/* --- demo privacy notice (top of the workspace until dismissed) --- */
+.demo-notice {
+  display: flex;
+  flex-wrap: wrap; /* the button drops below the text when there's no room beside it */
+  align-items: center;
+  gap: 1rem 1.5rem;
+  margin: 1rem 2rem;
+  padding: 1rem 1.25rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--amber);
+  border-radius: 6px;
+}
+.demo-notice-text { flex: 1 1 28rem; min-width: 0; overflow-wrap: break-word; }
+.demo-notice-title {
+  margin: 0 0 0.35rem;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.demo-notice p { margin: 0; font-size: 0.9rem; line-height: 1.55; }
+.demo-notice .demo-notice-fine {
+  margin-top: 0.45rem;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--amber);
+}
+.demo-notice-btn {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 0.55rem 1.25rem;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--paper);
+  background: var(--teal);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.demo-notice-btn:hover { background: var(--teal-bright); }
+
 /* --- layout --- */
 .workspace {
   display: grid;
@@ -274,6 +319,17 @@ code {
 .notice-close { margin-top: 0.25rem; }
 
 /* --- input side: upload --- */
+.upload-warning {
+  margin: 0 0 1rem;
+  padding: 0.6rem 0.85rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  background: var(--amber-bg);
+  border-left: 3px solid var(--amber);
+  border-radius: 0 6px 6px 0;
+}
+.upload-warning strong { font-weight: 600; color: var(--amber); }
+
 .upload-drop {
   position: relative;
   display: flex;
@@ -450,6 +506,14 @@ code {
 .dial-opt span:hover { color: var(--ink); }
 .dial-opt input:checked + span { font-weight: 600; color: var(--paper); background: var(--teal); }
 .dial-opt input:focus-visible + span { box-shadow: inset 0 0 0 2px var(--paper); }
+
+.rate-note {
+  margin: 0.6rem 0 0;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
 
 .input-error {
   margin: 0.75rem 0 0;
@@ -804,6 +868,8 @@ code {
   .masthead { padding: 1.5rem 1rem 1.1rem; }
   .masthead-tag { font-size: 0.85rem; }
   .banner-page { margin: 1rem; }
+  .demo-notice { margin: 1rem; padding: 1rem; }
+  .demo-notice-btn { width: 100%; } /* full-width tap target once it sits below the text */
   .panel { padding: 1.5rem 1rem 2rem; }
   /* 16px stops iOS Safari from zooming in when a field is focused */
   #documentText, .select { font-size: 16px; }
@@ -839,7 +905,7 @@ code {
     --teal-bright: #0F3D3E;
   }
   body { background: #FFFFFF; color: #111111; }
-  .masthead, .banner, .panel-in, .panel-label, #emptyState, #loadingState, .metric-row,
+  .masthead, .banner, .demo-notice, .panel-in, .panel-label, #emptyState, #loadingState, .metric-row,
   .output-tabs, .explain-actions, #otab-labs, #otab-sources, #otab-check, .result-meta, .cite {
     display: none !important;
   }

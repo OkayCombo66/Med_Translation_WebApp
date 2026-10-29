@@ -189,22 +189,53 @@ Set these in `backend/.env` (see `backend/.env.example`):
 | `ANTHROPIC_TIMEOUT_SECONDS` | `150` | Per-call timeout for the Claude API |
 | `OCR_MAX_TOKENS` | `16000` | Output cap for photo/PDF transcription |
 | `ALLOWED_ORIGINS` | — | Only if the frontend is hosted on another origin |
+| `CLIENT_IP_HEADER` | — | Header with the visitor's real IP behind a hosting proxy (Render: `CF-Connecting-IP`) |
 
 To refresh the MedlinePlus data: `python scripts/build_medlineplus_index.py`.
 
-## Deploying
+## Deploying a public demo
 
-The included `Dockerfile` installs Tesseract and runs the app on `$PORT`, so
-it works on any container host (Render, Railway, Fly.io). Set
-`ANTHROPIC_API_KEY` as an environment variable there rather than committing
-`.env`.
+`render.yaml` sets the app up on [Render](https://render.com)'s free plan in
+one step. Everything below happens in your browser; about 15 minutes.
 
-Behind a host's load balancer, set `FORWARDED_ALLOW_IPS` to the proxy's
-address range so the rate limiter sees each visitor's real IP. Never set it
-to `*`: anyone could then fake their IP with an `X-Forwarded-For` header and
-skip the limit. The built-in per-IP rate limit is in memory, so it resets on
-restart and is per instance — fine for a demo link, not a substitute for real
-abuse protection.
+**1. Make a capped API key** (so a public demo can't run up your bill)
+1. In the [Claude Console](https://platform.claude.com/settings/workspaces),
+   create a workspace (e.g. `clearchart-demo`), select it, and set a monthly
+   **Spend limit** (e.g. $10). The Default workspace can't have a limit,
+   which is why the demo gets its own.
+2. On the [API keys](https://platform.claude.com/settings/keys) page, create a
+   key scoped to that workspace. Copy it.
+
+**2. Get the code onto `main`:** merge the pull request on GitHub.
+
+**3. Create the service on Render**
+1. Sign up at [dashboard.render.com](https://dashboard.render.com/register)
+   (the free Hobby workspace is fine; Render may ask for a card to verify
+   you, even on the free plan).
+2. **New → Blueprint**, connect GitHub, and pick
+   `OkayCombo66/Med_Translation_WebApp`. Render finds `render.yaml`.
+3. When it asks for `ANTHROPIC_API_KEY`, paste the key from step 1.
+   Click **Deploy Blueprint**.
+4. The first build takes a few minutes. When it's live, open
+   `https://<your-service>.onrender.com/api/health` and check it says
+   `"api_key_configured": true`.
+
+**4. Check the per-visitor limit works:** in the service's **Environment**
+tab, temporarily set `RATE_LIMIT_PER_HOUR` to `2` and redeploy. Translate
+three times from your laptop (the third should say you hit the limit), then
+try once from your phone on cellular data — it should still work. That proves
+each visitor gets their own allowance. Set it back to `30`.
+
+Things to know about the free plan: it sleeps after 15 minutes without
+visitors and takes about a minute to wake (an always-on instance is $7/month),
+the in-memory rate limit resets whenever it restarts, and it allows 750
+running hours a month. To change the key later: service → **Environment** →
+edit `ANTHROPIC_API_KEY` → **Save and deploy**.
+
+Other hosts work too — the `Dockerfile` runs on any container platform. Set
+`CLIENT_IP_HEADER` to whatever header your platform uses for the visitor's
+real IP. Never set uvicorn's `FORWARDED_ALLOW_IPS` to `*`: visitors could then
+fake their IP with an `X-Forwarded-For` header and skip the limit.
 
 ## Limitations
 
@@ -223,7 +254,9 @@ Health topic, lab test and drug information comes from
 [MedlinePlus](https://medlineplus.gov), U.S. National Library of Medicine,
 via its health topic XML files and the MedlinePlus Connect and RxNorm web
 services. MedlinePlus content is linked and quoted briefly with attribution;
-drug information is fetched live and never stored in this repository.
+drug information is fetched live and never stored in this repository. Note
+that medicine names from a translated document are sent to these public NLM
+services to look them up; the demo's privacy notice says so.
 
 ## License
 

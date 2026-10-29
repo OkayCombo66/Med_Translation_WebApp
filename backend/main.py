@@ -98,16 +98,32 @@ app.add_middleware(BodySizeLimit, max_bytes=MAX_REQUEST_BYTES)
 # --- rate limiting -----------------------------------------------------------
 # A simple in-memory sliding window per client IP, so a public demo link can't
 # run up the API bill. It resets when the server restarts, which is fine here.
-# Behind a proxy, set uvicorn's FORWARDED_ALLOW_IPS to the proxy's address so
-# request.client.host is the real visitor (never '*': clients could spoof it).
+# Behind a hosting proxy, set CLIENT_IP_HEADER (below) so each visitor gets
+# their own allowance. Never set uvicorn's FORWARDED_ALLOW_IPS to '*': it then
+# trusts the leftmost X-Forwarded-For entry, which visitors can fake.
 RATE_WINDOW_SECONDS = 3600
 MAX_TRACKED_CLIENTS = 100_000
 _recent_requests: "OrderedDict[str, deque]" = OrderedDict()  # least recently seen first
 _rate_lock = threading.Lock()
 
 
+# Hosting platforms put a proxy in front of the app, so the connecting address
+# is the proxy, not the visitor. CLIENT_IP_HEADER names a header the platform
+# sets itself and visitors can't fake (e.g. "CF-Connecting-IP" behind
+# Cloudflare). Leave it empty locally or when FORWARDED_ALLOW_IPS is used.
+CLIENT_IP_HEADER = os.getenv("CLIENT_IP_HEADER", "").strip()
+
+
+def _client_ip(request: Request) -> str:
+    if CLIENT_IP_HEADER:
+        value = request.headers.get(CLIENT_IP_HEADER, "").split(",")[0].strip()
+        if value:
+            return value
+    return request.client.host if request.client else "unknown"
+
+
 def _client_key(request: Request) -> str:
-    host = request.client.host if request.client else "unknown"
+    host = _client_ip(request)
     try:
         ip = ipaddress.ip_address(host)
     except ValueError:
@@ -195,6 +211,7 @@ def health():
         "api_key_configured": llm.api_key_configured(),
         "ocr_engine": ocr_engine(),
         "medlineplus_topics": index_stats().get("topics", 0),
+        "rate_limit_per_hour": RATE_LIMIT_PER_HOUR,
     }
 
 
@@ -231,10 +248,10 @@ def ocr(request: Request, file: UploadFile = File(...)):
         raise HTTPException(413, f"That file is too large (max {MAX_UPLOAD_BYTES // (1024 * 1024)} MB).")
     if not data:
         raise HTTPException(400, "The uploaded file is empty.")
-    check_rate_limit(request)
-
     try:
+        # Take a slot first, so a "busy" reply doesn't use up the hourly allowance.
         with job_slot(), claude_errors():
+            check_rate_limit(request)
             text, engine = extract_text(data, file.filename or "", file.content_type or "")
     except OCRError as e:
         raise HTTPException(400, str(e)) from e
@@ -260,8 +277,9 @@ def translate(request: Request, document_text: str = Form(""), reading_level: st
     if reading_level not in READING_LEVELS:
         reading_level = "8th"
     require_api_key()
-    check_rate_limit(request)
+    # Take a slot first, so a "busy" reply doesn't use up the hourly allowance.
     with job_slot(), claude_errors():
+        check_rate_limit(request)
         result = run_pipeline(document_text, reading_level)
     result.pop("usage", None)
     return result

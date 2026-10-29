@@ -6,7 +6,8 @@ Errors: non-2xx responses carry JSON `{"detail": "<human readable message>"}`.
 
 ## GET /api/health
 {"status": "ok", "model": "claude-sonnet-5-5", "api_key_configured": true,
- "ocr_engine": "tesseract" | "claude" | "none", "medlineplus_topics": 1017}
+ "ocr_engine": "tesseract" | "claude" | "none", "medlineplus_topics": 1017,
+ "rate_limit_per_hour": 30}   (0 = no limit)
 
 ## GET /api/samples
 [{"id": "lab_cbc_iron_deficiency", "title": "CBC iron deficiency", "category": "lab" | "discharge" | "radiology" | "tricky" | "other"}]
