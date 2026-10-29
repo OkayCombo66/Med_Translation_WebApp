@@ -893,6 +893,35 @@ code {
 }
 
 /* --- print: just the explanation and disclaimer, dark ink on white paper --- */
+/* Footer: author + links */
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding: 1.25rem 2rem;
+  border-top: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+.site-footer p { margin: 0; }
+.site-footer strong { color: var(--ink); font-weight: 500; }
+.site-footer-links { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; }
+.site-footer-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;           /* comfortable tap target */
+  color: var(--teal);
+  text-decoration: none;
+}
+.site-footer-links a:hover { text-decoration: underline; }
+.site-footer-links a:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+@media (max-width: 860px) {
+  .site-footer { padding: 0.75rem 16px 1.25rem; }
+}
+
 @media print {
   :root {
     color-scheme: light;
@@ -905,7 +934,7 @@ code {
     --teal-bright: #0F3D3E;
   }
   body { background: #FFFFFF; color: #111111; }
-  .masthead, .banner, .demo-notice, .panel-in, .panel-label, #emptyState, #loadingState, .metric-row,
+  .masthead, .site-footer, .banner, .demo-notice, .panel-in, .panel-label, #emptyState, #loadingState, .metric-row,
   .output-tabs, .explain-actions, #otab-labs, #otab-sources, #otab-check, .result-meta, .cite {
     display: none !important;
   }
